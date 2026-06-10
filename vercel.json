@@ -1,11 +1,11 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "installCommand": "cd web && npm install",
-  "buildCommand": "cd web && npm run build",
+  "buildCommand": "cd web && npm run build && chmod +x node_modules/ffmpeg-static/ffmpeg 2>/dev/null || true",
   "outputDirectory": "web/dist",
   "framework": null,
   "functions": {
-    "api/hls/segment.cjs": {
+    "api/hls/segment.js": {
       "maxDuration": 60,
       "memory": 1024,
       "includeFiles": "web/node_modules/ffmpeg-static/**"
