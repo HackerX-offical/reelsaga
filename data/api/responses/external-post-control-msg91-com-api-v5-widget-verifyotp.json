@@ -1,4 +1,0 @@
-{
-  "httpStatus": 200,
-  "body": "{\"message\":\"AuthenticationFailure\",\"type\":\"error\",\"code\":401}"
-}

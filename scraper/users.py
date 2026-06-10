@@ -35,6 +35,6 @@ def scrape_users(data_dir: Path, client: ApiClient) -> None:
         "note": "Bulk user database not exposed. OTP required for logged-in PII.",
         "anonymousSessionFields": user,
         "piiFieldsWhenLoggedIn": ["id", "name", "mobile", "gender", "ageGroup", "paymentStatus", "createdAt"],
-        "schemaReference": "data/app/models/data-models-index.json",
-        "devDeviceIds": "data/secrets/remote-config/parsed/user-config-exposed.json",
+        "schemaReference": "data/app/data-models-index.json",
+        "devDeviceIds": "data/secrets/user-config-exposed.json",
     })

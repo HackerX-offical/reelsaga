@@ -1,4 +1,0 @@
-{
-  "httpStatus": 401,
-  "body": "{\"error\":{\"code\":\"BAD_REQUEST_ERROR\",\"description\":\"Please provide your api key for authentication purposes.\",\"source\":\"NA\",\"step\":\"NA\",\"reason\":\"NA\",\"metadata\":{}}}"
-}

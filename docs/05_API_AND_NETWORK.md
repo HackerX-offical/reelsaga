@@ -124,4 +124,4 @@ Readable DTOs in `in.reelsaga.app.repository`:
 
 ## Full URL dump
 
-See `data/app/network/urls/all-urls.txt` (135 unique URLs).
+See `data/app/all-urls.txt` (135 unique URLs).

@@ -1,7 +1,12 @@
 {
-  "scrapedAt": "2026-06-10T09:35:26Z",
+  "scrapedAt": "2026-06-10T09:42:18Z",
   "steps": [
-    "secrets"
+    "secrets",
+    "content",
+    "users",
+    "api",
+    "business",
+    "company"
   ],
   "summary": {
     "showCount": 133,

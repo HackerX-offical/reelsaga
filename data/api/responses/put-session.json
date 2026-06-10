@@ -1,7 +1,0 @@
-{
-  "httpStatus": 200,
-  "success": true,
-  "data": {
-    "message": "Session updated successfully"
-  }
-}

@@ -1,6 +1,6 @@
 # ReelSaga — Permissions & Manifest
 
-Full decoded manifest: `data/app/embedded/manifests/android-manifest.xml`
+Full decoded manifest: `data/app/android-manifest.xml`
 
 ## Package identity
 

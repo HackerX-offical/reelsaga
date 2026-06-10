@@ -1,4 +1,0 @@
-{
-  "httpStatus": 404,
-  "body": "{\n  \"message\":\"no Route matched with those values\"\n}"
-}

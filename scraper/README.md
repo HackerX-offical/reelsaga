@@ -1,20 +1,15 @@
 # Scraper
 
-Flat Python package — no nested sub-packages.
+Flat Python package — run from repo root.
 
 | Module | Role |
 |--------|------|
-| `cli.py` | Entry point (`python -m scraper`) |
-| `client.py` | API auth + HTTP helpers |
-| `utils.py` | JSON I/O, show filename helpers |
+| `cli.py` | `python3 -m scraper` |
+| `client.py` | API auth + HTTP |
+| `utils.py` | JSON I/O, filenames |
 | `secrets.py` | Firebase Remote Config |
-| `content.py` | Shows, home, trailers, reels |
+| `content.py` | Shows, home, trailers |
 | `users.py` | User session + profile |
 | `business.py` | Pricing + engagement |
 | `company.py` | Company + Play Store |
-| `endpoints.py` | Full API path probe matrix |
-
-```bash
-python3 -m scraper              # from repo root
-python3 -m scraper --only api
-```
+| `endpoints.py` | API coverage probe |

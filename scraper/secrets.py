@@ -13,7 +13,7 @@ RC_URL = (
 
 
 def scrape_secrets(data_dir: Path) -> None:
-    out = data_dir / "secrets" / "remote-config"
+    out = data_dir / "secrets"
     out.mkdir(parents=True, exist_ok=True)
 
     _, raw = http(
@@ -22,14 +22,11 @@ def scrape_secrets(data_dir: Path) -> None:
         {"appId": APP_ID, "appInstanceId": "security-scrape"},
         {"Content-Type": "application/json"},
     )
+    entries = json.loads(raw).get("entries", {})
     save_json(out / "live-remote-config.json", json.loads(raw))
 
-    entries = json.loads(raw).get("entries", {})
-    parsed_dir = out / "parsed"
-    parsed_dir.mkdir(exist_ok=True)
-
     def dump(name: str, keys: list[str]) -> None:
-        save_json(parsed_dir / name, {k: entries[k] for k in keys if k in entries})
+        save_json(out / name, {k: entries[k] for k in keys if k in entries})
 
     dump("credentials-exposed.json", [
         "razorpay_key", "razorpay_key_dev", "msg91_token", "msg91_widget_id", "msg91_widget_id_dev",

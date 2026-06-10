@@ -73,10 +73,10 @@ def main() -> None:
         manifest["steps"].append("company")
 
     summary: dict = {}
-    shows_index = data_dir / "content" / "shows" / "index.json"
+    shows_index = data_dir / "shows" / "index.json"
     if shows_index.exists():
         summary["showCount"] = len(load_json(shows_index).get("shows", []))
-    coverage_path = data_dir / "api" / "coverage.json"
+    coverage_path = data_dir / "api-coverage.json"
     if coverage_path.exists():
         cov = load_json(coverage_path)
         summary["apiEndpoints"] = {"total": cov.get("total"), "reachable": cov.get("reachable")}

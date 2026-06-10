@@ -18,6 +18,6 @@
     "paymentStatus",
     "createdAt"
   ],
-  "schemaReference": "data/app/models/data-models-index.json",
-  "devDeviceIds": "data/secrets/remote-config/parsed/user-config-exposed.json"
+  "schemaReference": "data/app/data-models-index.json",
+  "devDeviceIds": "data/secrets/user-config-exposed.json"
 }

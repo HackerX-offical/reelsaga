@@ -2,9 +2,9 @@
 
 Live demonstrations that APK-embedded credentials work outside the app.
 
-| Folder | What it proves |
-|--------|----------------|
-| [firebase/](firebase/) | Google API key creates Firebase Installations (HTTP 200) |
-| [facebook/](facebook/) | Facebook client token returns app metadata via Graph API |
+| File | What it proves |
+|------|----------------|
+| [firebase-PROOF.md](firebase-PROOF.md) | Google API key → Firebase Installations |
+| [facebook-PROOF.md](facebook-PROOF.md) | Facebook token → Graph API metadata |
 
 Run: `./scripts/02-verify-firebase-key.sh` · `./scripts/03-verify-facebook-token.sh`

@@ -1,15 +1,29 @@
-# Intelligence Data Index
+# Intelligence Data
 
 Regenerate: `../scripts/scrape-all.sh`
 
+## Layout
+
 | Path | Contents |
 |------|----------|
-| [api/](api/) | All backend endpoint probe results + coverage matrix |
-| [content/](content/) | Shows (`{id}-{slug}.json`), home, trailers, reels, lists, search |
-| [users/](users/) | Auth session, profile, subscription, transactions |
-| [company/](company/) | Legal entity, Play Store, website scrape |
-| [business/](business/) | Subscription plans, pricing, engagement aggregates |
-| [secrets/](secrets/) | Firebase Remote Config — live payment/OTP keys |
-| [app/](app/) | APK-derived: embedded strings/manifest, API models, network URLs |
-| [scrape-manifest.json](scrape-manifest.json) | Last run timestamp and steps |
-| [SCRAPE_REVIEW.md](SCRAPE_REVIEW.md) | Goals vs actual coverage |
+| `shows/` | `{id}-{slug}.json` per show + `index.json` |
+| `home/` | Feed, config, tabs |
+| `lists/` | Trending, popular, new, recommended, all |
+| `trailers/` · `reels/` · `search/` | Clips and search samples |
+| `users/` | Auth session, profile, subscription, transactions |
+| `company/` | Legal profile, Play Store, website |
+| `business/` | Pricing, plans, engagement |
+| `secrets/` | Remote Config (live keys) |
+| `app/` | APK strings, manifest, API models, URL lists |
+| `api-coverage.json` | All endpoint probe results |
+| `scrape-manifest.json` | Last run metadata |
+
+## Coverage
+
+| Goal | Status |
+|------|--------|
+| 133 shows + HLS episodes | Done — `shows/` |
+| All API paths probed | Done — `api-coverage.json` |
+| Live Razorpay + MSG91 keys | Done — `secrets/credentials-exposed.json` |
+| Company legal data | Done — `company/profile.json` |
+| Bulk user DB / revenue | Not public |

@@ -8,23 +8,22 @@ from scraper.utils import save_json, show_filename
 
 
 def scrape_content(data_dir: Path, client: ApiClient) -> None:
-    content = data_dir / "content"
-    shows_dir = content / "shows"
+    shows_dir = data_dir / "shows"
     shows_dir.mkdir(parents=True, exist_ok=True)
     for sub in ("home", "trailers", "reels", "lists", "search"):
-        (content / sub).mkdir(parents=True, exist_ok=True)
+        (data_dir / sub).mkdir(parents=True, exist_ok=True)
 
     endpoints = [
-        ("config", content / "home" / "config.json"),
-        ("v1/home/config", content / "home" / "tabs.json"),
-        ("v1/home", content / "home" / "feed.json"),
-        ("v1/trailers", content / "trailers" / "all-trailers.json"),
-        ("clips", content / "reels" / "all-clips.json"),
-        ("shows?type=trending", content / "lists" / "trending.json"),
-        ("shows?type=popular", content / "lists" / "popular.json"),
-        ("shows?type=new", content / "lists" / "new.json"),
-        ("shows?type=recommended", content / "lists" / "recommended.json"),
-        ("shows?type=all", content / "lists" / "all-shows.json"),
+        ("config", data_dir / "home" / "config.json"),
+        ("v1/home/config", data_dir / "home" / "tabs.json"),
+        ("v1/home", data_dir / "home" / "feed.json"),
+        ("v1/trailers", data_dir / "trailers" / "all-trailers.json"),
+        ("clips", data_dir / "reels" / "all-clips.json"),
+        ("shows?type=trending", data_dir / "lists" / "trending.json"),
+        ("shows?type=popular", data_dir / "lists" / "popular.json"),
+        ("shows?type=new", data_dir / "lists" / "new.json"),
+        ("shows?type=recommended", data_dir / "lists" / "recommended.json"),
+        ("shows?type=all", data_dir / "lists" / "all-shows.json"),
     ]
 
     parsed: dict = {}
@@ -40,7 +39,7 @@ def scrape_content(data_dir: Path, client: ApiClient) -> None:
         code, data = client.get(f"search?q={q}")
         searches[q] = data
         print(f"  search?q={q} -> HTTP {code}")
-    save_json(content / "search" / "queries.json", searches)
+    save_json(data_dir / "search" / "queries.json", searches)
 
     show_ids = _collect_ids(parsed, searches)
     save_json(shows_dir / "all-show-ids.json", {"count": len(show_ids), "ids": show_ids})

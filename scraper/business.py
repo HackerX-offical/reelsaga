@@ -17,8 +17,7 @@ def scrape_business(data_dir: Path, client: ApiClient) -> None:
             plans[ep] = data
     save_json(out / "subscription-plans.json", plans)
 
-    shows_dir = data_dir / "content" / "shows"
-    index_path = shows_dir / "index.json"
+    index_path = data_dir / "shows" / "index.json"
     if index_path.exists():
         shows = load_json(index_path).get("shows", [])
         total_watch = sum(s.get("watchCount") or 0 for s in shows)
@@ -40,7 +39,7 @@ def scrape_business(data_dir: Path, client: ApiClient) -> None:
             "subscriptionAmountINR": pricing.get("subscriptionAmount"),
             "billingCycleMonths": pricing.get("billingCycleInMonths"),
             "currency": "INR",
-            "paymentConfig": "data/secrets/remote-config/parsed/payment-config-exposed.json",
+            "paymentConfig": "data/secrets/payment-config-exposed.json",
             "subscriptionStatus": "data/users/subscription.json",
             "note": "Live pricing from GET /v1/subscription-plan",
         })
