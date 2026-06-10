@@ -23,12 +23,8 @@
       "destination": "/api/hls/segment"
     },
     {
-      "source": "/api/(?!hls/)(.*)",
-      "destination": "https://api.reelsaga.in/$1"
-    },
-    {
-      "source": "/((?!api/|hls/|assets/|.*\\..*).*)",
-      "destination": "/index.html"
+      "source": "/api/:path*",
+      "destination": "https://api.reelsaga.in/:path*"
     }
   ],
   "headers": [

@@ -5,30 +5,30 @@
   "outputDirectory": "web/dist",
   "framework": null,
   "functions": {
-    "web/api/hls/segment.js": {
+    "api/hls/segment.js": {
       "maxDuration": 60,
       "memory": 1024,
       "includeFiles": "web/node_modules/ffmpeg-static/**"
     },
-    "web/api/hls/manifest.js": {
+    "api/hls/manifest.js": {
       "maxDuration": 30
     }
   },
   "rewrites": [
     {
       "source": "/hls/manifest",
-      "destination": "/web/api/hls/manifest"
+      "destination": "/api/hls/manifest"
     },
     {
       "source": "/hls/segment",
-      "destination": "/web/api/hls/segment"
+      "destination": "/api/hls/segment"
     },
     {
-      "source": "/api/(?!hls/)(.*)",
-      "destination": "https://api.reelsaga.in/$1"
+      "source": "/api/:path*",
+      "destination": "https://api.reelsaga.in/:path*"
     },
     {
-      "source": "/((?!api/|hls/|assets/|.*\\..*).*)",
+      "source": "/:path*",
       "destination": "/index.html"
     }
   ]
