@@ -61,7 +61,7 @@ async function registerFirebase(): Promise<string> {
 
 async function fetchNewToken(): Promise<string> {
   const fId = await registerFirebase();
-  const res = await fetch("/api/auth/token", {
+  const res = await fetch("/rs/auth/token", {
     method: "POST",
     headers: appHeaders(),
     body: JSON.stringify({
@@ -89,7 +89,7 @@ async function fetchNewToken(): Promise<string> {
     json = JSON.parse(raw);
   } catch {
     throw new Error(
-      `Auth proxy returned non-JSON (${res.status}). Set Vercel Root Directory to "web" and redeploy.`,
+      `Auth proxy returned non-JSON (${res.status}). Check Vercel /rs rewrite and redeploy.`,
     );
   }
 

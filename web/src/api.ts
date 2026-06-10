@@ -28,7 +28,7 @@ interface PaginatedList<T> {
 async function apiGet<T>(path: string, retry = true): Promise<T> {
   const clean = path.replace(/^\//, "");
   const headers = await authHeaders();
-  const res = await fetch(`/api/${clean}`, { headers });
+  const res = await fetch(`/rs/${clean}`, { headers });
 
   if (res.status === 401 && retry) {
     clearAuthCache();
@@ -46,7 +46,7 @@ async function apiGet<T>(path: string, retry = true): Promise<T> {
     json = JSON.parse(body) as ApiResponse<T>;
   } catch {
     throw new Error(
-      `API returned HTML instead of JSON for /${clean}. Check Vercel Root Directory is set to "web" and redeploy.`,
+      `API returned HTML instead of JSON for /rs/${clean}. Check Vercel config and redeploy.`,
     );
   }
   if (json.success === false) throw new Error(json.message ?? `Failed: ${clean}`);
@@ -57,7 +57,7 @@ async function apiGet<T>(path: string, retry = true): Promise<T> {
 async function apiGetOptional<T>(path: string, headers: Record<string, string>): Promise<T | null> {
   try {
     const clean = path.replace(/^\//, "");
-    const res = await fetch(`/api/${clean}`, { headers });
+    const res = await fetch(`/rs/${clean}`, { headers });
     if (!res.ok) return null;
     const body = await res.text();
     const json = JSON.parse(body) as ApiResponse<T>;

@@ -90,8 +90,8 @@ export function VideoPlayer({
           setStatus("error");
           setErrorMsg(
             data.type === Hls.ErrorTypes.NETWORK_ERROR
-              ? "Network error loading stream."
-              : "Could not decode video. Restart dev server (ffmpeg required).",
+              ? "Network error loading stream. HLS proxy may be unavailable — try Safari or redeploy."
+              : "Could not decode video. Ensure ffmpeg is available on the server.",
           );
           console.error("HLS error", data);
         }

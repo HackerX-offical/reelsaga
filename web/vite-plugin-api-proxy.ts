@@ -5,10 +5,10 @@ const SKIP = new Set(["host", "connection", "content-length"]);
 
 function attachProxy(server: { middlewares: Connect.Server }) {
   server.middlewares.use(async (req, res, next) => {
-    if (!req.url?.startsWith("/api/")) return next();
+    if (!req.url?.startsWith("/rs/") && !req.url?.startsWith("/api/")) return next();
 
     const url = new URL(req.url, "http://localhost");
-    const target = `${API}${url.pathname.replace(/^\/api/, "")}${url.search}`;
+    const target = `${API}${url.pathname.replace(/^\/(rs|api)/, "")}${url.search}`;
 
     const headers: Record<string, string> = {};
     for (const [key, value] of Object.entries(req.headers)) {

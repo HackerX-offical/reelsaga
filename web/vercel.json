@@ -15,16 +15,16 @@
   },
   "rewrites": [
     {
+      "source": "/rs/:path*",
+      "destination": "https://api.reelsaga.in/:path*"
+    },
+    {
       "source": "/hls/manifest",
       "destination": "/api/hls/manifest"
     },
     {
       "source": "/hls/segment",
       "destination": "/api/hls/segment"
-    },
-    {
-      "source": "/api/:path*",
-      "destination": "https://api.reelsaga.in/:path*"
     }
   ],
   "headers": [

@@ -18,10 +18,10 @@ Requires **ffmpeg** for Chrome/Firefox video (`brew install ffmpeg`).
 2. **Recommended:** set **Root Directory** → `web`, then deploy
 3. **Or:** leave Root Directory empty — root `vercel.json` builds `web/` automatically
 
-API routing (no serverless proxy needed for JSON):
+API routing:
 
-- `/api/*` → edge rewrite to `api.reelsaga.in`
-- `/hls/*` → serverless ffmpeg transcode (`web/api/hls/`)
+- `/rs/*` → edge rewrite to `api.reelsaga.in` (JSON catalog + auth)
+- `/hls/*` → serverless ffmpeg transcode (`api/hls/`) — separate from `/rs` so video proxy is not blocked
 - SPA fallback for React Router
 
 If you see *"The page could not be found"* or *"not valid JSON"*, the API rewrite is missing — redeploy after pulling latest `vercel.json`.
