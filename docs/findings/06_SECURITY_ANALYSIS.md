@@ -178,4 +178,4 @@ Uses Google SMS Retriever API instead of `READ_SMS` permission — better privac
 
 ---
 
-See also: [09_SECRETS_AND_KEYS.json](09_SECRETS_AND_KEYS.json)
+See also: [credentials-exposed.json](../../data/secrets/remote-config/parsed/credentials-exposed.json)
