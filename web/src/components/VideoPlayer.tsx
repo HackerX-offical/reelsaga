@@ -77,8 +77,12 @@ export function VideoPlayer({
         enableWorker: true,
         lowLatencyMode: false,
         startLevel: needsTranscodeProxy() ? 0 : -1,
+        capLevelToPlayerSize: true,
         maxBufferLength: 45,
         maxMaxBufferLength: 90,
+        manifestLoadingMaxRetry: 4,
+        levelLoadingMaxRetry: 4,
+        fragLoadingMaxRetry: 6,
       });
       hls.loadSource(playUrl);
       hls.attachMedia(video);

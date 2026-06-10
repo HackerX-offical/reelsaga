@@ -1,4 +1,4 @@
-import { handleSegment } from "../../server/hls-handlers.mjs";
+import { handleSegment } from "./handlers.mjs";
 
 export const config = {
   maxDuration: 60,
@@ -14,9 +14,10 @@ export default async function handler(req, res) {
     const buf = await handleSegment(url);
     res.setHeader("Content-Type", "video/MP2T");
     res.setHeader("Cache-Control", "public, max-age=86400");
+    res.setHeader("Access-Control-Allow-Origin", "*");
     res.status(200).send(buf);
   } catch (err) {
     console.error("[hls/segment]", err);
-    res.status(502).json({ error: "Segment transcode failed" });
+    res.status(502).json({ error: "Segment transcode failed", detail: err.message });
   }
 }

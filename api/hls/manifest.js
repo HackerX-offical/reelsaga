@@ -1,4 +1,4 @@
-import { handleManifest } from "../../web/server/hls-handlers.mjs";
+import { handleManifest, requestOrigin } from "../../web/api/hls/handlers.mjs";
 
 export default async function handler(req, res) {
   const url = req.query?.url;
@@ -7,12 +7,13 @@ export default async function handler(req, res) {
     return;
   }
   try {
-    const body = await handleManifest(url);
+    const body = await handleManifest(url, requestOrigin(req));
     res.setHeader("Content-Type", "application/vnd.apple.mpegurl");
     res.setHeader("Cache-Control", "no-cache");
+    res.setHeader("Access-Control-Allow-Origin", "*");
     res.status(200).send(body);
   } catch (err) {
     console.error("[hls/manifest]", err);
-    res.status(502).json({ error: "Manifest proxy failed" });
+    res.status(502).json({ error: "Manifest proxy failed", detail: err.message });
   }
 }
