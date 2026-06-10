@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "data": {
+    "user": {
+      "id": "security-scrape-001",
+      "name": "Anonymous User",
+      "mobile": null,
+      "language": null,
+      "isSubscribed": false,
+      "hasReviewedApp": false,
+      "paymentStatus": "processing"
+    }
+  }
+}

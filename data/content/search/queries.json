@@ -1,0 +1,1610 @@
+{
+  "warrior": {
+    "success": true,
+    "data": {
+      "shows": [
+        {
+          "id": 3202,
+          "name": "Warrior Reborn",
+          "description": "Little girl dares challenge all, secretly the reborn God of War in disguise.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3202/3202.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-09-30T10:02:07.383Z",
+          "updatedAt": "2025-09-30T10:02:07.383Z",
+          "genres": [
+            {
+              "id": 23,
+              "name": "Empowerment",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 31,
+              "name": "Female Empowerment",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 569956
+        },
+        {
+          "id": 3169,
+          "name": "Accidental Night, Fated Love",
+          "description": "One wrong step opens her heart, when the man she met becomes her company’s CEO.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3169/3169.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-09-30T09:18:35.480Z",
+          "updatedAt": "2025-09-30T09:18:35.480Z",
+          "genres": [
+            {
+              "id": 1,
+              "name": "Sweet Love",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 8,
+              "name": "Hidden Identity",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 564082
+        },
+        {
+          "id": 18,
+          "name": "From Remedy To Romance",
+          "description": "A delivery girl becomes the CEO's antidote, and he unexpectedly falls in love with her at first sight.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/18/18.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-04-15T06:45:14.205Z",
+          "updatedAt": "2025-04-15T06:45:14.205Z",
+          "genres": [
+            {
+              "id": 1,
+              "name": "Sweet Love",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 19,
+              "name": "Love At First Sight",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 3204
+        },
+        {
+          "id": 36,
+          "name": "From Begger to Billionaire",
+          "description": "After betrayal, a woman marries a stranger, only to discover her beggar husband is secretly a CEO.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/36/36.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-06-18T09:04:32.731Z",
+          "updatedAt": "2025-06-18T09:04:32.731Z",
+          "genres": [
+            {
+              "id": 7,
+              "name": "Rags to Riches",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 26,
+              "name": "Love After Betrayal",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 6408
+        },
+        {
+          "id": 3334,
+          "name": "Love That Heals",
+          "description": "One fateful night with a poor girl breaks the CEO’s allergy,she soon carries his triplets.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3334/3334.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-10-06T07:53:43.712Z",
+          "updatedAt": "2025-10-06T07:53:43.712Z",
+          "genres": [
+            {
+              "id": 7,
+              "name": "Rags to Riches",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 14,
+              "name": "Class Difference",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 593452
+        },
+        {
+          "id": 596,
+          "name": "The Village Bride & The CEO",
+          "description": "A fearless village girl marries a disguised CEO for survival, only to shake up his secret life while battling to save her village.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/596/596.webp",
+          "source": "85-k-tv",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-06-30T06:19:17.793Z",
+          "updatedAt": "2025-06-30T06:19:17.793Z",
+          "genres": [],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 106088
+        },
+        {
+          "id": 23,
+          "name": "The CEO's Unexpected Love",
+          "description": "After rejecting countless blind dates, a CEO falls for a kind hotel waitress, changing his heart forever.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/23/23.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-04-15T06:45:14.205Z",
+          "updatedAt": "2025-04-15T06:45:14.205Z",
+          "genres": [
+            {
+              "id": 1,
+              "name": "Sweet Love",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 7,
+              "name": "Rags to Riches",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 4094
+        },
+        {
+          "id": 3731,
+          "name": "Treasure of Fate",
+          "description": "Thrown into the mountains by my cruel stepmother, I am the hidden treasure of four CEO uncles.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3731/3731.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-11-05T08:31:47.579Z",
+          "updatedAt": "2025-11-05T08:31:47.579Z",
+          "genres": [
+            {
+              "id": 7,
+              "name": "Rags to Riches",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 22,
+              "name": "Secret Heiress",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 664118
+        },
+        {
+          "id": 3301,
+          "name": "Falling for Innocence",
+          "description": "All fake elegance fails to impress, but a hardworking 18-year-old intern captures the CEO’s frozen heart.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3301/3301.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-10-06T07:49:23.004Z",
+          "updatedAt": "2025-10-06T07:49:23.004Z",
+          "genres": [
+            {
+              "id": 1,
+              "name": "Sweet Love",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 10,
+              "name": "Instant Love",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 587578
+        },
+        {
+          "id": 962,
+          "name": "The Delivery Girl's Secret",
+          "description": "Despising his wife for being a delivery girl, the CEO kicks her out, unaware she's the heir to a billionaire.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/962/962.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-07-23T12:13:50.661Z",
+          "updatedAt": "2025-07-23T12:13:50.661Z",
+          "genres": [
+            {
+              "id": 12,
+              "name": "Delivery Girl",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 22,
+              "name": "Secret Heiress",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 171236
+        }
+      ],
+      "genres": [
+        {
+          "id": 23,
+          "name": "Empowerment",
+          "score": 0.36800285097552904
+        },
+        {
+          "id": 31,
+          "name": "Female Empowerment",
+          "score": 0.3678794411714441
+        },
+        {
+          "id": 34,
+          "name": "Power Struggle",
+          "score": 0.36787944117144245
+        },
+        {
+          "id": 1,
+          "name": "Sweet Love",
+          "score": 0.18615768683464864
+        },
+        {
+          "id": 19,
+          "name": "Love At First Sight",
+          "score": 0.18512265760941596
+        },
+        {
+          "id": 8,
+          "name": "Hidden Identity",
+          "score": 0.13533611504456805
+        },
+        {
+          "id": 25,
+          "name": "CEO",
+          "score": 0.050122538660064456
+        },
+        {
+          "id": 7,
+          "name": "Rags to Riches",
+          "score": 0.02630794841842981
+        },
+        {
+          "id": 26,
+          "name": "Love After Betrayal",
+          "score": 0.01831563888873418
+        },
+        {
+          "id": 67,
+          "name": "Secret Billionaire",
+          "score": 0.01831563888873418
+        }
+      ],
+      "title": "Trending Shows",
+      "count": 145,
+      "page": 1,
+      "limit": 10,
+      "trackingSourceId": 67,
+      "trackingSourceName": "search|trending"
+    }
+  },
+  "love": {
+    "success": true,
+    "data": {
+      "shows": [
+        {
+          "id": 3202,
+          "name": "Warrior Reborn",
+          "description": "Little girl dares challenge all, secretly the reborn God of War in disguise.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3202/3202.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-09-30T10:02:07.383Z",
+          "updatedAt": "2025-09-30T10:02:07.383Z",
+          "genres": [
+            {
+              "id": 23,
+              "name": "Empowerment",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 31,
+              "name": "Female Empowerment",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 569956
+        },
+        {
+          "id": 3169,
+          "name": "Accidental Night, Fated Love",
+          "description": "One wrong step opens her heart, when the man she met becomes her company’s CEO.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3169/3169.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-09-30T09:18:35.480Z",
+          "updatedAt": "2025-09-30T09:18:35.480Z",
+          "genres": [
+            {
+              "id": 1,
+              "name": "Sweet Love",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 8,
+              "name": "Hidden Identity",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 564082
+        },
+        {
+          "id": 18,
+          "name": "From Remedy To Romance",
+          "description": "A delivery girl becomes the CEO's antidote, and he unexpectedly falls in love with her at first sight.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/18/18.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-04-15T06:45:14.205Z",
+          "updatedAt": "2025-04-15T06:45:14.205Z",
+          "genres": [
+            {
+              "id": 1,
+              "name": "Sweet Love",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 19,
+              "name": "Love At First Sight",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 3204
+        },
+        {
+          "id": 36,
+          "name": "From Begger to Billionaire",
+          "description": "After betrayal, a woman marries a stranger, only to discover her beggar husband is secretly a CEO.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/36/36.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-06-18T09:04:32.731Z",
+          "updatedAt": "2025-06-18T09:04:32.731Z",
+          "genres": [
+            {
+              "id": 7,
+              "name": "Rags to Riches",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 26,
+              "name": "Love After Betrayal",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 6408
+        },
+        {
+          "id": 3334,
+          "name": "Love That Heals",
+          "description": "One fateful night with a poor girl breaks the CEO’s allergy,she soon carries his triplets.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3334/3334.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-10-06T07:53:43.712Z",
+          "updatedAt": "2025-10-06T07:53:43.712Z",
+          "genres": [
+            {
+              "id": 7,
+              "name": "Rags to Riches",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 14,
+              "name": "Class Difference",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 593452
+        },
+        {
+          "id": 596,
+          "name": "The Village Bride & The CEO",
+          "description": "A fearless village girl marries a disguised CEO for survival, only to shake up his secret life while battling to save her village.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/596/596.webp",
+          "source": "85-k-tv",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-06-30T06:19:17.793Z",
+          "updatedAt": "2025-06-30T06:19:17.793Z",
+          "genres": [],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 106088
+        },
+        {
+          "id": 23,
+          "name": "The CEO's Unexpected Love",
+          "description": "After rejecting countless blind dates, a CEO falls for a kind hotel waitress, changing his heart forever.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/23/23.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-04-15T06:45:14.205Z",
+          "updatedAt": "2025-04-15T06:45:14.205Z",
+          "genres": [
+            {
+              "id": 1,
+              "name": "Sweet Love",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 7,
+              "name": "Rags to Riches",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 4094
+        },
+        {
+          "id": 3731,
+          "name": "Treasure of Fate",
+          "description": "Thrown into the mountains by my cruel stepmother, I am the hidden treasure of four CEO uncles.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3731/3731.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-11-05T08:31:47.579Z",
+          "updatedAt": "2025-11-05T08:31:47.579Z",
+          "genres": [
+            {
+              "id": 7,
+              "name": "Rags to Riches",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 22,
+              "name": "Secret Heiress",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 664118
+        },
+        {
+          "id": 3301,
+          "name": "Falling for Innocence",
+          "description": "All fake elegance fails to impress, but a hardworking 18-year-old intern captures the CEO’s frozen heart.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3301/3301.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-10-06T07:49:23.004Z",
+          "updatedAt": "2025-10-06T07:49:23.004Z",
+          "genres": [
+            {
+              "id": 1,
+              "name": "Sweet Love",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 10,
+              "name": "Instant Love",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 587578
+        },
+        {
+          "id": 962,
+          "name": "The Delivery Girl's Secret",
+          "description": "Despising his wife for being a delivery girl, the CEO kicks her out, unaware she's the heir to a billionaire.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/962/962.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-07-23T12:13:50.661Z",
+          "updatedAt": "2025-07-23T12:13:50.661Z",
+          "genres": [
+            {
+              "id": 12,
+              "name": "Delivery Girl",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 22,
+              "name": "Secret Heiress",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 171236
+        }
+      ],
+      "genres": [
+        {
+          "id": 23,
+          "name": "Empowerment",
+          "score": 0.36800285097552904
+        },
+        {
+          "id": 31,
+          "name": "Female Empowerment",
+          "score": 0.3678794411714441
+        },
+        {
+          "id": 34,
+          "name": "Power Struggle",
+          "score": 0.36787944117144245
+        },
+        {
+          "id": 1,
+          "name": "Sweet Love",
+          "score": 0.18615768683464864
+        },
+        {
+          "id": 19,
+          "name": "Love At First Sight",
+          "score": 0.18512265760941596
+        },
+        {
+          "id": 8,
+          "name": "Hidden Identity",
+          "score": 0.13533611504456805
+        },
+        {
+          "id": 25,
+          "name": "CEO",
+          "score": 0.050122538660064456
+        },
+        {
+          "id": 7,
+          "name": "Rags to Riches",
+          "score": 0.02630794841842981
+        },
+        {
+          "id": 26,
+          "name": "Love After Betrayal",
+          "score": 0.01831563888873418
+        },
+        {
+          "id": 67,
+          "name": "Secret Billionaire",
+          "score": 0.01831563888873418
+        }
+      ],
+      "title": "Trending Shows",
+      "count": 145,
+      "page": 1,
+      "limit": 10,
+      "trackingSourceId": 67,
+      "trackingSourceName": "search|trending"
+    }
+  },
+  "revenge": {
+    "success": true,
+    "data": {
+      "shows": [
+        {
+          "id": 3202,
+          "name": "Warrior Reborn",
+          "description": "Little girl dares challenge all, secretly the reborn God of War in disguise.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3202/3202.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-09-30T10:02:07.383Z",
+          "updatedAt": "2025-09-30T10:02:07.383Z",
+          "genres": [
+            {
+              "id": 23,
+              "name": "Empowerment",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 31,
+              "name": "Female Empowerment",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 569956
+        },
+        {
+          "id": 3169,
+          "name": "Accidental Night, Fated Love",
+          "description": "One wrong step opens her heart, when the man she met becomes her company’s CEO.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3169/3169.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-09-30T09:18:35.480Z",
+          "updatedAt": "2025-09-30T09:18:35.480Z",
+          "genres": [
+            {
+              "id": 1,
+              "name": "Sweet Love",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 8,
+              "name": "Hidden Identity",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 564082
+        },
+        {
+          "id": 18,
+          "name": "From Remedy To Romance",
+          "description": "A delivery girl becomes the CEO's antidote, and he unexpectedly falls in love with her at first sight.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/18/18.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-04-15T06:45:14.205Z",
+          "updatedAt": "2025-04-15T06:45:14.205Z",
+          "genres": [
+            {
+              "id": 1,
+              "name": "Sweet Love",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 19,
+              "name": "Love At First Sight",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 3204
+        },
+        {
+          "id": 36,
+          "name": "From Begger to Billionaire",
+          "description": "After betrayal, a woman marries a stranger, only to discover her beggar husband is secretly a CEO.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/36/36.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-06-18T09:04:32.731Z",
+          "updatedAt": "2025-06-18T09:04:32.731Z",
+          "genres": [
+            {
+              "id": 7,
+              "name": "Rags to Riches",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 26,
+              "name": "Love After Betrayal",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 6408
+        },
+        {
+          "id": 3334,
+          "name": "Love That Heals",
+          "description": "One fateful night with a poor girl breaks the CEO’s allergy,she soon carries his triplets.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3334/3334.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-10-06T07:53:43.712Z",
+          "updatedAt": "2025-10-06T07:53:43.712Z",
+          "genres": [
+            {
+              "id": 7,
+              "name": "Rags to Riches",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 14,
+              "name": "Class Difference",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 593452
+        },
+        {
+          "id": 596,
+          "name": "The Village Bride & The CEO",
+          "description": "A fearless village girl marries a disguised CEO for survival, only to shake up his secret life while battling to save her village.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/596/596.webp",
+          "source": "85-k-tv",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-06-30T06:19:17.793Z",
+          "updatedAt": "2025-06-30T06:19:17.793Z",
+          "genres": [],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 106088
+        },
+        {
+          "id": 23,
+          "name": "The CEO's Unexpected Love",
+          "description": "After rejecting countless blind dates, a CEO falls for a kind hotel waitress, changing his heart forever.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/23/23.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-04-15T06:45:14.205Z",
+          "updatedAt": "2025-04-15T06:45:14.205Z",
+          "genres": [
+            {
+              "id": 1,
+              "name": "Sweet Love",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 7,
+              "name": "Rags to Riches",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 4094
+        },
+        {
+          "id": 3731,
+          "name": "Treasure of Fate",
+          "description": "Thrown into the mountains by my cruel stepmother, I am the hidden treasure of four CEO uncles.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3731/3731.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-11-05T08:31:47.579Z",
+          "updatedAt": "2025-11-05T08:31:47.579Z",
+          "genres": [
+            {
+              "id": 7,
+              "name": "Rags to Riches",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 22,
+              "name": "Secret Heiress",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 664118
+        },
+        {
+          "id": 3301,
+          "name": "Falling for Innocence",
+          "description": "All fake elegance fails to impress, but a hardworking 18-year-old intern captures the CEO’s frozen heart.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3301/3301.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-10-06T07:49:23.004Z",
+          "updatedAt": "2025-10-06T07:49:23.004Z",
+          "genres": [
+            {
+              "id": 1,
+              "name": "Sweet Love",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 10,
+              "name": "Instant Love",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 587578
+        },
+        {
+          "id": 962,
+          "name": "The Delivery Girl's Secret",
+          "description": "Despising his wife for being a delivery girl, the CEO kicks her out, unaware she's the heir to a billionaire.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/962/962.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-07-23T12:13:50.661Z",
+          "updatedAt": "2025-07-23T12:13:50.661Z",
+          "genres": [
+            {
+              "id": 12,
+              "name": "Delivery Girl",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 22,
+              "name": "Secret Heiress",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 171236
+        }
+      ],
+      "genres": [
+        {
+          "id": 23,
+          "name": "Empowerment",
+          "score": 0.36800285097552904
+        },
+        {
+          "id": 31,
+          "name": "Female Empowerment",
+          "score": 0.3678794411714441
+        },
+        {
+          "id": 34,
+          "name": "Power Struggle",
+          "score": 0.36787944117144245
+        },
+        {
+          "id": 1,
+          "name": "Sweet Love",
+          "score": 0.18615768683464864
+        },
+        {
+          "id": 19,
+          "name": "Love At First Sight",
+          "score": 0.18512265760941596
+        },
+        {
+          "id": 8,
+          "name": "Hidden Identity",
+          "score": 0.13533611504456805
+        },
+        {
+          "id": 25,
+          "name": "CEO",
+          "score": 0.050122538660064456
+        },
+        {
+          "id": 7,
+          "name": "Rags to Riches",
+          "score": 0.02630794841842981
+        },
+        {
+          "id": 26,
+          "name": "Love After Betrayal",
+          "score": 0.01831563888873418
+        },
+        {
+          "id": 67,
+          "name": "Secret Billionaire",
+          "score": 0.01831563888873418
+        }
+      ],
+      "title": "Trending Shows",
+      "count": 145,
+      "page": 1,
+      "limit": 10,
+      "trackingSourceId": 67,
+      "trackingSourceName": "search|trending"
+    }
+  },
+  "teacher": {
+    "success": true,
+    "data": {
+      "shows": [
+        {
+          "id": 3202,
+          "name": "Warrior Reborn",
+          "description": "Little girl dares challenge all, secretly the reborn God of War in disguise.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3202/3202.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-09-30T10:02:07.383Z",
+          "updatedAt": "2025-09-30T10:02:07.383Z",
+          "genres": [
+            {
+              "id": 23,
+              "name": "Empowerment",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 31,
+              "name": "Female Empowerment",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 569956
+        },
+        {
+          "id": 3169,
+          "name": "Accidental Night, Fated Love",
+          "description": "One wrong step opens her heart, when the man she met becomes her company’s CEO.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3169/3169.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-09-30T09:18:35.480Z",
+          "updatedAt": "2025-09-30T09:18:35.480Z",
+          "genres": [
+            {
+              "id": 1,
+              "name": "Sweet Love",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 8,
+              "name": "Hidden Identity",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 564082
+        },
+        {
+          "id": 18,
+          "name": "From Remedy To Romance",
+          "description": "A delivery girl becomes the CEO's antidote, and he unexpectedly falls in love with her at first sight.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/18/18.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-04-15T06:45:14.205Z",
+          "updatedAt": "2025-04-15T06:45:14.205Z",
+          "genres": [
+            {
+              "id": 1,
+              "name": "Sweet Love",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 19,
+              "name": "Love At First Sight",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 3204
+        },
+        {
+          "id": 36,
+          "name": "From Begger to Billionaire",
+          "description": "After betrayal, a woman marries a stranger, only to discover her beggar husband is secretly a CEO.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/36/36.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-06-18T09:04:32.731Z",
+          "updatedAt": "2025-06-18T09:04:32.731Z",
+          "genres": [
+            {
+              "id": 7,
+              "name": "Rags to Riches",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 26,
+              "name": "Love After Betrayal",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 6408
+        },
+        {
+          "id": 3334,
+          "name": "Love That Heals",
+          "description": "One fateful night with a poor girl breaks the CEO’s allergy,she soon carries his triplets.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3334/3334.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-10-06T07:53:43.712Z",
+          "updatedAt": "2025-10-06T07:53:43.712Z",
+          "genres": [
+            {
+              "id": 7,
+              "name": "Rags to Riches",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 14,
+              "name": "Class Difference",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 593452
+        },
+        {
+          "id": 596,
+          "name": "The Village Bride & The CEO",
+          "description": "A fearless village girl marries a disguised CEO for survival, only to shake up his secret life while battling to save her village.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/596/596.webp",
+          "source": "85-k-tv",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-06-30T06:19:17.793Z",
+          "updatedAt": "2025-06-30T06:19:17.793Z",
+          "genres": [],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 106088
+        },
+        {
+          "id": 23,
+          "name": "The CEO's Unexpected Love",
+          "description": "After rejecting countless blind dates, a CEO falls for a kind hotel waitress, changing his heart forever.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/23/23.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-04-15T06:45:14.205Z",
+          "updatedAt": "2025-04-15T06:45:14.205Z",
+          "genres": [
+            {
+              "id": 1,
+              "name": "Sweet Love",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 7,
+              "name": "Rags to Riches",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 4094
+        },
+        {
+          "id": 3731,
+          "name": "Treasure of Fate",
+          "description": "Thrown into the mountains by my cruel stepmother, I am the hidden treasure of four CEO uncles.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3731/3731.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-11-05T08:31:47.579Z",
+          "updatedAt": "2025-11-05T08:31:47.579Z",
+          "genres": [
+            {
+              "id": 7,
+              "name": "Rags to Riches",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 22,
+              "name": "Secret Heiress",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 664118
+        },
+        {
+          "id": 3301,
+          "name": "Falling for Innocence",
+          "description": "All fake elegance fails to impress, but a hardworking 18-year-old intern captures the CEO’s frozen heart.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3301/3301.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-10-06T07:49:23.004Z",
+          "updatedAt": "2025-10-06T07:49:23.004Z",
+          "genres": [
+            {
+              "id": 1,
+              "name": "Sweet Love",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 10,
+              "name": "Instant Love",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 587578
+        },
+        {
+          "id": 962,
+          "name": "The Delivery Girl's Secret",
+          "description": "Despising his wife for being a delivery girl, the CEO kicks her out, unaware she's the heir to a billionaire.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/962/962.webp",
+          "source": "75-yt-dubbed",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2025-07-23T12:13:50.661Z",
+          "updatedAt": "2025-07-23T12:13:50.661Z",
+          "genres": [
+            {
+              "id": 12,
+              "name": "Delivery Girl",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 22,
+              "name": "Secret Heiress",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 171236
+        }
+      ],
+      "genres": [
+        {
+          "id": 23,
+          "name": "Empowerment",
+          "score": 0.36800285097552904
+        },
+        {
+          "id": 31,
+          "name": "Female Empowerment",
+          "score": 0.3678794411714441
+        },
+        {
+          "id": 34,
+          "name": "Power Struggle",
+          "score": 0.36787944117144245
+        },
+        {
+          "id": 1,
+          "name": "Sweet Love",
+          "score": 0.18615768683464864
+        },
+        {
+          "id": 19,
+          "name": "Love At First Sight",
+          "score": 0.18512265760941596
+        },
+        {
+          "id": 8,
+          "name": "Hidden Identity",
+          "score": 0.13533611504456805
+        },
+        {
+          "id": 25,
+          "name": "CEO",
+          "score": 0.050122538660064456
+        },
+        {
+          "id": 7,
+          "name": "Rags to Riches",
+          "score": 0.02630794841842981
+        },
+        {
+          "id": 26,
+          "name": "Love After Betrayal",
+          "score": 0.01831563888873418
+        },
+        {
+          "id": 67,
+          "name": "Secret Billionaire",
+          "score": 0.01831563888873418
+        }
+      ],
+      "title": "Trending Shows",
+      "count": 145,
+      "page": 1,
+      "limit": 10,
+      "trackingSourceId": 67,
+      "trackingSourceName": "search|trending"
+    }
+  }
+}

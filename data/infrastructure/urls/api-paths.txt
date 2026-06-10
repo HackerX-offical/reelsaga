@@ -1,0 +1,31 @@
+# ReelSaga backend API paths (from Ktor URLBuilder + string literals)
+
+## Primary API (api.reelsaga.in)
+v1/home/config
+v1/user
+v1/profile
+v1/subscription
+subscription/cancel
+v1/trailers
+clips
+trailer
+config
+auth/token
+user/verify
+user/preferences
+session
+fcm-token
+review
+transactions
+vendor-trace-log
+appsflyer-deeplink
+
+## MSG91 (control.msg91.com)
+api/v5/widget/sendOtpMobile
+api/v5/widget/verifyOtp
+api/v5/widget/retryOtp
+
+## Razorpay (third-party)
+v1/payments/
+v1/payments/create/checkout/json
+v1/track

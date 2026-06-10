@@ -1,0 +1,66 @@
+{
+  "homeSections": 9,
+  "uniqueShowsScraped": 145,
+  "showDetailsFetched": 132,
+  "trailers": 10,
+  "reelsClips": 20,
+  "sampleTrailers": [
+    {
+      "id": 137776,
+      "showId": 3202,
+      "title": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3202/3202.webp"
+    },
+    {
+      "id": 37391,
+      "showId": 4027,
+      "title": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/4027/53f5c46a-4c19-4deb-af8c-c6a2846b76e9-4027.webp"
+    },
+    {
+      "id": 137809,
+      "showId": 7063,
+      "title": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/7063/74c78581-d09f-4676-8c5a-fd1fd42b7c48-7063.webp"
+    },
+    {
+      "id": 126491,
+      "showId": 3565,
+      "title": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3565/3565.webp"
+    },
+    {
+      "id": 137842,
+      "showId": 6999,
+      "title": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/6999/131fe65a-2a4a-4533-a620-725261942ad1-6999.webp"
+    }
+  ],
+  "sampleClips": [
+    {
+      "id": 37391,
+      "showId": 4027,
+      "description": "Watch Super Teacher now only on ReelSaga"
+    },
+    {
+      "id": 126491,
+      "showId": 3565,
+      "description": "Watch Chamatkari Boyfriend now only on ReelSaga"
+    },
+    {
+      "id": 115469,
+      "showId": 7063,
+      "description": "Watch Banquet of Revenge now only on ReelSaga"
+    },
+    {
+      "id": 128569,
+      "showId": 4060,
+      "description": "Watch Ek Mazdoor Ki Udaan now only on ReelSaga"
+    },
+    {
+      "id": 98672,
+      "showId": 5853,
+      "description": "Watch Moving Ahead now only on ReelSaga"
+    }
+  ]
+}

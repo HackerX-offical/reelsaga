@@ -1,0 +1,126 @@
+{
+  "UserSubscriptionDetailResponseV1": {
+    "file": "scraped-data/schemas/source-models/app/repository/response/UserSubscriptionDetailResponseV1.java",
+    "fields": [
+      "note",
+      "viewType"
+    ]
+  },
+  "UserResponse": {
+    "file": "scraped-data/schemas/source-models/app/repository/response/UserResponse.java",
+    "fields": [
+      "ageGroup",
+      "createdAt",
+      "gender",
+      "hasRated",
+      "id",
+      "isSubscribed",
+      "mobile",
+      "name",
+      "paymentStatus",
+      "updatedAt"
+    ]
+  },
+  "SessionUpdateResponse": {
+    "file": "scraped-data/schemas/source-models/app/repository/response/SessionUpdateResponse.java",
+    "fields": [
+      "message"
+    ]
+  },
+  "ExchangeTokenResponse": {
+    "file": "scraped-data/schemas/source-models/app/repository/response/ExchangeTokenResponse.java",
+    "fields": [
+      "refreshToken",
+      "token"
+    ]
+  },
+  "SessionResponse": {
+    "file": "scraped-data/schemas/source-models/app/repository/response/SessionResponse.java",
+    "fields": [
+      "message"
+    ]
+  },
+  "UpdateUserRequest": {
+    "file": "scraped-data/schemas/source-models/app/repository/request/UpdateUserRequest.java",
+    "fields": [
+      "ageGroup",
+      "gender",
+      "languageId",
+      "name"
+    ]
+  },
+  "SessionUpdateRequest": {
+    "file": "scraped-data/schemas/source-models/app/repository/request/SessionUpdateRequest.java",
+    "fields": [
+      "deeplink",
+      "messageId"
+    ]
+  },
+  "FCMTokenRequest": {
+    "file": "scraped-data/schemas/source-models/app/repository/request/FCMTokenRequest.java",
+    "fields": [
+      "token"
+    ]
+  },
+  "GenerateNewTokenRequest": {
+    "file": "scraped-data/schemas/source-models/app/repository/request/GenerateNewTokenRequest.java",
+    "fields": [
+      "accessToken",
+      "aid",
+      "appsFlyerId",
+      "brand",
+      "carrier",
+      "cpuCore",
+      "device",
+      "deviceId",
+      "deviceTimeZone",
+      "externalStorageSize",
+      "fAId",
+      "fid",
+      "freeSpaceInExternalStorageSize",
+      "locale",
+      "longVersion",
+      "manufacturer",
+      "model",
+      "name",
+      "osVersion",
+      "product",
+      "screenDensity",
+      "screenHeight",
+      "screenWidth",
+      "shortVersion",
+      "timezoneAbbr"
+    ]
+  },
+  "RefreshTokenRequest": {
+    "file": "scraped-data/schemas/source-models/app/repository/request/RefreshTokenRequest.java",
+    "fields": [
+      "accessToken",
+      "aid",
+      "appsFlyerId",
+      "brand",
+      "carrier",
+      "cpuCore",
+      "device",
+      "deviceId",
+      "deviceTimeZone",
+      "externalStorageSize",
+      "fAId",
+      "fid",
+      "freeSpaceInExternalStorageSize",
+      "locale",
+      "longVersion",
+      "manufacturer",
+      "model",
+      "name",
+      "osVersion",
+      "product",
+      "refreshToken",
+      "screenDensity",
+      "screenHeight",
+      "screenWidth",
+      "shortVersion",
+      "timezoneAbbr"
+    ]
+  }
+}

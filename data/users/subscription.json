@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "data": {
+    "subscription": {
+      "header": "Subscription",
+      "description": "Inactive",
+      "icon": "https://dsmjhykc753wb.cloudfront.net/assets/icons/subscription_inactive.webp",
+      "color": "#6D6D6D"
+    },
+    "billing": {
+      "header": "NA",
+      "description": "NA"
+    },
+    "note": "You don't have an active subscription",
+    "button": {
+      "text": "Activate",
+      "type": "active"
+    },
+    "viewType": "note_collapsed"
+  }
+}

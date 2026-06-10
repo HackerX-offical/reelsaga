@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "tabs": [
+      {
+        "id": 1,
+        "title": "All",
+        "url": "/v1/home",
+        "hasContinueWatching": true
+      },
+      {
+        "id": 2,
+        "title": "Trending",
+        "url": "/shows?type=trending"
+      },
+      {
+        "id": 3,
+        "title": "Popular",
+        "url": "/shows?type=popular"
+      },
+      {
+        "id": 4,
+        "title": "New",
+        "url": "/shows?type=new"
+      },
+      {
+        "title": "Rags to Riches",
+        "url": "/shows?genre=7"
+      },
+      {
+        "title": "Hidden Identity",
+        "url": "/shows?genre=8"
+      },
+      {
+        "title": "Revenge",
+        "url": "/shows?genre=21"
+      },
+      {
+        "title": "Family Drama",
+        "url": "/shows?genre=29"
+      }
+    ],
+    "defaultTab": "All"
+  }
+}

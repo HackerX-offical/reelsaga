@@ -1,0 +1,22 @@
+{
+  "note": "Bulk user database not exposed via API. OTP required for logged-in PII.",
+  "anonymousSessionFields": {
+    "id": "security-scrape-001",
+    "name": "Anonymous User",
+    "mobile": null,
+    "language": null,
+    "isSubscribed": false,
+    "hasReviewedApp": false,
+    "paymentStatus": "processing"
+  },
+  "piiFieldsWhenLoggedIn": [
+    "id",
+    "name",
+    "mobile",
+    "gender",
+    "ageGroup",
+    "paymentStatus",
+    "createdAt"
+  ],
+  "internalDevDevicesExposed": true
+}

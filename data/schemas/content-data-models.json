@@ -1,0 +1,178 @@
+{
+  "CreateClipResponse": {
+    "file": "scraped-data/schemas/source-models/app/repository/response/CreateClipResponse.java",
+    "fields": [
+      "link"
+    ]
+  },
+  "TrailersItem": {
+    "file": "scraped-data/schemas/source-models/app/repository/response/TrailersItem.java",
+    "fields": [
+      "description",
+      "endMs",
+      "id",
+      "isLikedByUser",
+      "likeCount",
+      "name",
+      "showId",
+      "startMs",
+      "thumbnail",
+      "title",
+      "trackingSourceId",
+      "trackingSourceName",
+      "trailerUrl",
+      "videoType"
+    ]
+  },
+  "TrailersResponseData": {
+    "file": "scraped-data/schemas/source-models/app/repository/response/TrailersResponseData.java",
+    "fields": [
+      "count",
+      "limit",
+      "page",
+      "trailers"
+    ]
+  },
+  "AllShows": {
+    "file": "scraped-data/schemas/source-models/app/repository/response/AllShows.java",
+    "fields": [
+      "count",
+      "heading",
+      "limit",
+      "page",
+      "shows",
+      "totalPages",
+      "trackingSourceId",
+      "trackingSourceName",
+      "url"
+    ]
+  },
+  "ClipDetailResponse": {
+    "file": "scraped-data/schemas/source-models/app/repository/response/ClipDetailResponse.java",
+    "fields": [
+      "frameDurationMs",
+      "frames",
+      "viewPortDuration"
+    ]
+  },
+  "HomeStructureResponse": {
+    "file": "scraped-data/schemas/source-models/app/repository/response/HomeStructureResponse.java",
+    "fields": [
+      "defaultTab",
+      "tabs"
+    ]
+  },
+  "Genre": {
+    "file": "scraped-data/schemas/source-models/app/repository/response/Genre.java",
+    "fields": [
+      "id",
+      "title"
+    ]
+  },
+  "Clip": {
+    "file": "scraped-data/schemas/source-models/app/repository/response/Clip.java",
+    "fields": [
+      "clipEndTimeMs",
+      "clipStartTimeMs",
+      "createdAt",
+      "description",
+      "durationMs",
+      "id",
+      "name",
+      "parentVideoId",
+      "serialNumber",
+      "showId",
+      "thumbnail",
+      "type",
+      "updatedAt",
+      "url"
+    ]
+  },
+  "HomeResponse": {
+    "file": "scraped-data/schemas/source-models/app/repository/response/HomeResponse.java",
+    "fields": [
+      "count",
+      "limit",
+      "page",
+      "promotedShows",
+      "sections",
+      "shows",
+      "title",
+      "trackingSourceId",
+      "trackingSourceName"
+    ]
+  },
+  "EpisodeItem": {
+    "file": "scraped-data/schemas/source-models/app/repository/response/EpisodeItem.java",
+    "fields": [
+      "chapterWeight",
+      "createTime",
+      "id",
+      "isFree",
+      "isUserLiked",
+      "likeCount",
+      "name",
+      "publishAt",
+      "publishedAt",
+      "resumePosition",
+      "serialNumber",
+      "status",
+      "thumbnail",
+      "updateTime",
+      "videoType",
+      "videoUrl"
+    ]
+  },
+  "ShowItems": {
+    "file": "scraped-data/schemas/source-models/app/repository/response/ShowItems.java",
+    "fields": [
+      "count",
+      "genres",
+      "limit",
+      "page",
+      "shows",
+      "title",
+      "trackingSourceId",
+      "trackingSourceName"
+    ]
+  },
+  "ShowItem": {
+    "file": "scraped-data/schemas/source-models/app/repository/response/ShowItem.java",
+    "fields": [
+      "blur",
+      "description",
+      "episodes",
+      "episodesBeforeRecommendation",
+      "eventName",
+      "genres",
+      "id",
+      "isShow",
+      "pic",
+      "recommendationUrl",
+      "resumeVideoId",
+      "shareCount",
+      "title",
+      "trackingSourceId",
+      "trackingSourceName",
+      "url",
+      "watchCount"
+    ]
+  },
+  "HomeTab": {
+    "file": "scraped-data/schemas/source-models/app/repository/response/HomeTab.java",
+    "fields": [
+      "hasContinueWatching",
+      "title",
+      "url"
+    ]
+  },
+  "ClipRequest": {
+    "file": "scraped-data/schemas/source-models/app/repository/request/ClipRequest.java",
+    "fields": [
+      "endMs",
+      "startMs",
+      "targetUrl",
+      "videoId"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "legalName": "REELSAGA INNOVATIONS PRIVATE LIMITED",
+  "brand": "ReelSaga",
+  "cin": "U9000MH2024PTC434093",
+  "gst": "27AAOCR0431P1ZX",
+  "incorporation": "Maharashtra, India (2024)",
+  "addresses": {
+    "playStore": "905 Yarrow Chs Ltd, Nahar, Amrit Shakti, Chandivali, Mumbai, Maharashtra 400072, India",
+    "website": "Boomerang Business Park B2/507, 5th Floor, Chandivali Road, Powai, Mumbai 400072, India"
+  },
+  "contacts": {
+    "email": "contact@reelsaga.in",
+    "supportEmail": "shanu.vivek@reelsaga.in",
+    "phone": "+91 8655 354804",
+    "website": "https://www.reelsaga.in/",
+    "marketingSite": "https://reelsaga.co.in/"
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/reelsagaapp",
+    "facebook": "https://www.facebook.com/share/1ATiQmXesD/",
+    "linkedin": "https://www.linkedin.com/company/reelsaga",
+    "twitter": "https://x.com/reelsaga_app"
+  },
+  "firebaseProject": "reel-saga-app",
+  "packageName": "in.reelsaga.android"
+}

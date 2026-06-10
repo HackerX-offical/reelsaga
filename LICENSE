@@ -1,0 +1,42 @@
+ReelSaga Internal Security Assessment — License & Usage Terms
+=============================================================
+
+Copyright (c) 2026 REELSAGA INNOVATIONS PRIVATE LIMITED
+All rights reserved.
+
+Assessment prepared by: ReelSaga AppSec / Cyber Security Team
+Application: ReelSaga Android (in.reelsaga.android)
+Classification: CONFIDENTIAL — INTERNAL USE ONLY
+
+PERMITTED USE
+-------------
+Authorized ReelSaga employees, contractors, and security auditors may use,
+copy, and distribute this assessment package internally for:
+
+  - Security remediation and engineering fixes
+  - Compliance and audit documentation
+  - Security awareness training (internal)
+
+PROHIBITED USE
+--------------
+Without written approval from ReelSaga Innovations Pvt Ltd:
+
+  - Public disclosure of extracted API keys, tokens, or live proof responses
+  - Use of proof-of-exposure scripts against production systems outside
+    authorized security testing windows
+  - Redistribution of this package to third parties
+  - Use of findings to attack ReelSaga users, infrastructure, or partners
+
+PROOF-OF-EXPOSURE ARTIFACTS
+---------------------------
+Files under proof-of-exposure/ contain evidence that embedded credentials
+can be abused. They are provided solely to demonstrate risk to the
+development team. Tokens and refresh credentials in JSON responses must
+be treated as sensitive and rotated after review.
+
+NO WARRANTY
+-----------
+This assessment is provided "as is" for internal security purposes.
+Static analysis may not reflect the current Play Store build.
+
+Contact: contact@reelsaga.in | AppSec team

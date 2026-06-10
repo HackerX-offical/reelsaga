@@ -1,0 +1,56 @@
+{
+    "xapk_version": 2,
+    "package_name": "in.reelsaga.android",
+    "name": "ReelSaga",
+    "version_code": "80501",
+    "version_name": "8.5.1",
+    "min_sdk_version": "32",
+    "target_sdk_version": "37",
+    "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.WAKE_LOCK",
+        "com.google.android.gms.permission.AD_ID",
+        "android.permission.READ_BASIC_PHONE_STATE",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "com.google.android.c2dm.permission.RECEIVE",
+        "com.android.vending.BILLING",
+        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+        "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+        "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+        "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+        "android.permission.ACCESS_ADSERVICES_AD_ID",
+        "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+        "android.permission.ACCESS_ADSERVICES_TOPICS",
+        "in.reelsaga.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_PHONE_STATE",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "com.android.vending.CHECK_LICENSE"
+    ],
+    "split_configs": [
+        "config.arm64_v8a",
+        "config.en",
+        "config.hdpi"
+    ],
+    "total_size": 21473243,
+    "icon": "icon.png",
+    "split_apks": [
+        {
+            "file": "in.reelsaga.android.apk",
+            "id": "base"
+        },
+        {
+            "file": "config.arm64_v8a.apk",
+            "id": "config.arm64_v8a"
+        },
+        {
+            "file": "config.en.apk",
+            "id": "config.en"
+        },
+        {
+            "file": "config.hdpi.apk",
+            "id": "config.hdpi"
+        }
+    ]
+}

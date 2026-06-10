@@ -1,0 +1,763 @@
+{
+  "showCount": 132,
+  "totalWatchCount": 666984500,
+  "totalShareCount": 0,
+  "topShowsByWatchCount": [
+    {
+      "id": 8416,
+      "name": "Market Ka Raja",
+      "description": "A disguised billionaire protects his son, destroys arrogant enemies, and helps a betrayed entrepreneur reclaim her power.",
+      "genres": [],
+      "language": {
+        "id": 1,
+        "name": "हिन्दी",
+        "englishName": "Hindi",
+        "letter": "अ",
+        "isActive": true,
+        "createdAt": "2025-12-09T08:11:56.128Z",
+        "updatedAt": "2025-12-09T08:11:56.128Z"
+      },
+      "episodeCount": 0,
+      "watchCount": 14988896,
+      "shareCount": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/8416/b2a48a1e-b22f-4eb3-a4bb-6867d6d103b8-8416.webp",
+      "isSubscribed": null
+    },
+    {
+      "id": 8383,
+      "name": "Project MEERA",
+      "description": "Neglected by her family, Meera enters a thirty-year sleep experiment, leaving them to face devastating regret.",
+      "genres": [
+        {
+          "id": 8,
+          "name": "Hidden Identity",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 16,
+          "name": "Betrayal",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 29,
+          "name": "Family Drama",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        }
+      ],
+      "language": {
+        "id": 1,
+        "name": "हिन्दी",
+        "englishName": "Hindi",
+        "letter": "अ",
+        "isActive": true,
+        "createdAt": "2025-12-09T08:11:56.128Z",
+        "updatedAt": "2025-12-09T08:11:56.128Z"
+      },
+      "episodeCount": 0,
+      "watchCount": 14930123,
+      "shareCount": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/8383/7ba38e72-0790-4c5b-a3c2-88b03cfe0f2f-8383.webp",
+      "isSubscribed": null
+    },
+    {
+      "id": 7987,
+      "name": "Ek Raat Do Baarat ",
+      "description": "After one dangerous night, runaway Siya’s pregnancy forces soldier Veer into a duty-bound marriage that slowly becomes love.",
+      "genres": [
+        {
+          "id": 18,
+          "name": "Pregnancy",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 17,
+          "name": "Love After Marriage",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 14,
+          "name": "Class Difference",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        }
+      ],
+      "language": {
+        "id": 1,
+        "name": "हिन्दी",
+        "englishName": "Hindi",
+        "letter": "अ",
+        "isActive": true,
+        "createdAt": "2025-12-09T08:11:56.128Z",
+        "updatedAt": "2025-12-09T08:11:56.128Z"
+      },
+      "episodeCount": 0,
+      "watchCount": 14224847,
+      "shareCount": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/7987/0b98bfe9-8bc2-40be-abeb-9a8905d1e68f-7987.webp",
+      "isSubscribed": null
+    },
+    {
+      "id": 7926,
+      "name": "Bewafa Kaun?",
+      "description": "After signing divorce papers, Priya rebuilds her life while arrogant CEO Rohit realizes his love too late.",
+      "genres": [
+        {
+          "id": 25,
+          "name": "CEO",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 26,
+          "name": "Love After Betrayal",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 30,
+          "name": "Second Chance",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        }
+      ],
+      "language": {
+        "id": 1,
+        "name": "हिन्दी",
+        "englishName": "Hindi",
+        "letter": "अ",
+        "isActive": true,
+        "createdAt": "2025-12-09T08:11:56.128Z",
+        "updatedAt": "2025-12-09T08:11:56.128Z"
+      },
+      "episodeCount": 0,
+      "watchCount": 14116206,
+      "shareCount": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/7926/77f62195-bab3-470d-ae6d-631843110d83-7926.webp",
+      "isSubscribed": null
+    },
+    {
+      "id": 7624,
+      "name": "Servant of Desire",
+      "description": "Emma, desperate to pay her brother's hospital bills, is drawn into the orbit of Ethan. By chance, she becomes the Walker family's maid. As fate turns, the eldest son Ethan shows ambiguous affection toward her and wants her as his personal maid, while the second son also confesses his love.",
+      "genres": [
+        {
+          "id": 3,
+          "name": "Billionaire",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 4,
+          "name": "Love Triangle",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 14,
+          "name": "Class Difference",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        }
+      ],
+      "language": {
+        "id": 1,
+        "name": "हिन्दी",
+        "englishName": "Hindi",
+        "letter": "अ",
+        "isActive": true,
+        "createdAt": "2025-12-09T08:11:56.128Z",
+        "updatedAt": "2025-12-09T08:11:56.128Z"
+      },
+      "episodeCount": 0,
+      "watchCount": 13578344,
+      "shareCount": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/7624/395f501c-1153-4ec1-9dd6-f8a9149a4481-7624.webp",
+      "isSubscribed": null
+    },
+    {
+      "id": 7591,
+      "name": "Tum Tak",
+      "description": "A mysterious girl’s hidden past, love, betrayal, and a life-saving secret that changes everyone’s destiny forever.",
+      "genres": [
+        {
+          "id": 9,
+          "name": "Twist of Fate",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 16,
+          "name": "Betrayal",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 8,
+          "name": "Hidden Identity",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        }
+      ],
+      "language": {
+        "id": 1,
+        "name": "हिन्दी",
+        "englishName": "Hindi",
+        "letter": "अ",
+        "isActive": true,
+        "createdAt": "2025-12-09T08:11:56.128Z",
+        "updatedAt": "2025-12-09T08:11:56.128Z"
+      },
+      "episodeCount": 0,
+      "watchCount": 13519571,
+      "shareCount": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/7591/e8aafb72-51fa-4f8e-99b8-974b99e1c6b8-7591.webp",
+      "isSubscribed": null
+    },
+    {
+      "id": 7492,
+      "name": "Secret Shaadi",
+      "description": "A poor girl marries a cold CEO for her father’s treatment, hiding identity as love slowly blossoms.",
+      "genres": [
+        {
+          "id": 17,
+          "name": "Love After Marriage",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 8,
+          "name": "Hidden Identity",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 5,
+          "name": "Flash Marriage",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        }
+      ],
+      "language": {
+        "id": 1,
+        "name": "हिन्दी",
+        "englishName": "Hindi",
+        "letter": "अ",
+        "isActive": true,
+        "createdAt": "2025-12-09T08:11:56.128Z",
+        "updatedAt": "2025-12-09T08:11:56.128Z"
+      },
+      "episodeCount": 0,
+      "watchCount": 13343252,
+      "shareCount": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/7492/34cbf50d-0291-4516-ad01-7654ba2c265a-7492.webp",
+      "isSubscribed": null
+    },
+    {
+      "id": 7459,
+      "name": "Pyaar ya Vyapaar ?",
+      "description": "A forced marriage turns into unexpected love as hidden pasts, secrets, and rival lovers threaten their fragile relationship.",
+      "genres": [
+        {
+          "id": 27,
+          "name": "Contract Marriage",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 4,
+          "name": "Love Triangle",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 17,
+          "name": "Love After Marriage",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        }
+      ],
+      "language": {
+        "id": 1,
+        "name": "हिन्दी",
+        "englishName": "Hindi",
+        "letter": "अ",
+        "isActive": true,
+        "createdAt": "2025-12-09T08:11:56.128Z",
+        "updatedAt": "2025-12-09T08:11:56.128Z"
+      },
+      "episodeCount": 0,
+      "watchCount": 13284479,
+      "shareCount": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/7459/7017a5f2-d5fd-4468-932c-1e3d4759701a-7459.webp",
+      "isSubscribed": null
+    },
+    {
+      "id": 7327,
+      "name": "Boss Baby",
+      "description": "A mystical immortal reborn as a baby protects his parents, battling dark forces, power struggles, and destiny.",
+      "genres": [
+        {
+          "id": 81,
+          "name": "Supernatural",
+          "createdAt": "2026-04-14T08:43:34.047Z",
+          "updatedAt": "2026-04-14T08:43:34.047Z"
+        },
+        {
+          "id": 34,
+          "name": "Power Struggle",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 18,
+          "name": "Pregnancy",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        }
+      ],
+      "language": {
+        "id": 1,
+        "name": "हिन्दी",
+        "englishName": "Hindi",
+        "letter": "अ",
+        "isActive": true,
+        "createdAt": "2025-12-09T08:11:56.128Z",
+        "updatedAt": "2025-12-09T08:11:56.128Z"
+      },
+      "episodeCount": 0,
+      "watchCount": 13049387,
+      "shareCount": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/7327/2d3c2e3a-0540-4a3f-beb2-522c690c1d36-7327.webp",
+      "isSubscribed": null
+    },
+    {
+      "id": 7294,
+      "name": "Gumshuda",
+      "description": "A jealous husband, missing wife, and hidden crime unravel dark secrets, obsession, and deadly truth. ",
+      "genres": [
+        {
+          "id": 88,
+          "name": "Murder",
+          "createdAt": "2026-04-14T08:43:34.047Z",
+          "updatedAt": "2026-04-14T08:43:34.047Z"
+        },
+        {
+          "id": 68,
+          "name": "Dark Secrets",
+          "createdAt": "2026-04-14T08:43:34.047Z",
+          "updatedAt": "2026-04-14T08:43:34.047Z"
+        },
+        {
+          "id": 6,
+          "name": "Toxic Relationship",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        }
+      ],
+      "language": {
+        "id": 1,
+        "name": "हिन्दी",
+        "englishName": "Hindi",
+        "letter": "अ",
+        "isActive": true,
+        "createdAt": "2025-12-09T08:11:56.128Z",
+        "updatedAt": "2025-12-09T08:11:56.128Z"
+      },
+      "episodeCount": 0,
+      "watchCount": 12990614,
+      "shareCount": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/7294/a34a6c62-9146-4ec6-912a-d448e9dfe3b8-7294.webp",
+      "isSubscribed": null
+    },
+    {
+      "id": 7129,
+      "name": "Mr. X",
+      "description": "A beggar with hidden divine healing powers saves a billionaire’s dying daughter, exposing his true identity and destiny.",
+      "genres": [
+        {
+          "id": 81,
+          "name": "Supernatural",
+          "createdAt": "2026-04-14T08:43:34.047Z",
+          "updatedAt": "2026-04-14T08:43:34.047Z"
+        },
+        {
+          "id": 8,
+          "name": "Hidden Identity",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 3,
+          "name": "Billionaire",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        }
+      ],
+      "language": {
+        "id": 1,
+        "name": "हिन्दी",
+        "englishName": "Hindi",
+        "letter": "अ",
+        "isActive": true,
+        "createdAt": "2025-12-09T08:11:56.128Z",
+        "updatedAt": "2025-12-09T08:11:56.128Z"
+      },
+      "episodeCount": 0,
+      "watchCount": 12696749,
+      "shareCount": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/7129/d6b9bf07-8f64-4af1-b703-a8bda42ae362-7129.webp",
+      "isSubscribed": null
+    },
+    {
+      "id": 7063,
+      "name": "Banquet of Revenge",
+      "description": "Mason Miller, a Level 8 warrior, honors a marriage pact but faces the Walker family's scorn. They force the critically ill Sophia Walker to wed him instead of the favored Charlotte Walker. Humiliated at the banquet, Mason unleashes his power, shocking all. He protects Sophia and crushes his mockers.",
+      "genres": [
+        {
+          "id": 21,
+          "name": "Revenge",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 34,
+          "name": "Power Struggle",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 8,
+          "name": "Hidden Identity",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        }
+      ],
+      "language": {
+        "id": 1,
+        "name": "हिन्दी",
+        "englishName": "Hindi",
+        "letter": "अ",
+        "isActive": true,
+        "createdAt": "2025-12-09T08:11:56.128Z",
+        "updatedAt": "2025-12-09T08:11:56.128Z"
+      },
+      "episodeCount": 0,
+      "watchCount": 12579203,
+      "shareCount": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/7063/74c78581-d09f-4676-8c5a-fd1fd42b7c48-7063.webp",
+      "isSubscribed": null
+    },
+    {
+      "id": 6999,
+      "name": "Mystic Bond",
+      "description": "Harper Lee awakens Piercing Eye by accident. His master reveals his arranged fiancée holds a matching jade for sainthood. Saving her from danger, she calls him a pervert. He smirks, \"Let me prove my abilities to you!\" Watch how he navigates the city!",
+      "genres": [
+        {
+          "id": 81,
+          "name": "Supernatural",
+          "createdAt": "2026-04-14T08:43:34.047Z",
+          "updatedAt": "2026-04-14T08:43:34.047Z"
+        },
+        {
+          "id": 9,
+          "name": "Twist of Fate",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 34,
+          "name": "Power Struggle",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        }
+      ],
+      "language": {
+        "id": 1,
+        "name": "हिन्दी",
+        "englishName": "Hindi",
+        "letter": "अ",
+        "isActive": true,
+        "createdAt": "2025-12-09T08:11:56.128Z",
+        "updatedAt": "2025-12-09T08:11:56.128Z"
+      },
+      "episodeCount": 0,
+      "watchCount": 12465219,
+      "shareCount": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/6999/131fe65a-2a4a-4533-a620-725261942ad1-6999.webp",
+      "isSubscribed": null
+    },
+    {
+      "id": 6997,
+      "name": "Unspoken Desire",
+      "description": "\"Emily regrets the one-night stand with the man she had secretly loved for eight years, letting him pay her.\nMichael is intimate at night, a stranger by day. When it's time to arrange a marriage, he takes her home instead.\nAfter family drama and an injury, he sends her away but keeps saving her.\"",
+      "genres": [
+        {
+          "id": 13,
+          "name": "Forced Marriage",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 8,
+          "name": "Hidden Identity",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        }
+      ],
+      "language": {
+        "id": 1,
+        "name": "हिन्दी",
+        "englishName": "Hindi",
+        "letter": "अ",
+        "isActive": true,
+        "createdAt": "2025-12-09T08:11:56.128Z",
+        "updatedAt": "2025-12-09T08:11:56.128Z"
+      },
+      "episodeCount": 0,
+      "watchCount": 12461657,
+      "shareCount": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/6997/95cf7d86-a770-4262-a09c-551b74b74aed-6997.webp",
+      "isSubscribed": null
+    },
+    {
+      "id": 6568,
+      "name": "Secret Surgeon",
+      "description": "A genius surgeon disguises himself as a hospital cleaner to expose corruption and save lives with extraordinary medical skill.",
+      "genres": [
+        {
+          "id": 8,
+          "name": "Hidden Identity",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 23,
+          "name": "Empowerment",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 20,
+          "name": "Redemption",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        }
+      ],
+      "language": {
+        "id": 1,
+        "name": "हिन्दी",
+        "englishName": "Hindi",
+        "letter": "अ",
+        "isActive": true,
+        "createdAt": "2025-12-09T08:11:56.128Z",
+        "updatedAt": "2025-12-09T08:11:56.128Z"
+      },
+      "episodeCount": 0,
+      "watchCount": 11697608,
+      "shareCount": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/6568/1586eea5-a6a9-4994-ad83-42e33a333f9b-6568.webp",
+      "isSubscribed": null
+    },
+    {
+      "id": 6502,
+      "name": "Pyaar Ka X-Ray",
+      "description": "A struggling taxi driver gains mysterious x-ray vision powers, entering a dangerous world of antiques, secrets, curses, and destiny.",
+      "genres": [
+        {
+          "id": 9,
+          "name": "Twist of Fate",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 81,
+          "name": "Supernatural",
+          "createdAt": "2026-04-14T08:43:34.047Z",
+          "updatedAt": "2026-04-14T08:43:34.047Z"
+        },
+        {
+          "id": 7,
+          "name": "Rags to Riches",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        }
+      ],
+      "language": {
+        "id": 1,
+        "name": "हिन्दी",
+        "englishName": "Hindi",
+        "letter": "अ",
+        "isActive": true,
+        "createdAt": "2025-12-09T08:11:56.128Z",
+        "updatedAt": "2025-12-09T08:11:56.128Z"
+      },
+      "episodeCount": 0,
+      "watchCount": 11580062,
+      "shareCount": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/6502/373b8633-e9ec-43c0-99c2-3279d7b0e910.webp",
+      "isSubscribed": null
+    },
+    {
+      "id": 6471,
+      "name": "Yamlok Express",
+      "description": "Poor Ronak dies accidentally, bribes Yamlok, returns alive rich, exposes betrayal, fights destiny and love.",
+      "genres": [
+        {
+          "id": 81,
+          "name": "Supernatural",
+          "createdAt": "2026-04-14T08:43:34.047Z",
+          "updatedAt": "2026-04-14T08:43:34.047Z"
+        },
+        {
+          "id": 9,
+          "name": "Twist of Fate",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 7,
+          "name": "Rags to Riches",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        }
+      ],
+      "language": {
+        "id": 1,
+        "name": "हिन्दी",
+        "englishName": "Hindi",
+        "letter": "अ",
+        "isActive": true,
+        "createdAt": "2025-12-09T08:11:56.128Z",
+        "updatedAt": "2025-12-09T08:11:56.128Z"
+      },
+      "episodeCount": 0,
+      "watchCount": 11524851,
+      "shareCount": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/6471/d4f42b8d-afce-4b21-b326-3b118fcdd25d.webp",
+      "isSubscribed": null
+    },
+    {
+      "id": 6238,
+      "name": "Biwi ka Hatyara",
+      "description": "A heartbroken cop investigates brutal murder, unaware victim is his pregnant wife’s ghost.",
+      "genres": [
+        {
+          "id": 88,
+          "name": "Murder",
+          "createdAt": "2026-04-14T08:43:34.047Z",
+          "updatedAt": "2026-04-14T08:43:34.047Z"
+        },
+        {
+          "id": 68,
+          "name": "Dark Secrets",
+          "createdAt": "2026-04-14T08:43:34.047Z",
+          "updatedAt": "2026-04-14T08:43:34.047Z"
+        },
+        {
+          "id": 18,
+          "name": "Pregnancy",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        }
+      ],
+      "language": {
+        "id": 1,
+        "name": "हिन्दी",
+        "englishName": "Hindi",
+        "letter": "अ",
+        "isActive": true,
+        "createdAt": "2025-12-09T08:11:56.128Z",
+        "updatedAt": "2025-12-09T08:11:56.128Z"
+      },
+      "episodeCount": 0,
+      "watchCount": 11109878,
+      "shareCount": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/6238/8a271100-d859-463d-b751-f4ac710310bb.webp",
+      "isSubscribed": null
+    },
+    {
+      "id": 6205,
+      "name": "Dangerous Vijay",
+      "description": "A wronged man gains mystical power to destroy corrupt elites and reclaim justice, family, and honor. ",
+      "genres": [
+        {
+          "id": 7,
+          "name": "Rags to Riches",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 21,
+          "name": "Revenge",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 81,
+          "name": "Supernatural",
+          "createdAt": "2026-04-14T08:43:34.047Z",
+          "updatedAt": "2026-04-14T08:43:34.047Z"
+        }
+      ],
+      "language": {
+        "id": 1,
+        "name": "हिन्दी",
+        "englishName": "Hindi",
+        "letter": "अ",
+        "isActive": true,
+        "createdAt": "2025-12-09T08:11:56.128Z",
+        "updatedAt": "2025-12-09T08:11:56.128Z"
+      },
+      "episodeCount": 0,
+      "watchCount": 11051105,
+      "shareCount": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/6205/6205.webp",
+      "isSubscribed": null
+    },
+    {
+      "id": 5853,
+      "name": "Moving Ahead",
+      "description": "After being dumped as a “clingy loser,” a heartbroken William reinvents himself and rescues mysterious heiress Olivia—sparking jealousy in his ex Emily, who soon learns that crossing Olivia comes with dangerous consequences.",
+      "genres": [
+        {
+          "id": 4,
+          "name": "Love Triangle",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 21,
+          "name": "Revenge",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        },
+        {
+          "id": 22,
+          "name": "Secret Heiress",
+          "createdAt": "2025-04-15T10:18:39.872Z",
+          "updatedAt": "2025-04-15T10:18:39.872Z"
+        }
+      ],
+      "language": {
+        "id": 1,
+        "name": "हिन्दी",
+        "englishName": "Hindi",
+        "letter": "अ",
+        "isActive": true,
+        "createdAt": "2025-12-09T08:11:56.128Z",
+        "updatedAt": "2025-12-09T08:11:56.128Z"
+      },
+      "episodeCount": 0,
+      "watchCount": 10424193,
+      "shareCount": null,
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/5853/5853.webp",
+      "isSubscribed": null
+    }
+  ],
+  "note": "Aggregated from public show metadata — not company revenue"
+}

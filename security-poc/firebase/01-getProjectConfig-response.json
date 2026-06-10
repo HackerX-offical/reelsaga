@@ -1,0 +1,13 @@
+{
+  "error": {
+    "code": 400,
+    "message": "CONFIGURATION_NOT_FOUND",
+    "errors": [
+      {
+        "message": "CONFIGURATION_NOT_FOUND",
+        "domain": "global",
+        "reason": "invalid"
+      }
+    ]
+  }
+}

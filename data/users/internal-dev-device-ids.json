@@ -1,0 +1,6 @@
+{
+  "age_group_list": "[\"13-17\", \"18-24\", \"25-34\", \"35-49\", \"50+\"]",
+  "dev_device_id": "[\"b1ac461c620ee723\",\"5e967879330f68b2\",\"25a26d5f7cfb30a3\",\"b6e0629b0424cca9\",\"3679155bf91a2763\"]",
+  "show_login_as_nudge": "true",
+  "fcm_topic_data": "{ \"actives\": [\"all\", \"new-launch\", \"trending\"], \"inactives\": [] }"
+}
