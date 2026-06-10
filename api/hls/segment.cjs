@@ -1,20 +1,16 @@
-import { spawn } from "node:child_process";
-import { createHash } from "node:crypto";
-import { createRequire } from "node:module";
+const { spawn } = require("node:child_process");
+const { createHash } = require("node:crypto");
 
-const require = createRequire(import.meta.url);
+let ffmpegPath;
+try {
+  ffmpegPath = require("ffmpeg-static");
+} catch {
+  ffmpegPath = "ffmpeg";
+}
 
 const segmentCache = new Map();
 const inflight = new Map();
 const MAX_CACHE = 40;
-
-function ffmpegPath() {
-  try {
-    return require("ffmpeg-static");
-  } catch {
-    return "ffmpeg";
-  }
-}
 
 function transcodeSegment(url) {
   const key = createHash("sha1").update(url).digest("hex");
@@ -24,7 +20,7 @@ function transcodeSegment(url) {
   const job = new Promise((resolve, reject) => {
     const chunks = [];
     const ff = spawn(
-      ffmpegPath(),
+      ffmpegPath,
       [
         "-loglevel", "error",
         "-i", url,
@@ -53,11 +49,7 @@ function transcodeSegment(url) {
   return job;
 }
 
-export const config = {
-  maxDuration: 60,
-};
-
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
   const url = req.query?.url;
   if (!url) {
     res.status(400).json({ error: "Missing url" });
@@ -71,6 +63,12 @@ export default async function handler(req, res) {
     res.status(200).send(buf);
   } catch (err) {
     console.error("[hls/segment]", err);
-    res.status(502).json({ error: "Segment transcode failed", detail: String(err.message ?? err) });
+    res.status(502).json({
+      error: "Segment transcode failed",
+      detail: String(err.message ?? err),
+      ffmpeg: ffmpegPath ? "resolved" : "missing",
+    });
   }
-}
+};
+
+module.exports.config = { maxDuration: 60 };
