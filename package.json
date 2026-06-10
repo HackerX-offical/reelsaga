@@ -1,0 +1,12 @@
+{
+  "name": "reelsaga",
+  "private": true,
+  "description": "ReelSaga monorepo — Vercel deploys the web viewer from /web",
+  "scripts": {
+    "build": "npm run build --prefix web",
+    "dev": "npm run dev --prefix web"
+  },
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0"
+  }
+}

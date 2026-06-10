@@ -25,6 +25,7 @@ reelsaga/
 │   └── scrape-manifest.json
 ├── docs/                     # All documentation (flat)
 ├── proofs/                   # Credential PoC outputs (flat)
+├── web/                      # React viewer (black/red UI, HLS playback)
 └── scripts/                  # scrape-all, decode-apk, verify
 ```
 
@@ -36,5 +37,15 @@ reelsaga/
 | [data/api-coverage.json](data/api-coverage.json) | API probe matrix |
 | [docs/SECURITY-REPORT.md](docs/SECURITY-REPORT.md) | Security assessment |
 | [docs/00-INDEX.md](docs/00-INDEX.md) | Full doc index |
+
+## Web viewer
+
+```bash
+cd web && npm install && npm run dev
+```
+
+Live viewer at `http://localhost:5173` — streams from `api.reelsaga.in` + CloudFront HLS.
+
+**Vercel:** import the repo root — `vercel.json` builds and deploys `web/` automatically. See [web/README.md](web/README.md).
 
 Contains live production credentials — authorized security research only.

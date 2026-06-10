@@ -1,0 +1,68 @@
+.clip-row {
+  margin-bottom: clamp(28px, 3.5vw, 48px);
+}
+
+.clip-row__title {
+  font-family: var(--font-display);
+  font-size: var(--row-title);
+  font-weight: 600;
+  margin-bottom: clamp(10px, 1.2vw, 16px);
+}
+
+.clip-row__scroll {
+  display: flex;
+  gap: var(--card-gap);
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.clip-card {
+  position: relative;
+  flex: 0 0 clamp(100px, 10vw, 160px);
+  scroll-snap-align: start;
+}
+
+.clip-card img {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: contain;
+  background: linear-gradient(160deg, #1a1a1a, #0d0d0d);
+  border-radius: clamp(4px, 0.4vw, 8px);
+  border: 1px solid var(--border);
+  transition: transform 200ms, border-color 200ms;
+}
+
+.clip-card:hover img {
+  transform: scale(1.05);
+  border-color: rgba(229, 9, 20, 0.45);
+}
+
+.clip-card__play {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: clamp(32px, 3vw, 40px);
+  height: clamp(32px, 3vw, 40px);
+  display: grid;
+  place-items: center;
+  background: var(--red);
+  border-radius: 50%;
+  font-size: 11px;
+  padding-left: 2px;
+  opacity: 0;
+  transition: opacity 200ms;
+}
+
+.clip-card:hover .clip-card__play {
+  opacity: 1;
+}
+
+.clip-card__name {
+  font-size: clamp(11px, 1vw, 13px);
+  font-weight: 500;
+  margin-top: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

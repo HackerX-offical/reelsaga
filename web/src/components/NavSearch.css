@@ -1,0 +1,110 @@
+.nav-search {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  max-width: 44px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
+  overflow: hidden;
+  transition:
+    max-width 280ms var(--ease),
+    width 280ms var(--ease),
+    background 200ms var(--ease),
+    box-shadow 200ms var(--ease);
+}
+
+.nav-search--open,
+.nav-search:focus-within {
+  width: min(100%, 420px);
+  max-width: min(52vw, 420px);
+  background: rgba(18, 18, 18, 0.95);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.12), 0 8px 32px rgba(0, 0, 0, 0.45);
+}
+
+.nav--hero .nav-search {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.nav--hero .nav-search--open,
+.nav--hero .nav-search:focus-within {
+  background: rgba(0, 0, 0, 0.88);
+}
+
+.nav-search__icon-btn {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.nav-search__input {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-size: 15px;
+  padding: 0 8px 0 0;
+  opacity: 0;
+  width: 0;
+  transition: opacity 200ms var(--ease);
+}
+
+.nav-search--open .nav-search__input,
+.nav-search:focus-within .nav-search__input {
+  opacity: 1;
+  width: 100%;
+}
+
+.nav-search__input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.nav-search__input:focus {
+  outline: none;
+}
+
+.nav-search__submit {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  margin-right: 4px;
+  border-radius: 50%;
+  background: var(--red);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+}
+
+@media (min-width: 1024px) {
+  .nav-search {
+    width: min(360px, 32vw);
+    max-width: 420px;
+  }
+
+  .nav-search .nav-search__input {
+    opacity: 1;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .nav-search__icon-btn {
+    width: 48px;
+    pointer-events: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .nav-search--open,
+  .nav-search:focus-within {
+    max-width: calc(100vw - 120px);
+  }
+}

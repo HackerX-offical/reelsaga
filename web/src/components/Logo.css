@@ -1,0 +1,45 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.logo__img {
+  height: 32px;
+  width: auto;
+  max-width: 48px;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 0;
+  background: transparent;
+}
+
+.logo__text {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #fff;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.nav--hero .logo__text {
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.9);
+}
+
+.logo--compact .logo__img {
+  height: 28px;
+  max-width: 40px;
+}
+
+.logo--compact .logo__text {
+  font-size: 17px;
+}
+
+@media (max-width: 380px) {
+  .logo__text {
+    font-size: 17px;
+  }
+}
