@@ -1,3 +1,7 @@
+export const config = {
+  runtime: "edge",
+};
+
 function resolveUrl(base, relative) {
   if (relative.startsWith("http")) return relative;
   if (relative.startsWith("/")) return new URL(relative, base).href;
@@ -23,34 +27,42 @@ function rewritePlaylist(content, baseUrl, origin) {
     .join("\n");
 }
 
-function requestOrigin(req) {
-  const proto = req.headers["x-forwarded-proto"] ?? "https";
-  const host = req.headers["x-forwarded-host"] ?? req.headers.host ?? "";
-  return `${proto}://${host}`;
-}
-
-export default async function handler(req, res) {
-  const url = req.query?.url;
-  if (!url) {
-    res.status(400).json({ error: "Missing url" });
-    return;
+export default async function handler(req) {
+  const url = new URL(req.url);
+  const target = url.searchParams.get("url");
+  if (!target) {
+    return new Response(JSON.stringify({ error: "Missing url" }), {
+      status: 400,
+      headers: { "Content-Type": "application/json" },
+    });
   }
+
+  const origin = url.origin;
+
   try {
-    const upstream = await fetch(url, {
+    const upstream = await fetch(target, {
       headers: { "User-Agent": "ReelSaga-Web/1.0" },
     });
     if (!upstream.ok) {
-      res.status(502).json({ error: `Upstream ${upstream.status}` });
-      return;
+      return new Response(JSON.stringify({ error: `Upstream ${upstream.status}` }), {
+        status: 502,
+        headers: { "Content-Type": "application/json" },
+      });
     }
     const text = await upstream.text();
-    const body = rewritePlaylist(text, url, requestOrigin(req));
-    res.setHeader("Content-Type", "application/vnd.apple.mpegurl");
-    res.setHeader("Cache-Control", "no-cache");
-    res.setHeader("Access-Control-Allow-Origin", "*");
-    res.status(200).send(body);
+    const body = rewritePlaylist(text, target, origin);
+    return new Response(body, {
+      status: 200,
+      headers: {
+        "Content-Type": "application/vnd.apple.mpegurl",
+        "Cache-Control": "no-cache",
+        "Access-Control-Allow-Origin": "*",
+      },
+    });
   } catch (err) {
-    console.error("[hls/manifest]", err);
-    res.status(502).json({ error: "Manifest proxy failed", detail: String(err.message ?? err) });
+    return new Response(
+      JSON.stringify({ error: "Manifest proxy failed", detail: String(err) }),
+      { status: 502, headers: { "Content-Type": "application/json" } },
+    );
   }
 }
