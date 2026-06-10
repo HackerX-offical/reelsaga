@@ -35,12 +35,20 @@ async function apiGet<T>(path: string, retry = true): Promise<T> {
     return apiGet<T>(clean, false);
   }
 
+  const body = await res.text().catch(() => "");
+
   if (!res.ok) {
-    const errBody = await res.text().catch(() => "");
-    throw new Error(`API error ${res.status}: ${clean}${errBody ? ` — ${errBody.slice(0, 80)}` : ""}`);
+    throw new Error(`API error ${res.status}: ${clean}${body ? ` — ${body.slice(0, 80)}` : ""}`);
   }
 
-  const json = (await res.json()) as ApiResponse<T>;
+  let json: ApiResponse<T>;
+  try {
+    json = JSON.parse(body) as ApiResponse<T>;
+  } catch {
+    throw new Error(
+      `API returned HTML instead of JSON for /${clean}. Check Vercel Root Directory is set to "web" and redeploy.`,
+    );
+  }
   if (json.success === false) throw new Error(json.message ?? `Failed: ${clean}`);
   if (json.data == null) throw new Error(`Empty response: ${clean}`);
   return json.data;
@@ -51,7 +59,8 @@ async function apiGetOptional<T>(path: string, headers: Record<string, string>):
     const clean = path.replace(/^\//, "");
     const res = await fetch(`/api/${clean}`, { headers });
     if (!res.ok) return null;
-    const json = (await res.json()) as ApiResponse<T>;
+    const body = await res.text();
+    const json = JSON.parse(body) as ApiResponse<T>;
     return json.data ?? null;
   } catch {
     return null;

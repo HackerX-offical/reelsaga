@@ -15,15 +15,16 @@ Requires **ffmpeg** for Chrome/Firefox video (`brew install ffmpeg`).
 ## Deploy to Vercel
 
 1. Import repo on [vercel.com](https://vercel.com)
-2. Set **Root Directory** → `web`
-3. Framework preset: **Vite** (auto-detected from `vercel.json`)
-4. Deploy
+2. **Recommended:** set **Root Directory** → `web`, then deploy
+3. **Or:** leave Root Directory empty — root `vercel.json` builds `web/` automatically
 
-All serverless routes live in `web/api/` (no duplicate at repo root):
+API routing (no serverless proxy needed for JSON):
 
-- `/api/*` → proxy to `api.reelsaga.in`
-- `/hls/*` → ffmpeg HEVC → H.264 transcode
+- `/api/*` → edge rewrite to `api.reelsaga.in`
+- `/hls/*` → serverless ffmpeg transcode (`web/api/hls/`)
 - SPA fallback for React Router
+
+If you see *"The page could not be found"* or *"not valid JSON"*, the API rewrite is missing — redeploy after pulling latest `vercel.json`.
 
 ## Features
 

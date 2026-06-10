@@ -1,26 +1,27 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "framework": "vite",
+  "installCommand": "cd web && npm install",
+  "buildCommand": "cd web && npm run build",
+  "outputDirectory": "web/dist",
+  "framework": null,
   "functions": {
-    "api/hls/segment.js": {
+    "web/api/hls/segment.js": {
       "maxDuration": 60,
       "memory": 1024,
-      "includeFiles": "node_modules/ffmpeg-static/**"
+      "includeFiles": "web/node_modules/ffmpeg-static/**"
     },
-    "api/hls/manifest.js": {
+    "web/api/hls/manifest.js": {
       "maxDuration": 30
     }
   },
   "rewrites": [
     {
       "source": "/hls/manifest",
-      "destination": "/api/hls/manifest"
+      "destination": "/web/api/hls/manifest"
     },
     {
       "source": "/hls/segment",
-      "destination": "/api/hls/segment"
+      "destination": "/web/api/hls/segment"
     },
     {
       "source": "/api/(?!hls/)(.*)",
@@ -29,14 +30,6 @@
     {
       "source": "/((?!api/|hls/|assets/|.*\\..*).*)",
       "destination": "/index.html"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" }
-      ]
     }
   ]
 }

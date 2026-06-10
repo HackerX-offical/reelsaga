@@ -79,11 +79,19 @@ async function fetchNewToken(): Promise<string> {
     }),
   });
 
-  const json = (await res.json()) as {
+  const raw = await res.text();
+  let json: {
     success?: boolean;
     data?: { accessToken?: string; expiresIn?: number };
     message?: string;
   };
+  try {
+    json = JSON.parse(raw);
+  } catch {
+    throw new Error(
+      `Auth proxy returned non-JSON (${res.status}). Set Vercel Root Directory to "web" and redeploy.`,
+    );
+  }
 
   if (!res.ok || !json.data?.accessToken) {
     throw new Error(json.message ?? `Auth failed (${res.status})`);
