@@ -8,11 +8,10 @@
     "api/hls/segment.js": {
       "maxDuration": 60,
       "memory": 3008,
-      "includeFiles": "web/api/hls/handlers.mjs,web/node_modules/ffmpeg-static/**"
+      "includeFiles": "web/node_modules/ffmpeg-static/**"
     },
     "api/hls/manifest.js": {
-      "maxDuration": 30,
-      "includeFiles": "web/api/hls/handlers.mjs"
+      "maxDuration": 30
     }
   },
   "rewrites": [
