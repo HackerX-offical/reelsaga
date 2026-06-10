@@ -10,11 +10,11 @@
 ## Phase 1 — APK static extraction
 
 ```bash
-./scripts/decode-apk.sh artifacts/reelsaga.apk   # optional
-./scripts/01-extract-secrets-from-apk.sh artifacts/reelsaga.apk
+./scripts/decode-apk.sh artifacts/reelsaga.apk   # optional (~200MB)
+./scripts/01-extract-secrets-from-apk.sh
 ```
 
-Output: `data/apk/` (strings, manifests, assets)
+Output: `data/app/embedded/` (strings, manifests, assets)
 
 ## Phase 2 — Production secrets
 
@@ -26,9 +26,9 @@ Scraper package: `scraper/reelsaga_scraper/`
 
 1. Create Firebase Installation (`fId`) using APK key
 2. `POST /auth/token` with `fId` + `aId` — no OTP
-3. Bearer JWT → home, trailers, clips, 132 show details, episode `.m3u8` URLs
+3. Bearer JWT → home, trailers, clips, show details, episode `.m3u8` URLs
 
-Output: `data/content/shows/{id}-{name}.json`, `data/users/`, `data/company/`, `data/business/`, `data/media/`
+Output: `data/content/shows/{id}-{slug}.json`, `data/users/`, `data/company/`, `data/business/`, `data/media/`
 
 ## Phase 4 — Security PoC
 
@@ -37,8 +37,8 @@ Output: `data/content/shows/{id}-{name}.json`, `data/users/`, `data/company/`, `
 ./scripts/03-verify-facebook-token.sh
 ```
 
-Output: `security-poc/`
+Output: `proofs/`
 
 ## Blocked without OTP
 
-`user/verify` requires phone OTP — logged-in user PII not scraped.
+`user/verify` requires phone OTP — logged-in user PII and bulk user database not scraped.

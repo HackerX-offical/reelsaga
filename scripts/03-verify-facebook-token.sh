@@ -4,11 +4,11 @@ set -euo pipefail
 
 TOKEN="${FACEBOOK_CLIENT_TOKEN:-}"
 APP_ID="${FACEBOOK_APP_ID:-}"
-OUT_DIR="$(cd "$(dirname "$0")/.." && pwd)/security-poc/facebook"
+OUT_DIR="$(cd "$(dirname "$0")/.." && pwd)/proofs/facebook"
 mkdir -p "$OUT_DIR"
 
 if [[ -z "$TOKEN" || -z "$APP_ID" ]]; then
-  STRINGS="$(cd "$(dirname "$0")/.." && pwd)/data/apk/strings/strings.xml"
+  STRINGS="$(cd "$(dirname "$0")/.." && pwd)/data/app/embedded/strings/strings.xml"
   if [[ -f "$STRINGS" ]]; then
     APP_ID=$(rg -o 'facebook_app_id">[0-9]+' "$STRINGS" | head -1 | rg -o '[0-9]+' || true)
     TOKEN=$(rg -o 'facebook_client_token">[^<]+' "$STRINGS" | head -1 | sed 's/facebook_client_token">//' || true)

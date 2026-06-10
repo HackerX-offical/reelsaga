@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Decode APK with apktool (optional — regenerates analysis/apktool/)
+# Decode APK with apktool (optional — ~200MB; gitignored)
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 APK="${1:-$ROOT/artifacts/reelsaga.apk}"
-OUT="$ROOT/analysis/apktool"
+OUT="$ROOT/data/app/decoded"
 TMP=$(mktemp -d)
 trap 'rm -rf "$TMP"' EXIT
 
@@ -13,4 +13,4 @@ BASE="$TMP/in.reelsaga.android.apk"
 [[ -f "$BASE" ]] || BASE="$APK"
 rm -rf "$OUT"
 apktool d -f -o "$OUT" "$BASE"
-echo "Decoded to $OUT"
+echo "Decoded to $OUT (not committed — see .gitignore)"

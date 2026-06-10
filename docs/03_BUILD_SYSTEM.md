@@ -110,17 +110,12 @@ This can help correlate APK builds to internal git history if repo is ever expos
 
 | Directory | Tool | Size |
 |-----------|------|------|
-| `analysis/apktool/` | apktool | ~203 MB |
+| `data/app/decoded/` | apktool via `./scripts/decode-apk.sh` | ~200 MB (gitignored) |
 
 ## How to reproduce analysis
 
 ```bash
-# Extract XAPK
-unzip artifacts/reelsaga.apk -d /tmp/reelsaga-extract/
-
-# Decode base APK
-apktool d -o analysis/apktool artifacts/in.reelsaga.android.apk
-
-# Decompile
-jadx -d analysis/jadx artifacts/in.reelsaga.android.apk
+./scripts/decode-apk.sh artifacts/reelsaga.apk   # → data/app/decoded/
+./scripts/01-extract-secrets-from-apk.sh
+./scripts/scrape-all.sh
 ```

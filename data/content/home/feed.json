@@ -83,41 +83,6 @@
         "watchCount": 0
       },
       {
-        "id": 97,
-        "name": "Pyaar Ke Teen Vaar",
-        "description": "A loyal dad is pushed to the edge when his powerful wife uses love, lies, and office politics to crush him—until his daughter gives her mother just three chances to win them back.",
-        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/97/f1c51b88-93bf-4f96-8e3f-c859ff2e41c3-97.webp",
-        "source": "95-original",
-        "freeEpisodesCount": 11,
-        "languageId": 1,
-        "createdAt": "2025-05-13T07:24:37.216Z",
-        "updatedAt": "2026-06-10T07:49:02.230Z",
-        "genres": [
-          {
-            "id": 6,
-            "name": "Toxic Relationship",
-            "createdAt": "2025-04-15T10:18:39.872Z",
-            "updatedAt": "2025-04-15T10:18:39.872Z"
-          },
-          {
-            "id": 28,
-            "name": "One Night Stand",
-            "createdAt": "2025-04-15T10:18:39.872Z",
-            "updatedAt": "2025-04-15T10:18:39.872Z"
-          }
-        ],
-        "language": {
-          "id": 1,
-          "name": "हिन्दी",
-          "englishName": "Hindi",
-          "letter": "अ",
-          "isActive": true,
-          "createdAt": "2025-12-09T08:11:56.128Z",
-          "updatedAt": "2025-12-09T08:11:56.128Z"
-        },
-        "watchCount": 17266
-      },
-      {
         "id": 7492,
         "name": "Secret Shaadi",
         "description": "A poor girl marries a cold CEO for her father’s treatment, hiding identity as love slowly blossoms.",
@@ -129,8 +94,8 @@
         "updatedAt": "2026-04-17T14:40:57.352Z",
         "genres": [
           {
-            "id": 8,
-            "name": "Hidden Identity",
+            "id": 17,
+            "name": "Love After Marriage",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
@@ -164,8 +129,8 @@
         "updatedAt": "2026-06-08T14:05:32.349Z",
         "genres": [
           {
-            "id": 16,
-            "name": "Betrayal",
+            "id": 30,
+            "name": "Second Chance",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
@@ -188,6 +153,41 @@
         "watchCount": 528838
       },
       {
+        "id": 7327,
+        "name": "Boss Baby",
+        "description": "A mystical immortal reborn as a baby protects his parents, battling dark forces, power struggles, and destiny.",
+        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/7327/2d3c2e3a-0540-4a3f-beb2-522c690c1d36-7327.webp",
+        "source": "95-original",
+        "freeEpisodesCount": 11,
+        "languageId": 1,
+        "createdAt": "2026-04-08T11:28:56.669Z",
+        "updatedAt": "2026-04-08T11:29:39.592Z",
+        "genres": [
+          {
+            "id": 81,
+            "name": "Supernatural",
+            "createdAt": "2026-04-14T08:43:34.047Z",
+            "updatedAt": "2026-04-14T08:43:34.047Z"
+          },
+          {
+            "id": 18,
+            "name": "Pregnancy",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          }
+        ],
+        "language": {
+          "id": 1,
+          "name": "हिन्दी",
+          "englishName": "Hindi",
+          "letter": "अ",
+          "isActive": true,
+          "createdAt": "2025-12-09T08:11:56.128Z",
+          "updatedAt": "2025-12-09T08:11:56.128Z"
+        },
+        "watchCount": 1304206
+      },
+      {
         "id": 6238,
         "name": "Biwi ka Hatyara",
         "description": "A heartbroken cop investigates brutal murder, unaware victim is his pregnant wife’s ghost.",
@@ -205,8 +205,8 @@
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 68,
-            "name": "Dark Secrets",
+            "id": 88,
+            "name": "Murder",
             "createdAt": "2026-04-14T08:43:34.047Z",
             "updatedAt": "2026-04-14T08:43:34.047Z"
           }
@@ -223,27 +223,27 @@
         "watchCount": 1110364
       },
       {
-        "id": 7327,
-        "name": "Boss Baby",
-        "description": "A mystical immortal reborn as a baby protects his parents, battling dark forces, power struggles, and destiny.",
-        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/7327/2d3c2e3a-0540-4a3f-beb2-522c690c1d36-7327.webp",
+        "id": 97,
+        "name": "Pyaar Ke Teen Vaar",
+        "description": "A loyal dad is pushed to the edge when his powerful wife uses love, lies, and office politics to crush him—until his daughter gives her mother just three chances to win them back.",
+        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/97/f1c51b88-93bf-4f96-8e3f-c859ff2e41c3-97.webp",
         "source": "95-original",
         "freeEpisodesCount": 11,
         "languageId": 1,
-        "createdAt": "2026-04-08T11:28:56.669Z",
-        "updatedAt": "2026-04-08T11:29:39.592Z",
+        "createdAt": "2025-05-13T07:24:37.216Z",
+        "updatedAt": "2026-06-10T07:49:02.230Z",
         "genres": [
           {
-            "id": 34,
-            "name": "Power Struggle",
+            "id": 28,
+            "name": "One Night Stand",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 81,
-            "name": "Supernatural",
-            "createdAt": "2026-04-14T08:43:34.047Z",
-            "updatedAt": "2026-04-14T08:43:34.047Z"
+            "id": 6,
+            "name": "Toxic Relationship",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
           }
         ],
         "language": {
@@ -255,7 +255,7 @@
           "createdAt": "2025-12-09T08:11:56.128Z",
           "updatedAt": "2025-12-09T08:11:56.128Z"
         },
-        "watchCount": 1304206
+        "watchCount": 17266
       },
       {
         "id": 7459,
@@ -269,8 +269,8 @@
         "updatedAt": "2026-04-14T14:12:26.222Z",
         "genres": [
           {
-            "id": 17,
-            "name": "Love After Marriage",
+            "id": 4,
+            "name": "Love Triangle",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
@@ -310,8 +310,8 @@
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 34,
-            "name": "Power Struggle",
+            "id": 20,
+            "name": "Redemption",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -339,8 +339,8 @@
         "updatedAt": "2025-11-14T12:52:24.459Z",
         "genres": [
           {
-            "id": 20,
-            "name": "Redemption",
+            "id": 7,
+            "name": "Rags to Riches",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
@@ -380,8 +380,8 @@
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 8,
-            "name": "Hidden Identity",
+            "id": 6,
+            "name": "Toxic Relationship",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -409,14 +409,14 @@
         "updatedAt": "2026-04-24T10:52:00.909Z",
         "genres": [
           {
-            "id": 9,
-            "name": "Twist of Fate",
+            "id": 16,
+            "name": "Betrayal",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 8,
-            "name": "Hidden Identity",
+            "id": 9,
+            "name": "Twist of Fate",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -450,8 +450,8 @@
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 16,
-            "name": "Betrayal",
+            "id": 20,
+            "name": "Redemption",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -479,14 +479,14 @@
         "updatedAt": "2026-06-08T14:06:48.461Z",
         "genres": [
           {
-            "id": 7,
-            "name": "Rags to Riches",
+            "id": 34,
+            "name": "Power Struggle",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 8,
-            "name": "Hidden Identity",
+            "id": 7,
+            "name": "Rags to Riches",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -514,14 +514,14 @@
         "updatedAt": "2025-08-14T18:23:05.889Z",
         "genres": [
           {
-            "id": 7,
-            "name": "Rags to Riches",
+            "id": 16,
+            "name": "Betrayal",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 21,
-            "name": "Revenge",
+            "id": 7,
+            "name": "Rags to Riches",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -549,8 +549,8 @@
         "updatedAt": "2025-08-01T18:07:19.024Z",
         "genres": [
           {
-            "id": 7,
-            "name": "Rags to Riches",
+            "id": 8,
+            "name": "Hidden Identity",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
@@ -584,10 +584,10 @@
         "updatedAt": "2026-04-03T16:32:04.610Z",
         "genres": [
           {
-            "id": 81,
-            "name": "Supernatural",
-            "createdAt": "2026-04-14T08:43:34.047Z",
-            "updatedAt": "2026-04-14T08:43:34.047Z"
+            "id": 3,
+            "name": "Billionaire",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
             "id": 8,
@@ -619,8 +619,8 @@
         "updatedAt": "2026-06-10T07:51:26.921Z",
         "genres": [
           {
-            "id": 23,
-            "name": "Empowerment",
+            "id": 20,
+            "name": "Redemption",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
@@ -654,8 +654,8 @@
         "updatedAt": "2026-02-06T14:27:19.160Z",
         "genres": [
           {
-            "id": 3,
-            "name": "Billionaire",
+            "id": 26,
+            "name": "Love After Betrayal",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
@@ -695,8 +695,8 @@
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 17,
-            "name": "Love After Marriage",
+            "id": 7,
+            "name": "Rags to Riches",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -759,14 +759,14 @@
         "updatedAt": "2026-06-10T07:54:36.458Z",
         "genres": [
           {
-            "id": 6,
-            "name": "Toxic Relationship",
+            "id": 8,
+            "name": "Hidden Identity",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 21,
-            "name": "Revenge",
+            "id": 6,
+            "name": "Toxic Relationship",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -800,8 +800,8 @@
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 7,
-            "name": "Rags to Riches",
+            "id": 21,
+            "name": "Revenge",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -816,41 +816,6 @@
           "updatedAt": "2025-12-09T08:11:56.128Z"
         },
         "watchCount": 464402
-      },
-      {
-        "id": 4753,
-        "name": "Ghar Jamai Godfather",
-        "description": "A seemingly henpecked husband hides a powerful secret, balancing family humiliation, love, and an explosive double life. ",
-        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/4753/4753.webp",
-        "source": "95-original",
-        "freeEpisodesCount": 11,
-        "languageId": 1,
-        "createdAt": "2026-01-10T05:25:10.118Z",
-        "updatedAt": "2026-01-10T05:25:10.118Z",
-        "genres": [
-          {
-            "id": 29,
-            "name": "Family Drama",
-            "createdAt": "2025-04-15T10:18:39.872Z",
-            "updatedAt": "2025-04-15T10:18:39.872Z"
-          },
-          {
-            "id": 9,
-            "name": "Twist of Fate",
-            "createdAt": "2025-04-15T10:18:39.872Z",
-            "updatedAt": "2025-04-15T10:18:39.872Z"
-          }
-        ],
-        "language": {
-          "id": 1,
-          "name": "हिन्दी",
-          "englishName": "Hindi",
-          "letter": "अ",
-          "isActive": true,
-          "createdAt": "2025-12-09T08:11:56.128Z",
-          "updatedAt": "2025-12-09T08:11:56.128Z"
-        },
-        "watchCount": 846034
       },
       {
         "id": 6502,
@@ -870,10 +835,10 @@
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 7,
-            "name": "Rags to Riches",
-            "createdAt": "2025-04-15T10:18:39.872Z",
-            "updatedAt": "2025-04-15T10:18:39.872Z"
+            "id": 81,
+            "name": "Supernatural",
+            "createdAt": "2026-04-14T08:43:34.047Z",
+            "updatedAt": "2026-04-14T08:43:34.047Z"
           }
         ],
         "language": {
@@ -888,6 +853,41 @@
         "watchCount": 1157356
       },
       {
+        "id": 4753,
+        "name": "Ghar Jamai Godfather",
+        "description": "A seemingly henpecked husband hides a powerful secret, balancing family humiliation, love, and an explosive double life. ",
+        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/4753/4753.webp",
+        "source": "95-original",
+        "freeEpisodesCount": 11,
+        "languageId": 1,
+        "createdAt": "2026-01-10T05:25:10.118Z",
+        "updatedAt": "2026-01-10T05:25:10.118Z",
+        "genres": [
+          {
+            "id": 29,
+            "name": "Family Drama",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          },
+          {
+            "id": 8,
+            "name": "Hidden Identity",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          }
+        ],
+        "language": {
+          "id": 1,
+          "name": "हिन्दी",
+          "englishName": "Hindi",
+          "letter": "अ",
+          "isActive": true,
+          "createdAt": "2025-12-09T08:11:56.128Z",
+          "updatedAt": "2025-12-09T08:11:56.128Z"
+        },
+        "watchCount": 846034
+      },
+      {
         "id": 4687,
         "name": "Superbhai",
         "description": "A betrayed young man gains a supernatural lottery system, powerful divine sisters, and rises to crush enemies seeking revenge and redemption.",
@@ -899,10 +899,10 @@
         "updatedAt": "2025-12-31T08:59:19.349Z",
         "genres": [
           {
-            "id": 7,
-            "name": "Rags to Riches",
-            "createdAt": "2025-04-15T10:18:39.872Z",
-            "updatedAt": "2025-04-15T10:18:39.872Z"
+            "id": 81,
+            "name": "Supernatural",
+            "createdAt": "2026-04-14T08:43:34.047Z",
+            "updatedAt": "2026-04-14T08:43:34.047Z"
           },
           {
             "id": 21,
@@ -934,14 +934,14 @@
         "updatedAt": "2025-08-23T17:01:04.794Z",
         "genres": [
           {
-            "id": 16,
-            "name": "Betrayal",
+            "id": 29,
+            "name": "Family Drama",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 26,
-            "name": "Love After Betrayal",
+            "id": 16,
+            "name": "Betrayal",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -1039,8 +1039,8 @@
         "updatedAt": "2025-06-30T04:03:17.086Z",
         "genres": [
           {
-            "id": 21,
-            "name": "Revenge",
+            "id": 16,
+            "name": "Betrayal",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
@@ -1144,14 +1144,14 @@
         "updatedAt": "2026-06-10T07:53:13.092Z",
         "genres": [
           {
-            "id": 7,
-            "name": "Rags to Riches",
+            "id": 20,
+            "name": "Redemption",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 20,
-            "name": "Redemption",
+            "id": 8,
+            "name": "Hidden Identity",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -1179,8 +1179,8 @@
         "updatedAt": "2025-11-04T07:42:08.327Z",
         "genres": [
           {
-            "id": 29,
-            "name": "Family Drama",
+            "id": 21,
+            "name": "Revenge",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
@@ -1214,14 +1214,14 @@
         "updatedAt": "2026-06-10T07:51:57.700Z",
         "genres": [
           {
-            "id": 29,
-            "name": "Family Drama",
+            "id": 7,
+            "name": "Rags to Riches",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 7,
-            "name": "Rags to Riches",
+            "id": 4,
+            "name": "Love Triangle",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -1249,14 +1249,14 @@
         "updatedAt": "2025-08-01T17:23:07.647Z",
         "genres": [
           {
-            "id": 21,
-            "name": "Revenge",
+            "id": 16,
+            "name": "Betrayal",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 16,
-            "name": "Betrayal",
+            "id": 21,
+            "name": "Revenge",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -1290,8 +1290,8 @@
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 13,
-            "name": "Forced Marriage",
+            "id": 4,
+            "name": "Love Triangle",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -1319,14 +1319,14 @@
         "updatedAt": "2025-09-29T11:29:15.996Z",
         "genres": [
           {
-            "id": 8,
-            "name": "Hidden Identity",
+            "id": 20,
+            "name": "Redemption",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 16,
-            "name": "Betrayal",
+            "id": 8,
+            "name": "Hidden Identity",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -1354,14 +1354,14 @@
         "updatedAt": "2025-12-19T09:16:51.337Z",
         "genres": [
           {
-            "id": 29,
-            "name": "Family Drama",
+            "id": 20,
+            "name": "Redemption",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 8,
-            "name": "Hidden Identity",
+            "id": 29,
+            "name": "Family Drama",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -1424,14 +1424,14 @@
         "updatedAt": "2025-08-09T14:15:39.726Z",
         "genres": [
           {
-            "id": 26,
-            "name": "Love After Betrayal",
+            "id": 31,
+            "name": "Female Empowerment",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 31,
-            "name": "Female Empowerment",
+            "id": 26,
+            "name": "Love After Betrayal",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -1446,41 +1446,6 @@
           "updatedAt": "2025-12-09T08:11:56.128Z"
         },
         "watchCount": 276256
-      },
-      {
-        "id": 2641,
-        "name": "Secret Shehzada",
-        "description": "A humble salesman’s fake romance spirals into war, revealing his secret heirship to a billion-dollar empire.",
-        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/2641/a2bffebe-98fb-45f6-a784-682b5ac12c1a-2641.webp",
-        "source": "95-original",
-        "freeEpisodesCount": 11,
-        "languageId": 1,
-        "createdAt": "2025-09-18T13:52:44.957Z",
-        "updatedAt": "2026-06-08T14:04:25.347Z",
-        "genres": [
-          {
-            "id": 29,
-            "name": "Family Drama",
-            "createdAt": "2025-04-15T10:18:39.872Z",
-            "updatedAt": "2025-04-15T10:18:39.872Z"
-          },
-          {
-            "id": 7,
-            "name": "Rags to Riches",
-            "createdAt": "2025-04-15T10:18:39.872Z",
-            "updatedAt": "2025-04-15T10:18:39.872Z"
-          }
-        ],
-        "language": {
-          "id": 1,
-          "name": "हिन्दी",
-          "englishName": "Hindi",
-          "letter": "अ",
-          "isActive": true,
-          "createdAt": "2025-12-09T08:11:56.128Z",
-          "updatedAt": "2025-12-09T08:11:56.128Z"
-        },
-        "watchCount": 470098
       },
       {
         "id": 1024,
@@ -1516,6 +1481,41 @@
           "updatedAt": "2025-12-09T08:11:56.128Z"
         },
         "watchCount": 182272
+      },
+      {
+        "id": 2641,
+        "name": "Secret Shehzada",
+        "description": "A humble salesman’s fake romance spirals into war, revealing his secret heirship to a billion-dollar empire.",
+        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/2641/a2bffebe-98fb-45f6-a784-682b5ac12c1a-2641.webp",
+        "source": "95-original",
+        "freeEpisodesCount": 11,
+        "languageId": 1,
+        "createdAt": "2025-09-18T13:52:44.957Z",
+        "updatedAt": "2026-06-08T14:04:25.347Z",
+        "genres": [
+          {
+            "id": 7,
+            "name": "Rags to Riches",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          },
+          {
+            "id": 29,
+            "name": "Family Drama",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          }
+        ],
+        "language": {
+          "id": 1,
+          "name": "हिन्दी",
+          "englishName": "Hindi",
+          "letter": "अ",
+          "isActive": true,
+          "createdAt": "2025-12-09T08:11:56.128Z",
+          "updatedAt": "2025-12-09T08:11:56.128Z"
+        },
+        "watchCount": 470098
       },
       {
         "id": 925,
@@ -1564,10 +1564,10 @@
         "updatedAt": "2026-05-15T13:10:06.536Z",
         "genres": [
           {
-            "id": 9,
-            "name": "Twist of Fate",
-            "createdAt": "2025-04-15T10:18:39.872Z",
-            "updatedAt": "2025-04-15T10:18:39.872Z"
+            "id": 81,
+            "name": "Supernatural",
+            "createdAt": "2026-04-14T08:43:34.047Z",
+            "updatedAt": "2026-04-14T08:43:34.047Z"
           },
           {
             "id": 7,
@@ -1599,14 +1599,14 @@
         "updatedAt": "2026-06-08T14:03:51.877Z",
         "genres": [
           {
-            "id": 20,
-            "name": "Redemption",
+            "id": 23,
+            "name": "Empowerment",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 23,
-            "name": "Empowerment",
+            "id": 7,
+            "name": "Rags to Riches",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -1640,8 +1640,8 @@
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 34,
-            "name": "Power Struggle",
+            "id": 8,
+            "name": "Hidden Identity",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -1669,14 +1669,14 @@
         "updatedAt": "2025-10-13T07:38:26.498Z",
         "genres": [
           {
-            "id": 21,
-            "name": "Revenge",
+            "id": 7,
+            "name": "Rags to Riches",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 29,
-            "name": "Family Drama",
+            "id": 21,
+            "name": "Revenge",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -1704,14 +1704,14 @@
         "updatedAt": "2025-09-26T09:41:37.308Z",
         "genres": [
           {
-            "id": 29,
-            "name": "Family Drama",
+            "id": 34,
+            "name": "Power Struggle",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 34,
-            "name": "Power Struggle",
+            "id": 29,
+            "name": "Family Drama",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -1745,8 +1745,8 @@
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 34,
-            "name": "Power Struggle",
+            "id": 21,
+            "name": "Revenge",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -1774,8 +1774,8 @@
         "updatedAt": "2025-09-05T07:58:31.785Z",
         "genres": [
           {
-            "id": 8,
-            "name": "Hidden Identity",
+            "id": 7,
+            "name": "Rags to Riches",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
@@ -1833,6 +1833,41 @@
         "watchCount": 1421686
       },
       {
+        "id": 6205,
+        "name": "Dangerous Vijay",
+        "description": "A wronged man gains mystical power to destroy corrupt elites and reclaim justice, family, and honor. ",
+        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/6205/6205.webp",
+        "source": "95-original",
+        "freeEpisodesCount": 11,
+        "languageId": 1,
+        "createdAt": "2026-02-20T14:57:18.904Z",
+        "updatedAt": "2026-02-20T14:59:00.283Z",
+        "genres": [
+          {
+            "id": 81,
+            "name": "Supernatural",
+            "createdAt": "2026-04-14T08:43:34.047Z",
+            "updatedAt": "2026-04-14T08:43:34.047Z"
+          },
+          {
+            "id": 21,
+            "name": "Revenge",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          }
+        ],
+        "language": {
+          "id": 1,
+          "name": "हिन्दी",
+          "englishName": "Hindi",
+          "letter": "अ",
+          "isActive": true,
+          "createdAt": "2025-12-09T08:11:56.128Z",
+          "updatedAt": "2025-12-09T08:11:56.128Z"
+        },
+        "watchCount": 1104490
+      },
+      {
         "id": 6568,
         "name": "Secret Surgeon",
         "description": "A genius surgeon disguises himself as a hospital cleaner to expose corruption and save lives with extraordinary medical skill.",
@@ -1868,41 +1903,6 @@
         "watchCount": 1169104
       },
       {
-        "id": 6205,
-        "name": "Dangerous Vijay",
-        "description": "A wronged man gains mystical power to destroy corrupt elites and reclaim justice, family, and honor. ",
-        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/6205/6205.webp",
-        "source": "95-original",
-        "freeEpisodesCount": 11,
-        "languageId": 1,
-        "createdAt": "2026-02-20T14:57:18.904Z",
-        "updatedAt": "2026-02-20T14:59:00.283Z",
-        "genres": [
-          {
-            "id": 21,
-            "name": "Revenge",
-            "createdAt": "2025-04-15T10:18:39.872Z",
-            "updatedAt": "2025-04-15T10:18:39.872Z"
-          },
-          {
-            "id": 7,
-            "name": "Rags to Riches",
-            "createdAt": "2025-04-15T10:18:39.872Z",
-            "updatedAt": "2025-04-15T10:18:39.872Z"
-          }
-        ],
-        "language": {
-          "id": 1,
-          "name": "हिन्दी",
-          "englishName": "Hindi",
-          "letter": "अ",
-          "isActive": true,
-          "createdAt": "2025-12-09T08:11:56.128Z",
-          "updatedAt": "2025-12-09T08:11:56.128Z"
-        },
-        "watchCount": 1104490
-      },
-      {
         "id": 1882,
         "name": "Ek Raat Ki Raani",
         "description": "A single mother’s past resurfaces when her son’s truth collides with a billionaire’s hidden pain.",
@@ -1914,14 +1914,14 @@
         "updatedAt": "2025-08-13T19:15:08.339Z",
         "genres": [
           {
-            "id": 29,
-            "name": "Family Drama",
+            "id": 26,
+            "name": "Love After Betrayal",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 26,
-            "name": "Love After Betrayal",
+            "id": 29,
+            "name": "Family Drama",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -1973,15 +1973,15 @@
         "watchCount": 158776
       },
       {
-        "id": 4522,
-        "name": "Baba Ji Ki JadiBooti",
-        "description": "A loyal husband’s secret military identity collides with a reality show exposing hidden truths and relationships.",
-        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/4522/4522.webp",
+        "id": 5743,
+        "name": "Kadhai Ki Ladai",
+        "description": "A modern man time-travels to ancient India, using future cooking skills to rise from poverty to power.",
+        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/5743/5743.webp",
         "source": "95-original",
         "freeEpisodesCount": 11,
         "languageId": 1,
-        "createdAt": "2025-12-11T14:14:14.206Z",
-        "updatedAt": "2025-12-11T14:14:14.206Z",
+        "createdAt": "2026-02-17T11:34:13.921Z",
+        "updatedAt": "2026-02-17T11:42:43.236Z",
         "genres": [
           {
             "id": 9,
@@ -2005,28 +2005,28 @@
           "createdAt": "2025-12-09T08:11:56.128Z",
           "updatedAt": "2025-12-09T08:11:56.128Z"
         },
-        "watchCount": 804916
+        "watchCount": 1022254
       },
       {
-        "id": 5743,
-        "name": "Kadhai Ki Ladai",
-        "description": "A modern man time-travels to ancient India, using future cooking skills to rise from poverty to power.",
-        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/5743/5743.webp",
+        "id": 4522,
+        "name": "Baba Ji Ki JadiBooti",
+        "description": "A loyal husband’s secret military identity collides with a reality show exposing hidden truths and relationships.",
+        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/4522/4522.webp",
         "source": "95-original",
         "freeEpisodesCount": 11,
         "languageId": 1,
-        "createdAt": "2026-02-17T11:34:13.921Z",
-        "updatedAt": "2026-02-17T11:42:43.236Z",
+        "createdAt": "2025-12-11T14:14:14.206Z",
+        "updatedAt": "2025-12-11T14:14:14.206Z",
         "genres": [
           {
-            "id": 8,
-            "name": "Hidden Identity",
+            "id": 9,
+            "name": "Twist of Fate",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 7,
-            "name": "Rags to Riches",
+            "id": 17,
+            "name": "Love After Marriage",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -2040,7 +2040,7 @@
           "createdAt": "2025-12-09T08:11:56.128Z",
           "updatedAt": "2025-12-09T08:11:56.128Z"
         },
-        "watchCount": 1022254
+        "watchCount": 804916
       },
       {
         "id": 529,
@@ -2054,16 +2054,16 @@
         "updatedAt": "2025-06-27T09:18:59.161Z",
         "genres": [
           {
-            "id": 33,
-            "name": "Obsession",
-            "createdAt": "2025-04-15T10:18:39.872Z",
-            "updatedAt": "2025-04-15T10:18:39.872Z"
-          },
-          {
             "id": 69,
             "name": "Bodyguard",
             "createdAt": "2026-04-14T08:43:34.047Z",
             "updatedAt": "2026-04-14T08:43:34.047Z"
+          },
+          {
+            "id": 2,
+            "name": "Forbidden Love",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
           }
         ],
         "language": {
@@ -2124,16 +2124,16 @@
         "updatedAt": "2026-01-21T08:10:58.476Z",
         "genres": [
           {
-            "id": 8,
-            "name": "Hidden Identity",
-            "createdAt": "2025-04-15T10:18:39.872Z",
-            "updatedAt": "2025-04-15T10:18:39.872Z"
-          },
-          {
             "id": 81,
             "name": "Supernatural",
             "createdAt": "2026-04-14T08:43:34.047Z",
             "updatedAt": "2026-04-14T08:43:34.047Z"
+          },
+          {
+            "id": 8,
+            "name": "Hidden Identity",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
           }
         ],
         "language": {
@@ -2159,14 +2159,14 @@
         "updatedAt": "2025-10-18T11:30:58.325Z",
         "genres": [
           {
-            "id": 7,
-            "name": "Rags to Riches",
+            "id": 26,
+            "name": "Love After Betrayal",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 26,
-            "name": "Love After Betrayal",
+            "id": 7,
+            "name": "Rags to Riches",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -2194,14 +2194,14 @@
         "updatedAt": "2026-02-07T03:54:57.752Z",
         "genres": [
           {
-            "id": 81,
-            "name": "Supernatural",
-            "createdAt": "2026-04-14T08:43:34.047Z",
-            "updatedAt": "2026-04-14T08:43:34.047Z"
-          },
-          {
             "id": 21,
             "name": "Revenge",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          },
+          {
+            "id": 34,
+            "name": "Power Struggle",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -2229,14 +2229,14 @@
         "updatedAt": "2025-08-30T17:05:31.868Z",
         "genres": [
           {
-            "id": 29,
-            "name": "Family Drama",
+            "id": 21,
+            "name": "Revenge",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 8,
-            "name": "Hidden Identity",
+            "id": 29,
+            "name": "Family Drama",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -2264,14 +2264,14 @@
         "updatedAt": "2026-06-08T14:06:26.635Z",
         "genres": [
           {
-            "id": 16,
-            "name": "Betrayal",
+            "id": 22,
+            "name": "Secret Heiress",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 7,
-            "name": "Rags to Riches",
+            "id": 16,
+            "name": "Betrayal",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -2299,14 +2299,14 @@
         "updatedAt": "2025-09-14T04:55:18.086Z",
         "genres": [
           {
-            "id": 16,
-            "name": "Betrayal",
+            "id": 29,
+            "name": "Family Drama",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 29,
-            "name": "Family Drama",
+            "id": 21,
+            "name": "Revenge",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -2334,14 +2334,14 @@
         "updatedAt": "2025-11-24T11:50:38.036Z",
         "genres": [
           {
-            "id": 7,
-            "name": "Rags to Riches",
+            "id": 16,
+            "name": "Betrayal",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 16,
-            "name": "Betrayal",
+            "id": 7,
+            "name": "Rags to Riches",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -2375,8 +2375,8 @@
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 8,
-            "name": "Hidden Identity",
+            "id": 7,
+            "name": "Rags to Riches",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -2439,10 +2439,10 @@
         "updatedAt": "2025-12-26T09:24:56.078Z",
         "genres": [
           {
-            "id": 81,
-            "name": "Supernatural",
-            "createdAt": "2026-04-14T08:43:34.047Z",
-            "updatedAt": "2026-04-14T08:43:34.047Z"
+            "id": 29,
+            "name": "Family Drama",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
             "id": 1,
@@ -2474,14 +2474,14 @@
         "updatedAt": "2026-06-10T07:50:46.073Z",
         "genres": [
           {
-            "id": 21,
-            "name": "Revenge",
+            "id": 2,
+            "name": "Forbidden Love",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 2,
-            "name": "Forbidden Love",
+            "id": 29,
+            "name": "Family Drama",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -2509,14 +2509,14 @@
         "updatedAt": "2025-06-20T14:34:48.185Z",
         "genres": [
           {
-            "id": 9,
-            "name": "Twist of Fate",
+            "id": 4,
+            "name": "Love Triangle",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 4,
-            "name": "Love Triangle",
+            "id": 21,
+            "name": "Revenge",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -2544,14 +2544,14 @@
         "updatedAt": "2026-06-10T07:50:14.443Z",
         "genres": [
           {
-            "id": 15,
-            "name": "Cinderella",
+            "id": 29,
+            "name": "Family Drama",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 29,
-            "name": "Family Drama",
+            "id": 15,
+            "name": "Cinderella",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -2579,14 +2579,14 @@
         "updatedAt": "2025-08-30T16:58:58.860Z",
         "genres": [
           {
-            "id": 21,
-            "name": "Revenge",
+            "id": 34,
+            "name": "Power Struggle",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 29,
-            "name": "Family Drama",
+            "id": 21,
+            "name": "Revenge",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -2649,14 +2649,14 @@
         "updatedAt": "2025-08-14T18:37:39.566Z",
         "genres": [
           {
-            "id": 34,
-            "name": "Power Struggle",
+            "id": 21,
+            "name": "Revenge",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 16,
-            "name": "Betrayal",
+            "id": 34,
+            "name": "Power Struggle",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -2725,8 +2725,8 @@
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 2,
-            "name": "Forbidden Love",
+            "id": 26,
+            "name": "Love After Betrayal",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -2760,8 +2760,8 @@
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 16,
-            "name": "Betrayal",
+            "id": 34,
+            "name": "Power Struggle",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -2824,14 +2824,14 @@
         "updatedAt": "2025-09-06T15:09:06.487Z",
         "genres": [
           {
-            "id": 31,
-            "name": "Female Empowerment",
+            "id": 16,
+            "name": "Betrayal",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 4,
-            "name": "Love Triangle",
+            "id": 31,
+            "name": "Female Empowerment",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -2916,14 +2916,14 @@
         "updatedAt": "2025-09-06T14:44:44.291Z",
         "genres": [
           {
-            "id": 21,
-            "name": "Revenge",
+            "id": 16,
+            "name": "Betrayal",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 16,
-            "name": "Betrayal",
+            "id": 29,
+            "name": "Family Drama",
             "createdAt": "2025-04-15T10:18:39.872Z",
             "updatedAt": "2025-04-15T10:18:39.872Z"
           }
@@ -2957,10 +2957,10 @@
             "updatedAt": "2025-04-15T10:18:39.872Z"
           },
           {
-            "id": 81,
-            "name": "Supernatural",
-            "createdAt": "2026-04-14T08:43:34.047Z",
-            "updatedAt": "2026-04-14T08:43:34.047Z"
+            "id": 9,
+            "name": "Twist of Fate",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
           }
         ],
         "language": {
@@ -3677,8 +3677,8 @@
             "updatedAt": "2025-10-18T11:37:25.617Z",
             "genres": [
               {
-                "id": 25,
-                "name": "CEO",
+                "id": 34,
+                "name": "Power Struggle",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               },
@@ -3712,14 +3712,14 @@
             "updatedAt": "2025-07-05T15:40:52.266Z",
             "genres": [
               {
-                "id": 23,
-                "name": "Empowerment",
+                "id": 8,
+                "name": "Hidden Identity",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               },
               {
-                "id": 20,
-                "name": "Redemption",
+                "id": 23,
+                "name": "Empowerment",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               }
@@ -3734,41 +3734,6 @@
               "updatedAt": "2025-12-09T08:11:56.128Z"
             },
             "watchCount": 141154
-          },
-          {
-            "id": 97,
-            "name": "Pyaar Ke Teen Vaar",
-            "description": "A loyal dad is pushed to the edge when his powerful wife uses love, lies, and office politics to crush him—until his daughter gives her mother just three chances to win them back.",
-            "thumbnail": "https://dsmjhykc753wb.cloudfront.net/97/f1c51b88-93bf-4f96-8e3f-c859ff2e41c3-97.webp",
-            "source": "95-original",
-            "freeEpisodesCount": 11,
-            "languageId": 1,
-            "createdAt": "2025-05-13T07:24:37.216Z",
-            "updatedAt": "2026-06-10T07:49:02.230Z",
-            "genres": [
-              {
-                "id": 28,
-                "name": "One Night Stand",
-                "createdAt": "2025-04-15T10:18:39.872Z",
-                "updatedAt": "2025-04-15T10:18:39.872Z"
-              },
-              {
-                "id": 6,
-                "name": "Toxic Relationship",
-                "createdAt": "2025-04-15T10:18:39.872Z",
-                "updatedAt": "2025-04-15T10:18:39.872Z"
-              }
-            ],
-            "language": {
-              "id": 1,
-              "name": "हिन्दी",
-              "englishName": "Hindi",
-              "letter": "अ",
-              "isActive": true,
-              "createdAt": "2025-12-09T08:11:56.128Z",
-              "updatedAt": "2025-12-09T08:11:56.128Z"
-            },
-            "watchCount": 17266
           },
           {
             "id": 7492,
@@ -3841,6 +3806,41 @@
             "watchCount": 528838
           },
           {
+            "id": 7327,
+            "name": "Boss Baby",
+            "description": "A mystical immortal reborn as a baby protects his parents, battling dark forces, power struggles, and destiny.",
+            "thumbnail": "https://dsmjhykc753wb.cloudfront.net/7327/2d3c2e3a-0540-4a3f-beb2-522c690c1d36-7327.webp",
+            "source": "95-original",
+            "freeEpisodesCount": 11,
+            "languageId": 1,
+            "createdAt": "2026-04-08T11:28:56.669Z",
+            "updatedAt": "2026-04-08T11:29:39.592Z",
+            "genres": [
+              {
+                "id": 81,
+                "name": "Supernatural",
+                "createdAt": "2026-04-14T08:43:34.047Z",
+                "updatedAt": "2026-04-14T08:43:34.047Z"
+              },
+              {
+                "id": 34,
+                "name": "Power Struggle",
+                "createdAt": "2025-04-15T10:18:39.872Z",
+                "updatedAt": "2025-04-15T10:18:39.872Z"
+              }
+            ],
+            "language": {
+              "id": 1,
+              "name": "हिन्दी",
+              "englishName": "Hindi",
+              "letter": "अ",
+              "isActive": true,
+              "createdAt": "2025-12-09T08:11:56.128Z",
+              "updatedAt": "2025-12-09T08:11:56.128Z"
+            },
+            "watchCount": 1304206
+          },
+          {
             "id": 6238,
             "name": "Biwi ka Hatyara",
             "description": "A heartbroken cop investigates brutal murder, unaware victim is his pregnant wife’s ghost.",
@@ -3876,27 +3876,27 @@
             "watchCount": 1110364
           },
           {
-            "id": 7327,
-            "name": "Boss Baby",
-            "description": "A mystical immortal reborn as a baby protects his parents, battling dark forces, power struggles, and destiny.",
-            "thumbnail": "https://dsmjhykc753wb.cloudfront.net/7327/2d3c2e3a-0540-4a3f-beb2-522c690c1d36-7327.webp",
+            "id": 97,
+            "name": "Pyaar Ke Teen Vaar",
+            "description": "A loyal dad is pushed to the edge when his powerful wife uses love, lies, and office politics to crush him—until his daughter gives her mother just three chances to win them back.",
+            "thumbnail": "https://dsmjhykc753wb.cloudfront.net/97/f1c51b88-93bf-4f96-8e3f-c859ff2e41c3-97.webp",
             "source": "95-original",
             "freeEpisodesCount": 11,
             "languageId": 1,
-            "createdAt": "2026-04-08T11:28:56.669Z",
-            "updatedAt": "2026-04-08T11:29:39.592Z",
+            "createdAt": "2025-05-13T07:24:37.216Z",
+            "updatedAt": "2026-06-10T07:49:02.230Z",
             "genres": [
               {
-                "id": 18,
-                "name": "Pregnancy",
+                "id": 28,
+                "name": "One Night Stand",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               },
               {
-                "id": 81,
-                "name": "Supernatural",
-                "createdAt": "2026-04-14T08:43:34.047Z",
-                "updatedAt": "2026-04-14T08:43:34.047Z"
+                "id": 6,
+                "name": "Toxic Relationship",
+                "createdAt": "2025-04-15T10:18:39.872Z",
+                "updatedAt": "2025-04-15T10:18:39.872Z"
               }
             ],
             "language": {
@@ -3908,7 +3908,7 @@
               "createdAt": "2025-12-09T08:11:56.128Z",
               "updatedAt": "2025-12-09T08:11:56.128Z"
             },
-            "watchCount": 1304206
+            "watchCount": 17266
           },
           {
             "id": 7459,
@@ -7213,14 +7213,14 @@
             "updatedAt": "2025-09-22T07:25:48.165Z",
             "genres": [
               {
-                "id": 29,
-                "name": "Family Drama",
+                "id": 20,
+                "name": "Redemption",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               },
               {
-                "id": 20,
-                "name": "Redemption",
+                "id": 29,
+                "name": "Family Drama",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               }
@@ -7248,14 +7248,14 @@
             "updatedAt": "2026-02-06T14:27:19.160Z",
             "genres": [
               {
-                "id": 29,
-                "name": "Family Drama",
+                "id": 3,
+                "name": "Billionaire",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               },
               {
-                "id": 3,
-                "name": "Billionaire",
+                "id": 29,
+                "name": "Family Drama",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               }
@@ -7283,14 +7283,14 @@
             "updatedAt": "2025-09-14T04:57:59.978Z",
             "genres": [
               {
-                "id": 29,
-                "name": "Family Drama",
+                "id": 7,
+                "name": "Rags to Riches",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               },
               {
-                "id": 7,
-                "name": "Rags to Riches",
+                "id": 21,
+                "name": "Revenge",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               }
@@ -7324,8 +7324,8 @@
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               },
               {
-                "id": 9,
-                "name": "Twist of Fate",
+                "id": 29,
+                "name": "Family Drama",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               }
@@ -7359,8 +7359,8 @@
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               },
               {
-                "id": 16,
-                "name": "Betrayal",
+                "id": 26,
+                "name": "Love After Betrayal",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               }
@@ -7394,8 +7394,8 @@
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               },
               {
-                "id": 26,
-                "name": "Love After Betrayal",
+                "id": 8,
+                "name": "Hidden Identity",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               }
@@ -7423,8 +7423,8 @@
             "updatedAt": "2025-11-04T07:42:08.327Z",
             "genres": [
               {
-                "id": 29,
-                "name": "Family Drama",
+                "id": 21,
+                "name": "Revenge",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               },
@@ -7458,14 +7458,14 @@
             "updatedAt": "2026-06-10T07:51:57.700Z",
             "genres": [
               {
-                "id": 29,
-                "name": "Family Drama",
+                "id": 7,
+                "name": "Rags to Riches",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               },
               {
-                "id": 4,
-                "name": "Love Triangle",
+                "id": 29,
+                "name": "Family Drama",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               }
@@ -7552,41 +7552,6 @@
             "watchCount": 276256
           },
           {
-            "id": 2641,
-            "name": "Secret Shehzada",
-            "description": "A humble salesman’s fake romance spirals into war, revealing his secret heirship to a billion-dollar empire.",
-            "thumbnail": "https://dsmjhykc753wb.cloudfront.net/2641/a2bffebe-98fb-45f6-a784-682b5ac12c1a-2641.webp",
-            "source": "95-original",
-            "freeEpisodesCount": 11,
-            "languageId": 1,
-            "createdAt": "2025-09-18T13:52:44.957Z",
-            "updatedAt": "2026-06-08T14:04:25.347Z",
-            "genres": [
-              {
-                "id": 8,
-                "name": "Hidden Identity",
-                "createdAt": "2025-04-15T10:18:39.872Z",
-                "updatedAt": "2025-04-15T10:18:39.872Z"
-              },
-              {
-                "id": 7,
-                "name": "Rags to Riches",
-                "createdAt": "2025-04-15T10:18:39.872Z",
-                "updatedAt": "2025-04-15T10:18:39.872Z"
-              }
-            ],
-            "language": {
-              "id": 1,
-              "name": "हिन्दी",
-              "englishName": "Hindi",
-              "letter": "अ",
-              "isActive": true,
-              "createdAt": "2025-12-09T08:11:56.128Z",
-              "updatedAt": "2025-12-09T08:11:56.128Z"
-            },
-            "watchCount": 470098
-          },
-          {
             "id": 1024,
             "name": "Call Girl Bani Maa",
             "description": "The emotional journey of a trafficked girl who finds refuge in a billionaire's home and becomes a mother figure to his daughter. As love and trust grow, she must confront a dangerous past to protect the new life she's built.",
@@ -7622,6 +7587,41 @@
             "watchCount": 182272
           },
           {
+            "id": 2641,
+            "name": "Secret Shehzada",
+            "description": "A humble salesman’s fake romance spirals into war, revealing his secret heirship to a billion-dollar empire.",
+            "thumbnail": "https://dsmjhykc753wb.cloudfront.net/2641/a2bffebe-98fb-45f6-a784-682b5ac12c1a-2641.webp",
+            "source": "95-original",
+            "freeEpisodesCount": 11,
+            "languageId": 1,
+            "createdAt": "2025-09-18T13:52:44.957Z",
+            "updatedAt": "2026-06-08T14:04:25.347Z",
+            "genres": [
+              {
+                "id": 8,
+                "name": "Hidden Identity",
+                "createdAt": "2025-04-15T10:18:39.872Z",
+                "updatedAt": "2025-04-15T10:18:39.872Z"
+              },
+              {
+                "id": 7,
+                "name": "Rags to Riches",
+                "createdAt": "2025-04-15T10:18:39.872Z",
+                "updatedAt": "2025-04-15T10:18:39.872Z"
+              }
+            ],
+            "language": {
+              "id": 1,
+              "name": "हिन्दी",
+              "englishName": "Hindi",
+              "letter": "अ",
+              "isActive": true,
+              "createdAt": "2025-12-09T08:11:56.128Z",
+              "updatedAt": "2025-12-09T08:11:56.128Z"
+            },
+            "watchCount": 470098
+          },
+          {
             "id": 3466,
             "name": "Dabangg Damaad",
             "description": "A poor son-in-law returns to take revenge, uncovering secrets that turn humiliation into power and destiny.",
@@ -7639,8 +7639,8 @@
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               },
               {
-                "id": 7,
-                "name": "Rags to Riches",
+                "id": 29,
+                "name": "Family Drama",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               }
@@ -7668,14 +7668,14 @@
             "updatedAt": "2025-09-26T09:41:37.308Z",
             "genres": [
               {
-                "id": 21,
-                "name": "Revenge",
+                "id": 29,
+                "name": "Family Drama",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               },
               {
-                "id": 29,
-                "name": "Family Drama",
+                "id": 21,
+                "name": "Revenge",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               }
@@ -7703,14 +7703,14 @@
             "updatedAt": "2025-10-13T07:49:44.609Z",
             "genres": [
               {
-                "id": 34,
-                "name": "Power Struggle",
+                "id": 29,
+                "name": "Family Drama",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               },
               {
-                "id": 29,
-                "name": "Family Drama",
+                "id": 21,
+                "name": "Revenge",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               }
@@ -7773,14 +7773,14 @@
             "updatedAt": "2025-08-13T19:15:08.339Z",
             "genres": [
               {
-                "id": 26,
-                "name": "Love After Betrayal",
+                "id": 29,
+                "name": "Family Drama",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               },
               {
-                "id": 29,
-                "name": "Family Drama",
+                "id": 26,
+                "name": "Love After Betrayal",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               }
@@ -7808,14 +7808,14 @@
             "updatedAt": "2025-08-30T17:05:31.868Z",
             "genres": [
               {
-                "id": 29,
-                "name": "Family Drama",
+                "id": 8,
+                "name": "Hidden Identity",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               },
               {
-                "id": 8,
-                "name": "Hidden Identity",
+                "id": 29,
+                "name": "Family Drama",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               }
@@ -7843,8 +7843,8 @@
             "updatedAt": "2025-09-14T04:55:18.086Z",
             "genres": [
               {
-                "id": 29,
-                "name": "Family Drama",
+                "id": 16,
+                "name": "Betrayal",
                 "createdAt": "2025-04-15T10:18:39.872Z",
                 "updatedAt": "2025-04-15T10:18:39.872Z"
               },
@@ -7878,10 +7878,10 @@
             "updatedAt": "2025-12-26T09:24:56.078Z",
             "genres": [
               {
-                "id": 1,
-                "name": "Sweet Love",
-                "createdAt": "2025-04-15T10:18:39.872Z",
-                "updatedAt": "2025-04-15T10:18:39.872Z"
+                "id": 81,
+                "name": "Supernatural",
+                "createdAt": "2026-04-14T08:43:34.047Z",
+                "updatedAt": "2026-04-14T08:43:34.047Z"
               },
               {
                 "id": 29,
@@ -7987,41 +7987,6 @@
           "watchCount": 141154
         },
         {
-          "id": 97,
-          "name": "Pyaar Ke Teen Vaar",
-          "description": "A loyal dad is pushed to the edge when his powerful wife uses love, lies, and office politics to crush him—until his daughter gives her mother just three chances to win them back.",
-          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/97/f1c51b88-93bf-4f96-8e3f-c859ff2e41c3-97.webp",
-          "source": "95-original",
-          "freeEpisodesCount": 11,
-          "languageId": 1,
-          "createdAt": "2025-05-13T07:24:37.216Z",
-          "updatedAt": "2026-06-10T07:49:02.230Z",
-          "genres": [
-            {
-              "id": 6,
-              "name": "Toxic Relationship",
-              "createdAt": "2025-04-15T10:18:39.872Z",
-              "updatedAt": "2025-04-15T10:18:39.872Z"
-            },
-            {
-              "id": 9,
-              "name": "Twist of Fate",
-              "createdAt": "2025-04-15T10:18:39.872Z",
-              "updatedAt": "2025-04-15T10:18:39.872Z"
-            }
-          ],
-          "language": {
-            "id": 1,
-            "name": "हिन्दी",
-            "englishName": "Hindi",
-            "letter": "अ",
-            "isActive": true,
-            "createdAt": "2025-12-09T08:11:56.128Z",
-            "updatedAt": "2025-12-09T08:11:56.128Z"
-          },
-          "watchCount": 17266
-        },
-        {
           "id": 7492,
           "name": "Secret Shaadi",
           "description": "A poor girl marries a cold CEO for her father’s treatment, hiding identity as love slowly blossoms.",
@@ -8092,6 +8057,41 @@
           "watchCount": 528838
         },
         {
+          "id": 7327,
+          "name": "Boss Baby",
+          "description": "A mystical immortal reborn as a baby protects his parents, battling dark forces, power struggles, and destiny.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/7327/2d3c2e3a-0540-4a3f-beb2-522c690c1d36-7327.webp",
+          "source": "95-original",
+          "freeEpisodesCount": 11,
+          "languageId": 1,
+          "createdAt": "2026-04-08T11:28:56.669Z",
+          "updatedAt": "2026-04-08T11:29:39.592Z",
+          "genres": [
+            {
+              "id": 18,
+              "name": "Pregnancy",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            },
+            {
+              "id": 34,
+              "name": "Power Struggle",
+              "createdAt": "2025-04-15T10:18:39.872Z",
+              "updatedAt": "2025-04-15T10:18:39.872Z"
+            }
+          ],
+          "language": {
+            "id": 1,
+            "name": "हिन्दी",
+            "englishName": "Hindi",
+            "letter": "अ",
+            "isActive": true,
+            "createdAt": "2025-12-09T08:11:56.128Z",
+            "updatedAt": "2025-12-09T08:11:56.128Z"
+          },
+          "watchCount": 1304206
+        },
+        {
           "id": 6238,
           "name": "Biwi ka Hatyara",
           "description": "A heartbroken cop investigates brutal murder, unaware victim is his pregnant wife’s ghost.",
@@ -8127,25 +8127,25 @@
           "watchCount": 1110364
         },
         {
-          "id": 7327,
-          "name": "Boss Baby",
-          "description": "A mystical immortal reborn as a baby protects his parents, battling dark forces, power struggles, and destiny.",
-          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/7327/2d3c2e3a-0540-4a3f-beb2-522c690c1d36-7327.webp",
+          "id": 97,
+          "name": "Pyaar Ke Teen Vaar",
+          "description": "A loyal dad is pushed to the edge when his powerful wife uses love, lies, and office politics to crush him—until his daughter gives her mother just three chances to win them back.",
+          "thumbnail": "https://dsmjhykc753wb.cloudfront.net/97/f1c51b88-93bf-4f96-8e3f-c859ff2e41c3-97.webp",
           "source": "95-original",
           "freeEpisodesCount": 11,
           "languageId": 1,
-          "createdAt": "2026-04-08T11:28:56.669Z",
-          "updatedAt": "2026-04-08T11:29:39.592Z",
+          "createdAt": "2025-05-13T07:24:37.216Z",
+          "updatedAt": "2026-06-10T07:49:02.230Z",
           "genres": [
             {
-              "id": 18,
-              "name": "Pregnancy",
+              "id": 6,
+              "name": "Toxic Relationship",
               "createdAt": "2025-04-15T10:18:39.872Z",
               "updatedAt": "2025-04-15T10:18:39.872Z"
             },
             {
-              "id": 34,
-              "name": "Power Struggle",
+              "id": 9,
+              "name": "Twist of Fate",
               "createdAt": "2025-04-15T10:18:39.872Z",
               "updatedAt": "2025-04-15T10:18:39.872Z"
             }
@@ -8159,7 +8159,7 @@
             "createdAt": "2025-12-09T08:11:56.128Z",
             "updatedAt": "2025-12-09T08:11:56.128Z"
           },
-          "watchCount": 1304206
+          "watchCount": 17266
         },
         {
           "id": 7459,

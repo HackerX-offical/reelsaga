@@ -1,12 +1,12 @@
 {
   "CreateClipResponse": {
-    "file": "scraped-data/schemas/source-models/app/repository/response/CreateClipResponse.java",
+    "file": "data/app/models/data-models-index.json#CreateClipResponse",
     "fields": [
       "link"
     ]
   },
   "TrailersItem": {
-    "file": "scraped-data/schemas/source-models/app/repository/response/TrailersItem.java",
+    "file": "data/app/models/data-models-index.json#TrailersItem",
     "fields": [
       "description",
       "endMs",
@@ -25,7 +25,7 @@
     ]
   },
   "TrailersResponseData": {
-    "file": "scraped-data/schemas/source-models/app/repository/response/TrailersResponseData.java",
+    "file": "data/app/models/data-models-index.json#TrailersResponseData",
     "fields": [
       "count",
       "limit",
@@ -34,7 +34,7 @@
     ]
   },
   "AllShows": {
-    "file": "scraped-data/schemas/source-models/app/repository/response/AllShows.java",
+    "file": "data/app/models/data-models-index.json#AllShows",
     "fields": [
       "count",
       "heading",
@@ -48,7 +48,7 @@
     ]
   },
   "ClipDetailResponse": {
-    "file": "scraped-data/schemas/source-models/app/repository/response/ClipDetailResponse.java",
+    "file": "data/app/models/data-models-index.json#ClipDetailResponse",
     "fields": [
       "frameDurationMs",
       "frames",
@@ -56,21 +56,21 @@
     ]
   },
   "HomeStructureResponse": {
-    "file": "scraped-data/schemas/source-models/app/repository/response/HomeStructureResponse.java",
+    "file": "data/app/models/data-models-index.json#HomeStructureResponse",
     "fields": [
       "defaultTab",
       "tabs"
     ]
   },
   "Genre": {
-    "file": "scraped-data/schemas/source-models/app/repository/response/Genre.java",
+    "file": "data/app/models/data-models-index.json#Genre",
     "fields": [
       "id",
       "title"
     ]
   },
   "Clip": {
-    "file": "scraped-data/schemas/source-models/app/repository/response/Clip.java",
+    "file": "data/app/models/data-models-index.json#Clip",
     "fields": [
       "clipEndTimeMs",
       "clipStartTimeMs",
@@ -89,7 +89,7 @@
     ]
   },
   "HomeResponse": {
-    "file": "scraped-data/schemas/source-models/app/repository/response/HomeResponse.java",
+    "file": "data/app/models/data-models-index.json#HomeResponse",
     "fields": [
       "count",
       "limit",
@@ -103,7 +103,7 @@
     ]
   },
   "EpisodeItem": {
-    "file": "scraped-data/schemas/source-models/app/repository/response/EpisodeItem.java",
+    "file": "data/app/models/data-models-index.json#EpisodeItem",
     "fields": [
       "chapterWeight",
       "createTime",
@@ -124,7 +124,7 @@
     ]
   },
   "ShowItems": {
-    "file": "scraped-data/schemas/source-models/app/repository/response/ShowItems.java",
+    "file": "data/app/models/data-models-index.json#ShowItems",
     "fields": [
       "count",
       "genres",
@@ -137,7 +137,7 @@
     ]
   },
   "ShowItem": {
-    "file": "scraped-data/schemas/source-models/app/repository/response/ShowItem.java",
+    "file": "data/app/models/data-models-index.json#ShowItem",
     "fields": [
       "blur",
       "description",
@@ -159,7 +159,7 @@
     ]
   },
   "HomeTab": {
-    "file": "scraped-data/schemas/source-models/app/repository/response/HomeTab.java",
+    "file": "data/app/models/data-models-index.json#HomeTab",
     "fields": [
       "hasContinueWatching",
       "title",
@@ -167,7 +167,7 @@
     ]
   },
   "ClipRequest": {
-    "file": "scraped-data/schemas/source-models/app/repository/request/ClipRequest.java",
+    "file": "data/app/models/data-models-index.json#ClipRequest",
     "fields": [
       "endMs",
       "startMs",

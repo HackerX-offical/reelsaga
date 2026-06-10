@@ -28,7 +28,7 @@ def scrape_users(data_dir: Path, client: ApiClient, session_meta: dict | None = 
         print(f"  users/{fname} -> HTTP {code}")
 
     # User schema reference (PII fields the API can return)
-    schema_path = data_dir / "schemas" / "user-data-models.json"
+    schema_path = data_dir / "app" / "models" / "user-data-models.json"
     if schema_path.exists():
         save_json(out / "user-schema-reference.json", load_json(schema_path))
 

@@ -39,7 +39,7 @@ def scrape_content(data_dir: Path, client: ApiClient) -> None:
         save_json(dest, data if isinstance(data, dict) else {"httpStatus": code, "raw": data})
         if isinstance(data, dict):
             parsed[ep] = data
-        print(f"  content/{dest.relative_to(data_dir)} -> HTTP {code}")
+        print(f"  {dest.relative_to(data_dir)} -> HTTP {code}")
 
     searches = {}
     for q in ["warrior", "love", "revenge", "teacher", "ceo", "billionaire"]:

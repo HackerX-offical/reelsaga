@@ -1,6 +1,6 @@
 {
   "AppRatingData": {
-    "file": "data/schemas/app/repository/response/AppRatingData.java",
+    "file": "data/app/models/app/repository/response/AppRatingData.java",
     "fields": [
       "afterNEpisode",
       "enabled",
@@ -8,13 +8,13 @@
     ]
   },
   "InteractionTypeResponse": {
-    "file": "data/schemas/app/repository/response/InteractionTypeResponse.java",
+    "file": "data/app/models/app/repository/response/InteractionTypeResponse.java",
     "fields": [
       "interactionTypes"
     ]
   },
   "SectionsItem": {
-    "file": "data/schemas/app/repository/response/SectionsItem.java",
+    "file": "data/app/models/app/repository/response/SectionsItem.java",
     "fields": [
       "count",
       "eventName",
@@ -32,13 +32,13 @@
     ]
   },
   "InvoiceLinkResponse": {
-    "file": "data/schemas/app/repository/response/InvoiceLinkResponse.java",
+    "file": "data/app/models/app/repository/response/InvoiceLinkResponse.java",
     "fields": [
       "link"
     ]
   },
   "Order": {
-    "file": "data/schemas/app/repository/response/Order.java",
+    "file": "data/app/models/app/repository/response/Order.java",
     "fields": [
       "amount",
       "amountDue",
@@ -55,7 +55,7 @@
     ]
   },
   "ContinueWatchingNotificationControlData": {
-    "file": "data/schemas/app/repository/response/ContinueWatchingNotificationControlData.java",
+    "file": "data/app/models/app/repository/response/ContinueWatchingNotificationControlData.java",
     "fields": [
       "backOffTimeInSeconds",
       "channelDesc",
@@ -69,7 +69,7 @@
     ]
   },
   "SubscriptionDetails": {
-    "file": "data/schemas/app/repository/response/SubscriptionDetails.java",
+    "file": "data/app/models/app/repository/response/SubscriptionDetails.java",
     "fields": [
       "color",
       "description",
@@ -78,21 +78,21 @@
     ]
   },
   "ConfigResponse": {
-    "file": "data/schemas/app/repository/response/ConfigResponse.java",
+    "file": "data/app/models/app/repository/response/ConfigResponse.java",
     "fields": [
       "defaultLanguageId",
       "languageResponseItems"
     ]
   },
   "UserSubscriptionDetailResponseV1": {
-    "file": "data/schemas/app/repository/response/UserSubscriptionDetailResponseV1.java",
+    "file": "data/app/models/app/repository/response/UserSubscriptionDetailResponseV1.java",
     "fields": [
       "note",
       "viewType"
     ]
   },
   "TransactionsItem": {
-    "file": "data/schemas/app/repository/response/TransactionsItem.java",
+    "file": "data/app/models/app/repository/response/TransactionsItem.java",
     "fields": [
       "amount",
       "duration",
@@ -102,7 +102,7 @@
     ]
   },
   "Review": {
-    "file": "data/schemas/app/repository/response/Review.java",
+    "file": "data/app/models/app/repository/response/Review.java",
     "fields": [
       "createdAt",
       "id",
@@ -113,20 +113,20 @@
     ]
   },
   "PaymentFailureConfigData": {
-    "file": "data/schemas/app/repository/response/PaymentFailureConfigData.java",
+    "file": "data/app/models/app/repository/response/PaymentFailureConfigData.java",
     "fields": [
       "delayInMs",
       "retryTimes"
     ]
   },
   "DeeplinkExtractorResponse": {
-    "file": "data/schemas/app/repository/response/DeeplinkExtractorResponse.java",
+    "file": "data/app/models/app/repository/response/DeeplinkExtractorResponse.java",
     "fields": [
       "deeplink"
     ]
   },
   "UserResponse": {
-    "file": "data/schemas/app/repository/response/UserResponse.java",
+    "file": "data/app/models/app/repository/response/UserResponse.java",
     "fields": [
       "ageGroup",
       "createdAt",
@@ -141,14 +141,14 @@
     ]
   },
   "PaymentNotesData": {
-    "file": "data/schemas/app/repository/response/PaymentNotesData.java",
+    "file": "data/app/models/app/repository/response/PaymentNotesData.java",
     "fields": [
       "subscriptionId",
       "userId"
     ]
   },
   "FreeTrialProcessDataItem": {
-    "file": "data/schemas/app/repository/response/FreeTrialProcessDataItem.java",
+    "file": "data/app/models/app/repository/response/FreeTrialProcessDataItem.java",
     "fields": [
       "heading",
       "icon",
@@ -156,20 +156,20 @@
     ]
   },
   "Billing": {
-    "file": "data/schemas/app/repository/response/Billing.java",
+    "file": "data/app/models/app/repository/response/Billing.java",
     "fields": [
       "description",
       "header"
     ]
   },
   "CreateClipResponse": {
-    "file": "data/schemas/app/repository/response/CreateClipResponse.java",
+    "file": "data/app/models/app/repository/response/CreateClipResponse.java",
     "fields": [
       "link"
     ]
   },
   "TrailersItem": {
-    "file": "data/schemas/app/repository/response/TrailersItem.java",
+    "file": "data/app/models/app/repository/response/TrailersItem.java",
     "fields": [
       "description",
       "endMs",
@@ -188,7 +188,7 @@
     ]
   },
   "InteractionTypesItem": {
-    "file": "data/schemas/app/repository/response/InteractionTypesItem.java",
+    "file": "data/app/models/app/repository/response/InteractionTypesItem.java",
     "fields": [
       "createdAt",
       "id",
@@ -197,13 +197,13 @@
     ]
   },
   "PaymentData": {
-    "file": "data/schemas/app/repository/response/PaymentData.java",
+    "file": "data/app/models/app/repository/response/PaymentData.java",
     "fields": [
       "footerText"
     ]
   },
   "InviteResponse": {
-    "file": "data/schemas/app/repository/response/InviteResponse.java",
+    "file": "data/app/models/app/repository/response/InviteResponse.java",
     "fields": [
       "afterNEpisodePlay",
       "drawerImgUrl",
@@ -214,7 +214,7 @@
     ]
   },
   "TrailersResponseData": {
-    "file": "data/schemas/app/repository/response/TrailersResponseData.java",
+    "file": "data/app/models/app/repository/response/TrailersResponseData.java",
     "fields": [
       "count",
       "limit",
@@ -223,13 +223,13 @@
     ]
   },
   "CancelSubscriptionResponse": {
-    "file": "data/schemas/app/repository/response/CancelSubscriptionResponse.java",
+    "file": "data/app/models/app/repository/response/CancelSubscriptionResponse.java",
     "fields": [
       "message"
     ]
   },
   "PhonePeSubscription": {
-    "file": "data/schemas/app/repository/response/PhonePeSubscription.java",
+    "file": "data/app/models/app/repository/response/PhonePeSubscription.java",
     "fields": [
       "intentUrl",
       "orderId",
@@ -237,7 +237,7 @@
     ]
   },
   "SubscriptionPlanResponse": {
-    "file": "data/schemas/app/repository/response/SubscriptionPlanResponse.java",
+    "file": "data/app/models/app/repository/response/SubscriptionPlanResponse.java",
     "fields": [
       "benefitsData",
       "faqs",
@@ -256,47 +256,47 @@
     ]
   },
   "SessionUpdateResponse": {
-    "file": "data/schemas/app/repository/response/SessionUpdateResponse.java",
+    "file": "data/app/models/app/repository/response/SessionUpdateResponse.java",
     "fields": [
       "message"
     ]
   },
   "ShareResponse": {
-    "file": "data/schemas/app/repository/response/ShareResponse.java",
+    "file": "data/app/models/app/repository/response/ShareResponse.java",
     "fields": [
       "link"
     ]
   },
   "PaymentDataSection": {
-    "file": "data/schemas/app/repository/response/PaymentDataSection.java",
+    "file": "data/app/models/app/repository/response/PaymentDataSection.java",
     "fields": [
       "bottomText",
       "points"
     ]
   },
   "BottomStrip": {
-    "file": "data/schemas/app/repository/response/BottomStrip.java",
+    "file": "data/app/models/app/repository/response/BottomStrip.java",
     "fields": [
       "thumbnail",
       "url"
     ]
   },
   "ExchangeTokenResponse": {
-    "file": "data/schemas/app/repository/response/ExchangeTokenResponse.java",
+    "file": "data/app/models/app/repository/response/ExchangeTokenResponse.java",
     "fields": [
       "refreshToken",
       "token"
     ]
   },
   "GooglePlayPurchaseData": {
-    "file": "data/schemas/app/repository/response/GooglePlayPurchaseData.java",
+    "file": "data/app/models/app/repository/response/GooglePlayPurchaseData.java",
     "fields": [
       "productId",
       "productType"
     ]
   },
   "AllShows": {
-    "file": "data/schemas/app/repository/response/AllShows.java",
+    "file": "data/app/models/app/repository/response/AllShows.java",
     "fields": [
       "count",
       "heading",
@@ -310,26 +310,26 @@
     ]
   },
   "Metadata": {
-    "file": "data/schemas/app/repository/response/Metadata.java",
+    "file": "data/app/models/app/repository/response/Metadata.java",
     "fields": [
       "any"
     ]
   },
   "FcmTopicData": {
-    "file": "data/schemas/app/repository/response/FcmTopicData.java",
+    "file": "data/app/models/app/repository/response/FcmTopicData.java",
     "fields": [
       "actives",
       "inactives"
     ]
   },
   "RazorpaySdkErrorResponse": {
-    "file": "data/schemas/app/repository/response/RazorpaySdkErrorResponse.java",
+    "file": "data/app/models/app/repository/response/RazorpaySdkErrorResponse.java",
     "fields": [
       "httpStatusCode"
     ]
   },
   "ClipDetailResponse": {
-    "file": "data/schemas/app/repository/response/ClipDetailResponse.java",
+    "file": "data/app/models/app/repository/response/ClipDetailResponse.java",
     "fields": [
       "frameDurationMs",
       "frames",
@@ -337,34 +337,34 @@
     ]
   },
   "HomeStructureResponse": {
-    "file": "data/schemas/app/repository/response/HomeStructureResponse.java",
+    "file": "data/app/models/app/repository/response/HomeStructureResponse.java",
     "fields": [
       "defaultTab",
       "tabs"
     ]
   },
   "SubscriptionCancelBenefitsResponse": {
-    "file": "data/schemas/app/repository/response/SubscriptionCancelBenefitsResponse.java",
+    "file": "data/app/models/app/repository/response/SubscriptionCancelBenefitsResponse.java",
     "fields": [
       "description",
       "icon"
     ]
   },
   "Genre": {
-    "file": "data/schemas/app/repository/response/Genre.java",
+    "file": "data/app/models/app/repository/response/Genre.java",
     "fields": [
       "id",
       "title"
     ]
   },
   "TransactionResponse": {
-    "file": "data/schemas/app/repository/response/TransactionResponse.java",
+    "file": "data/app/models/app/repository/response/TransactionResponse.java",
     "fields": [
       "transactions"
     ]
   },
   "Clip": {
-    "file": "data/schemas/app/repository/response/Clip.java",
+    "file": "data/app/models/app/repository/response/Clip.java",
     "fields": [
       "clipEndTimeMs",
       "clipStartTimeMs",
@@ -383,7 +383,7 @@
     ]
   },
   "CreateOrderResponse": {
-    "file": "data/schemas/app/repository/response/CreateOrderResponse.java",
+    "file": "data/app/models/app/repository/response/CreateOrderResponse.java",
     "fields": [
       "emailId",
       "isSubscribed",
@@ -392,7 +392,7 @@
     ]
   },
   "HomeResponse": {
-    "file": "data/schemas/app/repository/response/HomeResponse.java",
+    "file": "data/app/models/app/repository/response/HomeResponse.java",
     "fields": [
       "count",
       "limit",
@@ -406,7 +406,7 @@
     ]
   },
   "LanguageResponseItem": {
-    "file": "data/schemas/app/repository/response/LanguageResponseItem.java",
+    "file": "data/app/models/app/repository/response/LanguageResponseItem.java",
     "fields": [
       "englishName",
       "id",
@@ -415,7 +415,7 @@
     ]
   },
   "EpisodeItem": {
-    "file": "data/schemas/app/repository/response/EpisodeItem.java",
+    "file": "data/app/models/app/repository/response/EpisodeItem.java",
     "fields": [
       "chapterWeight",
       "createTime",
@@ -436,7 +436,7 @@
     ]
   },
   "Plan": {
-    "file": "data/schemas/app/repository/response/Plan.java",
+    "file": "data/app/models/app/repository/response/Plan.java",
     "fields": [
       "amount",
       "discountText",
@@ -448,7 +448,7 @@
     ]
   },
   "ShowItems": {
-    "file": "data/schemas/app/repository/response/ShowItems.java",
+    "file": "data/app/models/app/repository/response/ShowItems.java",
     "fields": [
       "count",
       "genres",
@@ -461,20 +461,20 @@
     ]
   },
   "BottomNavRibbon": {
-    "file": "data/schemas/app/repository/response/BottomNavRibbon.java",
+    "file": "data/app/models/app/repository/response/BottomNavRibbon.java",
     "fields": [
       "thumbnail",
       "url"
     ]
   },
   "SearchResponse": {
-    "file": "data/schemas/app/repository/response/SearchResponse.java",
+    "file": "data/app/models/app/repository/response/SearchResponse.java",
     "fields": [
       "isEnabled"
     ]
   },
   "PaymentItem": {
-    "file": "data/schemas/app/repository/response/PaymentItem.java",
+    "file": "data/app/models/app/repository/response/PaymentItem.java",
     "fields": [
       "highlight",
       "leftText",
@@ -482,7 +482,7 @@
     ]
   },
   "SocialProof": {
-    "file": "data/schemas/app/repository/response/SocialProof.java",
+    "file": "data/app/models/app/repository/response/SocialProof.java",
     "fields": [
       "endImage",
       "startImage",
@@ -490,7 +490,7 @@
     ]
   },
   "Error": {
-    "file": "data/schemas/app/repository/response/Error.java",
+    "file": "data/app/models/app/repository/response/Error.java",
     "fields": [
       "code",
       "description",
@@ -500,13 +500,13 @@
     ]
   },
   "SessionResponse": {
-    "file": "data/schemas/app/repository/response/SessionResponse.java",
+    "file": "data/app/models/app/repository/response/SessionResponse.java",
     "fields": [
       "message"
     ]
   },
   "Subscription": {
-    "file": "data/schemas/app/repository/response/Subscription.java",
+    "file": "data/app/models/app/repository/response/Subscription.java",
     "fields": [
       "authAttempts",
       "changeScheduledAt",
@@ -534,13 +534,13 @@
     ]
   },
   "VerifyOrderResponse": {
-    "file": "data/schemas/app/repository/response/VerifyOrderResponse.java",
+    "file": "data/app/models/app/repository/response/VerifyOrderResponse.java",
     "fields": [
       "orderId"
     ]
   },
   "BenefitsDataItem": {
-    "file": "data/schemas/app/repository/response/BenefitsDataItem.java",
+    "file": "data/app/models/app/repository/response/BenefitsDataItem.java",
     "fields": [
       "heading",
       "icon",
@@ -548,13 +548,13 @@
     ]
   },
   "AppConfigResponse": {
-    "file": "data/schemas/app/repository/response/AppConfigResponse.java",
+    "file": "data/app/models/app/repository/response/AppConfigResponse.java",
     "fields": [
       "defaultLandingScreen"
     ]
   },
   "ShowItem": {
-    "file": "data/schemas/app/repository/response/ShowItem.java",
+    "file": "data/app/models/app/repository/response/ShowItem.java",
     "fields": [
       "blur",
       "description",
@@ -576,14 +576,14 @@
     ]
   },
   "FaqsItem": {
-    "file": "data/schemas/app/repository/response/FaqsItem.java",
+    "file": "data/app/models/app/repository/response/FaqsItem.java",
     "fields": [
       "heading",
       "subHeading"
     ]
   },
   "ButtonDetails": {
-    "file": "data/schemas/app/repository/response/ButtonDetails.java",
+    "file": "data/app/models/app/repository/response/ButtonDetails.java",
     "fields": [
       "action",
       "text",
@@ -591,13 +591,13 @@
     ]
   },
   "RatingResponse": {
-    "file": "data/schemas/app/repository/response/RatingResponse.java",
+    "file": "data/app/models/app/repository/response/RatingResponse.java",
     "fields": [
       "success"
     ]
   },
   "VerifyPaymentResponseData": {
-    "file": "data/schemas/app/repository/response/VerifyPaymentResponseData.java",
+    "file": "data/app/models/app/repository/response/VerifyPaymentResponseData.java",
     "fields": [
       "isSubscribed",
       "paymentStatus",
@@ -606,7 +606,7 @@
     ]
   },
   "HomeTab": {
-    "file": "data/schemas/app/repository/response/HomeTab.java",
+    "file": "data/app/models/app/repository/response/HomeTab.java",
     "fields": [
       "hasContinueWatching",
       "title",
@@ -614,7 +614,7 @@
     ]
   },
   "ClipRequest": {
-    "file": "data/schemas/app/repository/request/ClipRequest.java",
+    "file": "data/app/models/app/repository/request/ClipRequest.java",
     "fields": [
       "endMs",
       "startMs",
@@ -623,21 +623,21 @@
     ]
   },
   "ThumbnailVisibleEventRequest": {
-    "file": "data/schemas/app/repository/request/ThumbnailVisibleEventRequest.java",
+    "file": "data/app/models/app/repository/request/ThumbnailVisibleEventRequest.java",
     "fields": [
       "showId",
       "trackingSourceId"
     ]
   },
   "NotificationPermissionRequest": {
-    "file": "data/schemas/app/repository/request/NotificationPermissionRequest.java",
+    "file": "data/app/models/app/repository/request/NotificationPermissionRequest.java",
     "fields": [
       "isGranted",
       "token"
     ]
   },
   "UpdateUserRequest": {
-    "file": "data/schemas/app/repository/request/UpdateUserRequest.java",
+    "file": "data/app/models/app/repository/request/UpdateUserRequest.java",
     "fields": [
       "ageGroup",
       "gender",
@@ -646,34 +646,34 @@
     ]
   },
   "SessionUpdateRequest": {
-    "file": "data/schemas/app/repository/request/SessionUpdateRequest.java",
+    "file": "data/app/models/app/repository/request/SessionUpdateRequest.java",
     "fields": [
       "deeplink",
       "messageId"
     ]
   },
   "LibraryTrackerRequest": {
-    "file": "data/schemas/app/repository/request/LibraryTrackerRequest.java",
+    "file": "data/app/models/app/repository/request/LibraryTrackerRequest.java",
     "fields": [
       "library",
       "method"
     ]
   },
   "InteractionRequest": {
-    "file": "data/schemas/app/repository/request/InteractionRequest.java",
+    "file": "data/app/models/app/repository/request/InteractionRequest.java",
     "fields": [
       "interactionTypeId",
       "videoId"
     ]
   },
   "FCMTokenRequest": {
-    "file": "data/schemas/app/repository/request/FCMTokenRequest.java",
+    "file": "data/app/models/app/repository/request/FCMTokenRequest.java",
     "fields": [
       "token"
     ]
   },
   "ShareRequest": {
-    "file": "data/schemas/app/repository/request/ShareRequest.java",
+    "file": "data/app/models/app/repository/request/ShareRequest.java",
     "fields": [
       "ogDescription",
       "ogImage",
@@ -682,14 +682,14 @@
     ]
   },
   "RatingRequest": {
-    "file": "data/schemas/app/repository/request/RatingRequest.java",
+    "file": "data/app/models/app/repository/request/RatingRequest.java",
     "fields": [
       "feedback",
       "rating"
     ]
   },
   "InteractionData": {
-    "file": "data/schemas/app/repository/request/InteractionData.java",
+    "file": "data/app/models/app/repository/request/InteractionData.java",
     "fields": [
       "currentDuration",
       "deeplink",
@@ -700,13 +700,13 @@
     ]
   },
   "CancelSubscriptionRequest": {
-    "file": "data/schemas/app/repository/request/CancelSubscriptionRequest.java",
+    "file": "data/app/models/app/repository/request/CancelSubscriptionRequest.java",
     "fields": [
       "reason"
     ]
   },
   "GenerateNewTokenRequest": {
-    "file": "data/schemas/app/repository/request/GenerateNewTokenRequest.java",
+    "file": "data/app/models/app/repository/request/GenerateNewTokenRequest.java",
     "fields": [
       "accessToken",
       "aid",
@@ -736,7 +736,7 @@
     ]
   },
   "RefreshTokenRequest": {
-    "file": "data/schemas/app/repository/request/RefreshTokenRequest.java",
+    "file": "data/app/models/app/repository/request/RefreshTokenRequest.java",
     "fields": [
       "accessToken",
       "aid",
@@ -767,13 +767,13 @@
     ]
   },
   "DumbDataRequest": {
-    "file": "data/schemas/app/repository/request/DumbDataRequest.java",
+    "file": "data/app/models/app/repository/request/DumbDataRequest.java",
     "fields": [
       "mobile"
     ]
   },
   "CreateOrderRequest": {
-    "file": "data/schemas/app/repository/request/CreateOrderRequest.java",
+    "file": "data/app/models/app/repository/request/CreateOrderRequest.java",
     "fields": [
       "paymentPlatform",
       "planId",

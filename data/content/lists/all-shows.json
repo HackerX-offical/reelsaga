@@ -1,0 +1,363 @@
+{
+  "success": true,
+  "data": {
+    "shows": [
+      {
+        "id": 3565,
+        "name": "Chamatkari Boyfriend",
+        "description": "A dramatic tale of love, power, betrayal and hidden miracles, where an ordinary coder’s life collides with his powerful CEO’s destiny.",
+        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3565/3565.webp",
+        "source": "95-original",
+        "freeEpisodesCount": 11,
+        "languageId": 1,
+        "createdAt": "2025-10-18T11:37:25.617Z",
+        "updatedAt": "2025-10-18T11:37:25.617Z",
+        "genres": [
+          {
+            "id": 25,
+            "name": "CEO",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          },
+          {
+            "id": 28,
+            "name": "One Night Stand",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          }
+        ],
+        "language": {
+          "id": 1,
+          "name": "हिन्दी",
+          "englishName": "Hindi",
+          "letter": "अ",
+          "isActive": true,
+          "createdAt": "2025-12-09T08:11:56.128Z",
+          "updatedAt": "2025-12-09T08:11:56.128Z"
+        },
+        "watchCount": 634570
+      },
+      {
+        "id": 793,
+        "name": "Jhaduwala bana Doctor",
+        "description": "Aarav Mehra, a brilliant surgeon hiding behind a janitor’s uniform, risks everything to save lives in a corrupt hospital where prejudice runs deep. As he battles to keep his true identity secret, his compassion and skill ignite a revolution no one saw coming.",
+        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/793/793.webp",
+        "source": "95-original",
+        "freeEpisodesCount": 11,
+        "languageId": 1,
+        "createdAt": "2025-07-05T15:40:52.266Z",
+        "updatedAt": "2025-07-05T15:40:52.266Z",
+        "genres": [
+          {
+            "id": 8,
+            "name": "Hidden Identity",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          },
+          {
+            "id": 20,
+            "name": "Redemption",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          }
+        ],
+        "language": {
+          "id": 1,
+          "name": "हिन्दी",
+          "englishName": "Hindi",
+          "letter": "अ",
+          "isActive": true,
+          "createdAt": "2025-12-09T08:11:56.128Z",
+          "updatedAt": "2025-12-09T08:11:56.128Z"
+        },
+        "watchCount": 141154
+      },
+      {
+        "id": 7492,
+        "name": "Secret Shaadi",
+        "description": "A poor girl marries a cold CEO for her father’s treatment, hiding identity as love slowly blossoms.",
+        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/7492/34cbf50d-0291-4516-ad01-7654ba2c265a-7492.webp",
+        "source": "95-original",
+        "freeEpisodesCount": 11,
+        "languageId": 1,
+        "createdAt": "2026-04-17T14:39:55.678Z",
+        "updatedAt": "2026-04-17T14:40:57.352Z",
+        "genres": [
+          {
+            "id": 5,
+            "name": "Flash Marriage",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          },
+          {
+            "id": 8,
+            "name": "Hidden Identity",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          }
+        ],
+        "language": {
+          "id": 1,
+          "name": "हिन्दी",
+          "englishName": "Hindi",
+          "letter": "अ",
+          "isActive": true,
+          "createdAt": "2025-12-09T08:11:56.128Z",
+          "updatedAt": "2025-12-09T08:11:56.128Z"
+        },
+        "watchCount": 1333576
+      },
+      {
+        "id": 2971,
+        "name": "Mission Mars: Biwi Ka Dhoka",
+        "description": "A neglected husband-astronaut leaves for Mars, while his manipulative wife realizes too late his true love.",
+        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/2971/74dbf9e8-ce5e-4d30-8f0d-066fb9ae9374-2971.webp",
+        "source": "95-original",
+        "freeEpisodesCount": 11,
+        "languageId": 1,
+        "createdAt": "2025-09-29T13:19:15.552Z",
+        "updatedAt": "2026-06-08T14:05:32.349Z",
+        "genres": [
+          {
+            "id": 4,
+            "name": "Love Triangle",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          },
+          {
+            "id": 16,
+            "name": "Betrayal",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          }
+        ],
+        "language": {
+          "id": 1,
+          "name": "हिन्दी",
+          "englishName": "Hindi",
+          "letter": "अ",
+          "isActive": true,
+          "createdAt": "2025-12-09T08:11:56.128Z",
+          "updatedAt": "2025-12-09T08:11:56.128Z"
+        },
+        "watchCount": 528838
+      },
+      {
+        "id": 7327,
+        "name": "Boss Baby",
+        "description": "A mystical immortal reborn as a baby protects his parents, battling dark forces, power struggles, and destiny.",
+        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/7327/2d3c2e3a-0540-4a3f-beb2-522c690c1d36-7327.webp",
+        "source": "95-original",
+        "freeEpisodesCount": 11,
+        "languageId": 1,
+        "createdAt": "2026-04-08T11:28:56.669Z",
+        "updatedAt": "2026-04-08T11:29:39.592Z",
+        "genres": [
+          {
+            "id": 18,
+            "name": "Pregnancy",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          },
+          {
+            "id": 34,
+            "name": "Power Struggle",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          }
+        ],
+        "language": {
+          "id": 1,
+          "name": "हिन्दी",
+          "englishName": "Hindi",
+          "letter": "अ",
+          "isActive": true,
+          "createdAt": "2025-12-09T08:11:56.128Z",
+          "updatedAt": "2025-12-09T08:11:56.128Z"
+        },
+        "watchCount": 1304206
+      },
+      {
+        "id": 6238,
+        "name": "Biwi ka Hatyara",
+        "description": "A heartbroken cop investigates brutal murder, unaware victim is his pregnant wife’s ghost.",
+        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/6238/8a271100-d859-463d-b751-f4ac710310bb.webp",
+        "source": "95-original",
+        "freeEpisodesCount": 11,
+        "languageId": 1,
+        "createdAt": "2026-02-24T09:33:07.004Z",
+        "updatedAt": "2026-05-15T13:10:04.749Z",
+        "genres": [
+          {
+            "id": 18,
+            "name": "Pregnancy",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          },
+          {
+            "id": 68,
+            "name": "Dark Secrets",
+            "createdAt": "2026-04-14T08:43:34.047Z",
+            "updatedAt": "2026-04-14T08:43:34.047Z"
+          }
+        ],
+        "language": {
+          "id": 1,
+          "name": "हिन्दी",
+          "englishName": "Hindi",
+          "letter": "अ",
+          "isActive": true,
+          "createdAt": "2025-12-09T08:11:56.128Z",
+          "updatedAt": "2025-12-09T08:11:56.128Z"
+        },
+        "watchCount": 1110364
+      },
+      {
+        "id": 97,
+        "name": "Pyaar Ke Teen Vaar",
+        "description": "A loyal dad is pushed to the edge when his powerful wife uses love, lies, and office politics to crush him—until his daughter gives her mother just three chances to win them back.",
+        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/97/f1c51b88-93bf-4f96-8e3f-c859ff2e41c3-97.webp",
+        "source": "95-original",
+        "freeEpisodesCount": 11,
+        "languageId": 1,
+        "createdAt": "2025-05-13T07:24:37.216Z",
+        "updatedAt": "2026-06-10T07:49:02.230Z",
+        "genres": [
+          {
+            "id": 6,
+            "name": "Toxic Relationship",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          },
+          {
+            "id": 9,
+            "name": "Twist of Fate",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          }
+        ],
+        "language": {
+          "id": 1,
+          "name": "हिन्दी",
+          "englishName": "Hindi",
+          "letter": "अ",
+          "isActive": true,
+          "createdAt": "2025-12-09T08:11:56.128Z",
+          "updatedAt": "2025-12-09T08:11:56.128Z"
+        },
+        "watchCount": 17266
+      },
+      {
+        "id": 7459,
+        "name": "Pyaar ya Vyapaar ?",
+        "description": "A forced marriage turns into unexpected love as hidden pasts, secrets, and rival lovers threaten their fragile relationship.",
+        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/7459/7017a5f2-d5fd-4468-932c-1e3d4759701a-7459.webp",
+        "source": "95-original",
+        "freeEpisodesCount": 11,
+        "languageId": 1,
+        "createdAt": "2026-04-14T14:10:44.635Z",
+        "updatedAt": "2026-04-14T14:12:26.222Z",
+        "genres": [
+          {
+            "id": 4,
+            "name": "Love Triangle",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          },
+          {
+            "id": 17,
+            "name": "Love After Marriage",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          }
+        ],
+        "language": {
+          "id": 1,
+          "name": "हिन्दी",
+          "englishName": "Hindi",
+          "letter": "अ",
+          "isActive": true,
+          "createdAt": "2025-12-09T08:11:56.128Z",
+          "updatedAt": "2025-12-09T08:11:56.128Z"
+        },
+        "watchCount": 1327702
+      },
+      {
+        "id": 2707,
+        "name": "Missing Millionaire",
+        "description": "A humble amnesiac waiter rediscovers he’s the lost hotel tycoon father, reclaiming family, empire, and legacy.",
+        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/2707/2707.webp",
+        "source": "95-original",
+        "freeEpisodesCount": 11,
+        "languageId": 1,
+        "createdAt": "2025-09-22T07:25:48.165Z",
+        "updatedAt": "2025-09-22T07:25:48.165Z",
+        "genres": [
+          {
+            "id": 20,
+            "name": "Redemption",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          },
+          {
+            "id": 29,
+            "name": "Family Drama",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          }
+        ],
+        "language": {
+          "id": 1,
+          "name": "हिन्दी",
+          "englishName": "Hindi",
+          "letter": "अ",
+          "isActive": true,
+          "createdAt": "2025-12-09T08:11:56.128Z",
+          "updatedAt": "2025-12-09T08:11:56.128Z"
+        },
+        "watchCount": 481846
+      },
+      {
+        "id": 3994,
+        "name": "Teen Dulhan, Ek Bechara",
+        "description": "A pizza boy wakes in ancient India, wins hearts, invents weapons, and becomes a hero saving kingdoms.",
+        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/3994/3994.webp",
+        "source": "95-original",
+        "freeEpisodesCount": 11,
+        "languageId": 1,
+        "createdAt": "2025-11-14T12:52:24.459Z",
+        "updatedAt": "2025-11-14T12:52:24.459Z",
+        "genres": [
+          {
+            "id": 7,
+            "name": "Rags to Riches",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          },
+          {
+            "id": 8,
+            "name": "Hidden Identity",
+            "createdAt": "2025-04-15T10:18:39.872Z",
+            "updatedAt": "2025-04-15T10:18:39.872Z"
+          }
+        ],
+        "language": {
+          "id": 1,
+          "name": "हिन्दी",
+          "englishName": "Hindi",
+          "letter": "अ",
+          "isActive": true,
+          "createdAt": "2025-12-09T08:11:56.128Z",
+          "updatedAt": "2025-12-09T08:11:56.128Z"
+        },
+        "watchCount": 710932
+      }
+    ],
+    "title": "All Shows",
+    "count": 230,
+    "page": 1,
+    "limit": 10,
+    "trackingSourceId": 7,
+    "trackingSourceName": "shows|AllShows"
+  }
+}

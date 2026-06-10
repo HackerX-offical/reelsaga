@@ -20,9 +20,6 @@ def scrape_business(data_dir: Path, client: ApiClient) -> None:
     _, sub = client.get("v1/subscription")
     save_json(out / "subscription-status.json", sub if isinstance(sub, dict) else {"raw": sub})
 
-    _, tx = client.get("transactions")
-    save_json(out / "transactions.json", tx if isinstance(tx, dict) else {"raw": tx})
-
     rc_path = data_dir / "secrets" / "remote-config" / "parsed" / "payment-config-exposed.json"
     if rc_path.exists():
         save_json(out / "payment-config-remote.json", load_json(rc_path))

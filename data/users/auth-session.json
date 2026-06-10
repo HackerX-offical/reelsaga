@@ -1,21 +1,3 @@
 {
-  "firebase_fid": "dUFK_oi7Pnb4fr9WmEsyb-",
-  "token_response": {
-    "success": true,
-    "data": {
-      "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uIjo0NDU1NzY3NCwic0lkIjo0NDU1NzY3NCwiZklkIjoiZFVGS19vaTdQbmI0ZnI5V21Fc3liLSIsImFJZCI6IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIsImRldmljZUlkIjoic2VjdXJpdHktc2NyYXBlLTAwMSIsImlhdCI6MTc4MTA3OTcxOCwiZXhwIjoxNzgxMDgwMzE4fQ.IVU66ms0kDnsWTDysnzrYEvJcOsWShNzYT8LTT7y-9o",
-      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uIjo0NDU1NzY3NCwiaWF0IjoxNzgxMDc5NzE4LCJleHAiOjE4MTI2MTU3MTh9.IaR4UPUpgn5y898jsZTqxKXcN1LWYjMoMAJfooxgHEQ",
-      "bottomNavRibbon": {
-        "thumbnail": "https://dsmjhykc753wb.cloudfront.net/assets/1_day_free_trial_ribbon.webp",
-        "url": "https://www.reelsaga.in/freetrial",
-        "height": 100
-      }
-    }
-  },
-  "auth_headers_sample": {
-    "Platform": "android",
-    "Version-Code": "80501",
-    "Version-Name": "8.5.1",
-    "Content-Type": "application/json"
-  }
+  "note": "Anonymous JWT via POST /auth/token + Firebase fId"
 }

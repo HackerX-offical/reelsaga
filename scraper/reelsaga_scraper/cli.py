@@ -14,7 +14,7 @@ from reelsaga_scraper.scrapers import (
     scrape_secrets,
     scrape_users,
 )
-from reelsaga_scraper.utils import save_json
+from reelsaga_scraper.utils import load_json, save_json
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data"
@@ -67,8 +67,24 @@ def main() -> None:
         scrape_business(data_dir, client)
         manifest["steps"].append("business")
 
+    # Post-run summary for coverage review
+    summary: dict = {}
+    summary_path = data_dir / "content" / "SUMMARY.json"
+    if summary_path.exists():
+        summary["content"] = load_json(summary_path)
+    shows_index = data_dir / "content" / "shows" / "index.json"
+    if shows_index.exists():
+        summary["showCount"] = len(load_json(shows_index).get("shows", []))
+    manifest["summary"] = summary
     save_json(data_dir / "scrape-manifest.json", manifest)
     print(f"\nDone. Data: {data_dir}")
+    if summary:
+        c = summary.get("content", {})
+        print(
+            f"  shows: {summary.get('showCount', '?')} indexed, "
+            f"{c.get('showDetailsFetched', '?')} detail files, "
+            f"{c.get('trailers', '?')} trailers, {c.get('reelsClips', '?')} clips"
+        )
 
 
 if __name__ == "__main__":

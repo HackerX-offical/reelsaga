@@ -4,9 +4,9 @@
 
 | File | Description |
 |------|-------------|
-| `reelsaga.apk` | Source XAPK under assessment |
+| `reelsaga.apk` | Source XAPK under assessment (v8.5.1) |
 
-## `data/apk/`
+## `data/app/embedded/`
 
 | Path | Description |
 |------|-------------|
@@ -14,12 +14,24 @@
 | `manifests/` | AndroidManifest.xml, XAPK bundle JSON |
 | `assets/` | Compose resources, Lottie animations |
 
+## `data/app/models/`
+
+API request/response field index (`data-models-index.json`, `user-data-models.json`).
+
+## `data/app/network/urls/`
+
+`api-paths.txt`, `all-urls.txt` — endpoints extracted from APK.
+
+## `data/app/decoded/`
+
+Optional full apktool decode — run `./scripts/decode-apk.sh` (gitignored, ~200MB).
+
 ## `data/content/`
 
 | Path | Description |
 |------|-------------|
 | `home/feed.json` | Full home screen sections |
-| `shows/{id}.json` | Show detail + episode HLS URLs |
+| `shows/{id}-{slug}.json` | Show detail + episode HLS URLs |
 | `trailers/` | Trailer feed |
 | `reels/` | Clips feed |
 | `lists/` | Trending, popular, new, recommended |
@@ -32,20 +44,12 @@
 
 ## `data/users/`
 
-Session, profile, subscription API responses.
+Session, profile, subscription, transactions API responses.
 
-## `data/schemas/`
+## `data/company/` · `data/business/` · `data/media/`
 
-80 decompiled API model schemas + source Java copies.
+Company legal profile, pricing/engagement, downloaded media assets.
 
-## `data/infrastructure/urls/`
+## `proofs/`
 
-`api-paths.txt`, `all-urls.txt`
-
-## `analysis/apktool/`
-
-Full apktool decode — smali + resources.
-
-## `security-poc/`
-
-Credential abuse curl demonstrations.
+Credential abuse curl demonstrations (Firebase, Facebook).

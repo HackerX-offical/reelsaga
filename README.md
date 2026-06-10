@@ -1,20 +1,19 @@
-# ReelSaga — Security Assessment & Data Scraper
+# ReelSaga — Security Assessment & Intelligence Toolkit
 
-**REELSAGA INNOVATIONS PRIVATE LIMITED** · [LICENSE](LICENSE)
+**Maintained by [HackerX Official](https://github.com/HackerX-offical)** · MIT License · APK v8.5.1 (`in.reelsaga.android`)
 
-Production-grade toolkit to scrape live ReelSaga data and document security exposure from `reelsaga.apk` v8.5.1.
+End-to-end security assessment of the ReelSaga Android app: live API scraping, APK-derived app intelligence, company/business data, and documented findings with proof-of-exposure scripts.
 
-> This repo is **not** the Android app source code. It is a security assessment + scraper.  
-> To decode the APK: `./scripts/decode-apk.sh` (optional, ~200MB output).
+> **This is not compilable Android app source.** It is an assessment repo with a Python scraper, scraped production data, and APK metadata (strings, manifest, API models). Optional full smali decode: `./scripts/decode-apk.sh` (~200MB, gitignored).
 
 ---
 
 ## Quick start
 
 ```bash
-./scripts/scrape-all.sh              # full scrape
-./scripts/scrape-all.sh --only content   # shows, trailers, reels only
-python3 -m reelsaga_scraper --help   # requires PYTHONPATH=scraper or pip install -e .
+./scripts/scrape-all.sh                    # full scrape → data/
+./scripts/scrape-all.sh --only content       # shows, trailers, reels only
+PYTHONPATH=scraper python3 -m reelsaga_scraper --help
 ```
 
 ---
@@ -23,62 +22,75 @@ python3 -m reelsaga_scraper --help   # requires PYTHONPATH=scraper or pip instal
 
 ```
 reelsaga/
-├── pyproject.toml              # Installable Python package
-├── scraper/reelsaga_scraper/   # Scraper source (compile/run)
-│   ├── cli.py
-│   ├── client.py               # API auth (Firebase fId → JWT)
-│   └── scrapers/
-│       ├── content.py          # Shows named {id}-{title}.json
-│       ├── users.py
-│       ├── company.py
-│       ├── business.py         # Pricing ₹599/3mo, subscription plans
-│       └── secrets.py
+├── LICENSE                         # MIT — HackerX Official
+├── pyproject.toml                  # reelsaga-scraper package
+├── artifacts/reelsaga.apk          # Source APK (v8.5.1)
 │
-├── data/                       # All scraped output
-│   ├── content/shows/          # 3202-warrior-reborn.json …
-│   ├── users/
-│   ├── company/                # Legal entity, Play Store, website
-│   ├── business/               # Pricing, plans, engagement metrics
-│   ├── secrets/                # Remote Config (Razorpay, MSG91)
-│   ├── media/
-│   ├── apk/
-│   └── schemas/
+├── scraper/reelsaga_scraper/       # Python scraper (compile & run)
+│   ├── cli.py · client.py
+│   └── scrapers/                   # content, users, company, business, secrets
 │
-├── artifacts/reelsaga.apk
-├── docs/ · reports/
-├── scripts/
-└── security-poc/
+├── data/                           # All scraped & static intelligence
+│   ├── content/                    # Shows, home, trailers, reels, lists
+│   ├── users/                      # Anonymous session, profile, transactions
+│   ├── company/                    # Legal entity, Play Store, website
+│   ├── business/                   # Pricing, plans, engagement metrics
+│   ├── secrets/                    # Firebase Remote Config (live keys)
+│   ├── media/                      # Thumbnails, website assets
+│   ├── app/                        # APK-derived app intelligence
+│   │   ├── embedded/               # strings.xml, manifest, assets
+│   │   ├── models/                 # API request/response field index
+│   │   └── network/                # API paths, URLs from APK
+│   ├── scrape-manifest.json
+│   └── SCRAPE_REVIEW.md            # Coverage checklist vs goals
+│
+├── docs/                           # Architecture, methodology, remediation
+│   └── assessment/SECURITY_REPORT.md
+├── proofs/                         # Live credential abuse PoCs (curl demos)
+└── scripts/                        # scrape-all, decode-apk, verify scripts
 ```
 
 ---
 
 ## What gets scraped
 
-| Category | Source | Output |
-|----------|--------|--------|
-| **Shows / episodes** | `GET /show/{id}` | `data/content/shows/{id}-{name}.json` + HLS URLs |
-| **Users** | `GET v1/user`, profile | `data/users/` (anonymous session; no bulk user DB) |
-| **Company** | Website, Play Store, docs | `data/company/profile.json` |
-| **Business / pricing** | `GET v1/subscription-plan` | ₹1 trial, ₹599/3 months |
-| **Secrets** | Firebase Remote Config | Live Razorpay + MSG91 keys |
-| **Engagement** | Show metadata | Watch/share counts in `data/business/engagement-metrics.json` |
+| Category | API / source | Output |
+|----------|--------------|--------|
+| **Content** | Home, shows, episodes, trailers, reels | `data/content/shows/{id}-{slug}.json` + HLS `.m3u8` |
+| **Users** | `v1/user`, profile, subscription, transactions | `data/users/` (anonymous JWT; no bulk user DB) |
+| **Company** | reelsaga.in, Play Store, legal docs | `data/company/profile.json` |
+| **Business** | `v1/subscription-plan`, remote config | ₹1 trial · ₹599 / 3 months |
+| **Secrets** | Firebase Remote Config (APK API key) | Live Razorpay + MSG91 keys |
+| **App intel** | APK static analysis | `data/app/` (embedded, models, network) |
 
-**Not available without admin/OTP:** actual revenue, full user database, logged-in mobile numbers.
+**Not publicly available:** actual revenue, full user database, logged-in PII (requires OTP/admin).
+
+See [data/SCRAPE_REVIEW.md](data/SCRAPE_REVIEW.md) for the full coverage matrix.
 
 ---
 
-## Find show by name
+## Find a show
 
 ```bash
 ls data/content/shows/ | rg -i warrior
-# 3202-warrior-reborn.json
+# → 3202-warrior-reborn.json
 ```
 
-Or open [data/content/shows/index.json](data/content/shows/index.json) — each entry has a `file` field.
+Or use [data/content/shows/index.json](data/content/shows/index.json) (`file` field per show).
 
 ---
 
-## Reports & remediation
+## Documentation
 
-- [reports/SECURITY_ASSESSMENT_REPORT.md](reports/SECURITY_ASSESSMENT_REPORT.md)
-- [docs/remediation/DEV_TEAM_FIX_GUIDE.md](docs/remediation/DEV_TEAM_FIX_GUIDE.md)
+| Doc | Purpose |
+|-----|---------|
+| [docs/00-INDEX.md](docs/00-INDEX.md) | Doc hub |
+| [docs/assessment/SECURITY_REPORT.md](docs/assessment/SECURITY_REPORT.md) | Formal security assessment |
+| [docs/remediation/DEV_TEAM_FIX_GUIDE.md](docs/remediation/DEV_TEAM_FIX_GUIDE.md) | Developer remediation |
+| [data/SCRAPE_REVIEW.md](data/SCRAPE_REVIEW.md) | Scrape completeness review |
+
+---
+
+## Warning
+
+This repository contains **live production credentials** extracted from Remote Config and the APK. Use only for authorized security research. Rotate exposed keys after review.

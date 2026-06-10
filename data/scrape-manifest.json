@@ -1,6 +1,20 @@
 {
-  "scrapedAt": "2026-06-10T08:58:29Z",
+  "scrapedAt": "2026-06-10T09:12:03Z",
   "steps": [
-    "users"
-  ]
+    "secrets",
+    "content",
+    "users",
+    "company",
+    "business"
+  ],
+  "summary": {
+    "content": {
+      "uniqueShowsScraped": 144,
+      "showDetailsFetched": 133,
+      "trailers": 10,
+      "reelsClips": 20,
+      "showFilesNamedAs": "{id}-{slug}.json"
+    },
+    "showCount": 133
+  }
 }

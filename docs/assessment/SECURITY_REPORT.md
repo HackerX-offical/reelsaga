@@ -10,7 +10,7 @@
 | **Classification** | Internal — for AppSec + Engineering remediation |
 | **License** | REELSAGA INNOVATIONS PRIVATE LIMITED — see [LICENSE](../LICENSE) |
 | **Live data scraped** | [data/content/](../data/content/) · [data/secrets/](../data/secrets/) |
-| **Credential abuse PoC** | [security-poc/](../security-poc/) |
+| **Credential abuse PoC** | [proofs/](../proofs/) |
 
 ---
 
@@ -115,7 +115,7 @@ Anyone with the APK's Google API key can fetch Remote Config and obtain:
 
 ### RS-01 — Hardcoded Firebase / Google API keys `[Critical]`
 
-**Live abuse proof:** [security-poc/firebase/PROOF.md](../security-poc/firebase/PROOF.md) — `curl` from any laptop returned **HTTP 200** and created a Firebase Installation with `refreshToken` + JWT.
+**Live abuse proof:** [proofs/firebase/PROOF.md](../proofs/firebase/PROOF.md) — `curl` from any laptop returned **HTTP 200** and created a Firebase Installation with `refreshToken` + JWT.
 
 **Evidence:** `scraped/strings/strings.xml`
 
@@ -138,7 +138,7 @@ Anyone with the APK's Google API key can fetch Remote Config and obtain:
 
 ### RS-02 — Hardcoded Facebook credentials `[High]`
 
-**Live abuse proof:** [security-poc/facebook/PROOF.md](../security-poc/facebook/PROOF.md) — Graph API returned **HTTP 200** with app name `ReelSaga New`.
+**Live abuse proof:** [proofs/facebook/PROOF.md](../proofs/facebook/PROOF.md) — Graph API returned **HTTP 200** with app name `ReelSaga New`.
 
 **Evidence:** `scraped/strings/strings.xml`
 
@@ -428,13 +428,13 @@ Full list: [analysis/api_paths.txt](analysis/api_paths.txt)
 
 | Artifact | Path |
 |----------|------|
-| Decoded manifest | `data/apk/manifests/android-manifest.xml` |
-| APK strings / keys | `data/apk/strings/strings.xml` |
-| All URLs | `data/infrastructure/urls/all-urls.txt` |
-| API paths | `data/infrastructure/urls/api-paths.txt` |
+| Decoded manifest | `data/app/embedded/manifests/android-manifest.xml` |
+| APK strings / keys | `data/app/embedded/strings/strings.xml` |
+| All URLs | `data/app/network/urls/all-urls.txt` |
+| API paths | `data/app/network/urls/api-paths.txt` |
 | Live content scrape | `data/content/` |
 | Production secrets | `data/secrets/remote-config/` |
-| Smali / resources | `analysis/apktool/` |
+| Smali / resources | `data/app/decoded/` (optional, gitignored) |
 
 ---
 

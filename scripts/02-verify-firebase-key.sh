@@ -5,7 +5,7 @@ set -euo pipefail
 API_KEY="${GOOGLE_API_KEY:-AIzaSyBwKRNfSG-VXWiWVkD0pFG7PW6dcY8MMzM}"
 APP_ID="${GOOGLE_APP_ID:-1:544458187694:android:d8ae8c1fbdcf21fc571e3f}"
 PROJECT_ID="${FIREBASE_PROJECT:-reel-saga-app}"
-OUT_DIR="$(cd "$(dirname "$0")/.." && pwd)/security-poc/firebase"
+OUT_DIR="$(cd "$(dirname "$0")/.." && pwd)/proofs/firebase"
 mkdir -p "$OUT_DIR"
 
 FID="proof-$(date +%s)-$$"

@@ -1,13 +1,13 @@
 {
   "UserSubscriptionDetailResponseV1": {
-    "file": "scraped-data/schemas/source-models/app/repository/response/UserSubscriptionDetailResponseV1.java",
+    "file": "data/app/models/data-models-index.json#UserSubscriptionDetailResponseV1",
     "fields": [
       "note",
       "viewType"
     ]
   },
   "UserResponse": {
-    "file": "scraped-data/schemas/source-models/app/repository/response/UserResponse.java",
+    "file": "data/app/models/data-models-index.json#UserResponse",
     "fields": [
       "ageGroup",
       "createdAt",
@@ -22,26 +22,26 @@
     ]
   },
   "SessionUpdateResponse": {
-    "file": "scraped-data/schemas/source-models/app/repository/response/SessionUpdateResponse.java",
+    "file": "data/app/models/data-models-index.json#SessionUpdateResponse",
     "fields": [
       "message"
     ]
   },
   "ExchangeTokenResponse": {
-    "file": "scraped-data/schemas/source-models/app/repository/response/ExchangeTokenResponse.java",
+    "file": "data/app/models/data-models-index.json#ExchangeTokenResponse",
     "fields": [
       "refreshToken",
       "token"
     ]
   },
   "SessionResponse": {
-    "file": "scraped-data/schemas/source-models/app/repository/response/SessionResponse.java",
+    "file": "data/app/models/data-models-index.json#SessionResponse",
     "fields": [
       "message"
     ]
   },
   "UpdateUserRequest": {
-    "file": "scraped-data/schemas/source-models/app/repository/request/UpdateUserRequest.java",
+    "file": "data/app/models/data-models-index.json#UpdateUserRequest",
     "fields": [
       "ageGroup",
       "gender",
@@ -50,20 +50,20 @@
     ]
   },
   "SessionUpdateRequest": {
-    "file": "scraped-data/schemas/source-models/app/repository/request/SessionUpdateRequest.java",
+    "file": "data/app/models/data-models-index.json#SessionUpdateRequest",
     "fields": [
       "deeplink",
       "messageId"
     ]
   },
   "FCMTokenRequest": {
-    "file": "scraped-data/schemas/source-models/app/repository/request/FCMTokenRequest.java",
+    "file": "data/app/models/data-models-index.json#FCMTokenRequest",
     "fields": [
       "token"
     ]
   },
   "GenerateNewTokenRequest": {
-    "file": "scraped-data/schemas/source-models/app/repository/request/GenerateNewTokenRequest.java",
+    "file": "data/app/models/data-models-index.json#GenerateNewTokenRequest",
     "fields": [
       "accessToken",
       "aid",
@@ -93,7 +93,7 @@
     ]
   },
   "RefreshTokenRequest": {
-    "file": "scraped-data/schemas/source-models/app/repository/request/RefreshTokenRequest.java",
+    "file": "data/app/models/data-models-index.json#RefreshTokenRequest",
     "fields": [
       "accessToken",
       "aid",

@@ -28,7 +28,7 @@ Remote Config currently exposes to anyone with the APK:
 
 **Fix:**
 - Firebase keys in `google-services.json` are expected, but **must** be restricted in Google Cloud Console (Android app + SHA-256 cert).
-- **Rotate** any key in `data/apk/strings/strings.xml` or `data/secrets/` if report leaked.
+- **Rotate** any key in `data/app/embedded/strings/strings.xml` or `data/secrets/` if report leaked.
 - Do not add MSG91 auth keys, Razorpay secret keys, or backend API keys to the client — ever.
 
 ---

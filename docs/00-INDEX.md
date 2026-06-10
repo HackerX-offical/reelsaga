@@ -11,6 +11,8 @@
 | [08_DEPENDENCIES.md](08_DEPENDENCIES.md) | Third-party SDKs |
 | [findings/06_SECURITY_ANALYSIS.md](findings/06_SECURITY_ANALYSIS.md) | Technical security analysis |
 | [methodology/HOW_WE_SCRAPED.md](methodology/HOW_WE_SCRAPED.md) | Scrape methodology |
+| [methodology/ARTIFACT_MAP.md](methodology/ARTIFACT_MAP.md) | File layout reference |
 | [remediation/DEV_TEAM_FIX_GUIDE.md](remediation/DEV_TEAM_FIX_GUIDE.md) | Dev team fix guide |
-| [../data/README.md](../data/README.md) | Scraped data index |
-| [../reports/SECURITY_ASSESSMENT_REPORT.md](../reports/SECURITY_ASSESSMENT_REPORT.md) | Formal report |
+| [assessment/SECURITY_REPORT.md](assessment/SECURITY_REPORT.md) | Formal security report |
+| [../data/README.md](../data/README.md) | Intelligence data index |
+| [../data/SCRAPE_REVIEW.md](../data/SCRAPE_REVIEW.md) | Scrape coverage review |
