@@ -1,0 +1,93 @@
+{
+  "count": 11,
+  "failures": [
+    {
+      "id": 6,
+      "httpStatus": 400,
+      "message": {
+        "success": false,
+        "message": "Show not found"
+      }
+    },
+    {
+      "id": 8,
+      "httpStatus": 400,
+      "message": {
+        "success": false,
+        "message": "Show not found"
+      }
+    },
+    {
+      "id": 12,
+      "httpStatus": 400,
+      "message": {
+        "success": false,
+        "message": "Show not found"
+      }
+    },
+    {
+      "id": 14,
+      "httpStatus": 400,
+      "message": {
+        "success": false,
+        "message": "Show not found"
+      }
+    },
+    {
+      "id": 15,
+      "httpStatus": 400,
+      "message": {
+        "success": false,
+        "message": "Show not found"
+      }
+    },
+    {
+      "id": 16,
+      "httpStatus": 400,
+      "message": {
+        "success": false,
+        "message": "Show not found"
+      }
+    },
+    {
+      "id": 17,
+      "httpStatus": 400,
+      "message": {
+        "success": false,
+        "message": "Show not found"
+      }
+    },
+    {
+      "id": 67,
+      "httpStatus": 400,
+      "message": {
+        "success": false,
+        "message": "Show not found"
+      }
+    },
+    {
+      "id": 68,
+      "httpStatus": 400,
+      "message": {
+        "success": false,
+        "message": "Show not found"
+      }
+    },
+    {
+      "id": 69,
+      "httpStatus": 400,
+      "message": {
+        "success": false,
+        "message": "Show not found"
+      }
+    },
+    {
+      "id": 25653,
+      "httpStatus": 400,
+      "message": {
+        "success": false,
+        "message": "Show not found"
+      }
+    }
+  ]
+}

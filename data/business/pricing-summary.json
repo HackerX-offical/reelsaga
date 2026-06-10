@@ -4,5 +4,7 @@
   "subscriptionAmountINR": 599,
   "billingCycleMonths": 3,
   "currency": "INR",
-  "note": "Live pricing from GET /v1/subscription-plan — actual revenue is server-side only"
+  "paymentConfig": "data/secrets/remote-config/parsed/payment-config-exposed.json",
+  "subscriptionStatus": "data/users/subscription.json",
+  "note": "Live pricing from GET /v1/subscription-plan"
 }

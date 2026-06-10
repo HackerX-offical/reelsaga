@@ -3,15 +3,18 @@ from __future__ import annotations
 from pathlib import Path
 
 from reelsaga_scraper.client import ApiClient
-from reelsaga_scraper.utils import load_json, save_json
+from reelsaga_scraper.utils import save_json
 
 
-def scrape_users(data_dir: Path, client: ApiClient, session_meta: dict | None = None) -> None:
+def scrape_users(data_dir: Path, client: ApiClient) -> None:
     out = data_dir / "users"
     out.mkdir(parents=True, exist_ok=True)
 
-    if session_meta:
-        save_json(out / "auth-session.json", session_meta)
+    save_json(out / "auth-session.json", {
+        "firebaseFid": client.firebase_fid,
+        "authTokenResponse": client.auth_response,
+        "note": "Anonymous JWT via POST /auth/token — no OTP",
+    })
 
     endpoints = {
         "current-user.json": "v1/user",
@@ -27,20 +30,11 @@ def scrape_users(data_dir: Path, client: ApiClient, session_meta: dict | None = 
             parsed[ep] = data
         print(f"  users/{fname} -> HTTP {code}")
 
-    # User schema reference (PII fields the API can return)
-    schema_path = data_dir / "app" / "models" / "user-data-models.json"
-    if schema_path.exists():
-        save_json(out / "user-schema-reference.json", load_json(schema_path))
-
-    # Internal dev device fingerprints from remote config
-    dev_path = data_dir / "secrets" / "remote-config" / "parsed" / "user-config-exposed.json"
-    if dev_path.exists():
-        save_json(out / "internal-dev-device-ids.json", load_json(dev_path))
-
     user = parsed.get("v1/user", {}).get("data", {}).get("user", {})
     save_json(out / "user-summary.json", {
-        "note": "Bulk user database not exposed via API. OTP required for logged-in PII.",
+        "note": "Bulk user database not exposed. OTP required for logged-in PII.",
         "anonymousSessionFields": user,
         "piiFieldsWhenLoggedIn": ["id", "name", "mobile", "gender", "ageGroup", "paymentStatus", "createdAt"],
-        "internalDevDevicesExposed": dev_path.exists(),
+        "schemaReference": "data/app/models/data-models-index.json",
+        "devDeviceIds": "data/secrets/remote-config/parsed/user-config-exposed.json",
     })

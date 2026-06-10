@@ -4,7 +4,7 @@ import json
 import time
 import urllib.error
 import urllib.request
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 API = "https://api.reelsaga.in"
 FIS_URL = "https://firebaseinstallations.googleapis.com/v1/projects/reel-saga-app/installations"
@@ -15,6 +15,8 @@ APP_ID = "1:544458187694:android:d8ae8c1fbdcf21fc571e3f"
 @dataclass
 class ApiClient:
     headers: dict
+    auth_response: dict = field(default_factory=dict)
+    firebase_fid: str = ""
 
     @classmethod
     def create(cls, device_id: str = "security-scrape-001") -> ApiClient:
@@ -45,25 +47,31 @@ class ApiClient:
             "osVersion": "14",
             "locale": "en_IN",
         }
-        _, tok = http("POST", f"{API}/auth/token", body, base)
-        access = json.loads(tok)["data"]["accessToken"]
-        return cls(headers={**base, "Authorization": f"Bearer {access}"})
+        code, tok = http("POST", f"{API}/auth/token", body, base)
+        auth = json.loads(tok) if tok else {"httpStatus": code, "raw": tok}
+        access = auth.get("data", {}).get("accessToken", "")
+        return cls(
+            headers={**base, "Authorization": f"Bearer {access}"},
+            auth_response=auth,
+            firebase_fid=real_fid,
+        )
+
+    def request(self, method: str, path: str, body: dict | None = None) -> tuple[int, dict | str]:
+        url = path if path.startswith("http") else f"{API}/{path.lstrip('/')}"
+        code, raw = http(method, url, body, self.headers)
+        try:
+            return code, json.loads(raw)
+        except json.JSONDecodeError:
+            return code, raw
 
     def get(self, path: str) -> tuple[int, dict | str]:
-        url = path if path.startswith("http") else f"{API}/{path.lstrip('/')}"
-        code, raw = http("GET", url, headers=self.headers)
-        try:
-            return code, json.loads(raw)
-        except json.JSONDecodeError:
-            return code, raw
+        return self.request("GET", path)
 
     def post(self, path: str, body: dict) -> tuple[int, dict | str]:
-        url = f"{API}/{path.lstrip('/')}"
-        code, raw = http("POST", url, body, self.headers)
-        try:
-            return code, json.loads(raw)
-        except json.JSONDecodeError:
-            return code, raw
+        return self.request("POST", path, body)
+
+    def put(self, path: str, body: dict) -> tuple[int, dict | str]:
+        return self.request("PUT", path, body)
 
 
 def http(method: str, url: str, body: dict | None = None, headers: dict | None = None) -> tuple[int, str]:

@@ -1,0 +1,124 @@
+{
+  "httpStatus": 200,
+  "success": true,
+  "data": {
+    "freeTrialDays": 1,
+    "freeTrialAmount": 1,
+    "subscriptionAmount": 599,
+    "billingCycleInMonths": 3,
+    "subscriptionMonth": 3,
+    "freeTrialProcessData": [
+      {
+        "heading": "Pay ₹1 to begin",
+        "subHeading": "Get full access instantly. \nPay ₹1 for 1 day.",
+        "icon": "https://dsmjhykc753wb.cloudfront.net/assets/lock.png"
+      },
+      {
+        "heading": "1-Day FREE, Cancel anytime",
+        "subHeading": "Binge stories that surprise, move, and \nthrill you — every minute counts.",
+        "icon": "https://dsmjhykc753wb.cloudfront.net/assets/unlock.png"
+      },
+      {
+        "heading": "Autopay ₹599 every 3 months",
+        "subHeading": "Cancel anytime before renewal. No pressure.",
+        "icon": "https://dsmjhykc753wb.cloudfront.net/assets/rupee.png"
+      }
+    ],
+    "benefitsData": [
+      {
+        "heading": "Unlimited Short Dramas",
+        "subHeading": "Every story. Every twist. No limits. \nWatch in full HD.",
+        "icon": "https://dsmjhykc753wb.cloudfront.net/assets/play.png"
+      },
+      {
+        "heading": "New Stories Every Week",
+        "subHeading": "Fresh content drops every few days — \nalways something worth watching.",
+        "icon": "https://dsmjhykc753wb.cloudfront.net/assets/refresh.png"
+      },
+      {
+        "heading": "Zero Ads. Zero Distractions.",
+        "subHeading": "No interruptions — just story after story, \nswipe after swipe.",
+        "icon": "https://dsmjhykc753wb.cloudfront.net/assets/stop.png"
+      }
+    ],
+    "faqs": [
+      {
+        "heading": "What are the benefits of subscribing to ReelSaga Premium?",
+        "subHeading": "ReelSaga Premium gives you unlimited access to premium short dramas, ad-free content, and personalized recommendations for a seamless viewing experience."
+      },
+      {
+        "heading": "What is included in the ReelSaga Premium subscription?",
+        "subHeading": "It includes unlimited access to all premium content, early access to exclusive shows, and personalized recommendations based on your preferences."
+      },
+      {
+        "heading": "How does the 1-day trial work?",
+        "subHeading": "Enjoy full access to premium content for 1 day. After the trial, the subscription will renew automatically, and payment will be deducted based on your selected plan (monthly or quarterly)."
+      },
+      {
+        "heading": "Can I get a refund if I don't like it?",
+        "subHeading": "ReelSaga does not offer refunds. However, if you're not satisfied, you can cancel your subscription at any time before the next payment cycle."
+      },
+      {
+        "heading": "How can I cancel my subscription for future billing?",
+        "subHeading": "You can cancel your subscription anytime via in-app support or by contacting customer support."
+      },
+      {
+        "heading": "Can I gift my membership to someone else?",
+        "subHeading": "No, memberships are tied to individual accounts and cannot be transferred."
+      },
+      {
+        "heading": "Will new content be added?",
+        "subHeading": "Yes, we constantly update the library with fresh shows and episodes, so you'll never run out of content."
+      },
+      {
+        "heading": "What is the UPI autopay mandate?",
+        "subHeading": "A ₹1 token amount is deducted for setting up the UPI autopay mandate. After the trial, the full subscription amount is deducted automatically based on your chosen plan."
+      },
+      {
+        "heading": "What are the subscription plans available?",
+        "subHeading": "We offer monthly and quarterly plans. Choose your preferred plan after the 1-day free trial."
+      },
+      {
+        "heading": "How much does ReelSaga Premium cost?",
+        "subHeading": "The trial costs ₹1 for the UPI setup. After the trial, the subscription fee will be deducted based on the chosen plan (monthly or quarterly)."
+      },
+      {
+        "heading": "How can I pay for ReelSaga Premium?",
+        "subHeading": "Payment is made via UPI autopay, simplifying recurring payments."
+      },
+      {
+        "heading": "How many videos are free on ReelSaga?",
+        "subHeading": "You get full access to premium content during the 1-day trial. Afterward, a subscription is required."
+      },
+      {
+        "heading": "Can I watch ReelSaga on multiple devices?",
+        "subHeading": "Yes, you can log in and enjoy ReelSaga on any compatible device."
+      },
+      {
+        "heading": "How do I cancel my trial?",
+        "subHeading": "Trial can be cancelled at any time through the original payment app. Simply locate your active mandates to manage or terminate your trial."
+      }
+    ],
+    "paymentScreen": {
+      "section": {
+        "points": [
+          {
+            "leftText": "Pay Today",
+            "rightText": "₹1",
+            "highlight": true
+          }
+        ]
+      },
+      "footerText": "Token amount of upto ₹1 or less will be charged."
+    },
+    "paymentPlatform": "phonepe",
+    "showFreeTrialText": true,
+    "socialProof": {
+      "startImage": "https://dsmjhykc753wb.cloudfront.net/assets/social_proof_start_image.webp",
+      "endImage": "https://dsmjhykc753wb.cloudfront.net/assets/social_proof_end_image.webp",
+      "text": "50 Lakh + Users • Rated 4.7"
+    },
+    "variantType": "text",
+    "freeTrialAmountImageUrl": "https://dsmjhykc753wb.cloudfront.net/assets/coin-one-rupee_v1.webp"
+  }
+}

@@ -17,19 +17,10 @@ def scrape_business(data_dir: Path, client: ApiClient) -> None:
             plans[ep] = data
     save_json(out / "subscription-plans.json", plans)
 
-    _, sub = client.get("v1/subscription")
-    save_json(out / "subscription-status.json", sub if isinstance(sub, dict) else {"raw": sub})
-
-    rc_path = data_dir / "secrets" / "remote-config" / "parsed" / "payment-config-exposed.json"
-    if rc_path.exists():
-        save_json(out / "payment-config-remote.json", load_json(rc_path))
-
-    # Aggregate engagement from scraped shows (watch/like counts)
     shows_dir = data_dir / "content" / "shows"
     index_path = shows_dir / "index.json"
     if index_path.exists():
-        index = load_json(index_path)
-        shows = index.get("shows", [])
+        shows = load_json(index_path).get("shows", [])
         total_watch = sum(s.get("watchCount") or 0 for s in shows)
         total_share = sum(s.get("shareCount") or 0 for s in shows)
         top = sorted(shows, key=lambda s: s.get("watchCount") or 0, reverse=True)[:20]
@@ -38,7 +29,7 @@ def scrape_business(data_dir: Path, client: ApiClient) -> None:
             "totalWatchCount": total_watch,
             "totalShareCount": total_share,
             "topShowsByWatchCount": top,
-            "note": "Aggregated from public show metadata — not company revenue",
+            "note": "Aggregated from show metadata — not company revenue",
         })
 
     pricing = plans.get("v1/subscription-plan", {}).get("data", {})
@@ -49,7 +40,9 @@ def scrape_business(data_dir: Path, client: ApiClient) -> None:
             "subscriptionAmountINR": pricing.get("subscriptionAmount"),
             "billingCycleMonths": pricing.get("billingCycleInMonths"),
             "currency": "INR",
-            "note": "Live pricing from GET /v1/subscription-plan — actual revenue is server-side only",
+            "paymentConfig": "data/secrets/remote-config/parsed/payment-config-exposed.json",
+            "subscriptionStatus": "data/users/subscription.json",
+            "note": "Live pricing from GET /v1/subscription-plan",
         })
 
     print("  business: subscription plans, pricing, engagement metrics")

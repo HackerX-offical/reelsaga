@@ -7,7 +7,7 @@
       "mobile": null,
       "language": null,
       "isSubscribed": false,
-      "hasReviewedApp": false,
+      "hasReviewedApp": true,
       "paymentStatus": "processing"
     }
   }

@@ -15,4 +15,5 @@
 | [remediation/DEV_TEAM_FIX_GUIDE.md](remediation/DEV_TEAM_FIX_GUIDE.md) | Dev team fix guide |
 | [assessment/SECURITY_REPORT.md](assessment/SECURITY_REPORT.md) | Formal security report |
 | [../data/README.md](../data/README.md) | Intelligence data index |
+| [../data/api/coverage.json](../data/api/coverage.json) | API endpoint probe matrix |
 | [../data/SCRAPE_REVIEW.md](../data/SCRAPE_REVIEW.md) | Scrape coverage review |

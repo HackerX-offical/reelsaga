@@ -46,9 +46,13 @@ Optional full apktool decode — run `./scripts/decode-apk.sh` (gitignored, ~200
 
 Session, profile, subscription, transactions API responses.
 
-## `data/company/` · `data/business/` · `data/media/`
+## `data/api/`
 
-Company legal profile, pricing/engagement, downloaded media assets.
+Endpoint coverage matrix (`coverage.json`) and per-path responses (`responses/`).
+
+## `data/company/` · `data/business/`
+
+Company legal profile, pricing/engagement aggregates.
 
 ## `proofs/`
 

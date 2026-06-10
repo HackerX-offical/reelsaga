@@ -1,0 +1,95 @@
+{
+  "httpStatus": 200,
+  "success": true,
+  "data": {
+    "languages": [
+      {
+        "id": 1,
+        "name": "हिन्दी",
+        "englishName": "Hindi",
+        "letter": "अ",
+        "isActive": true,
+        "createdAt": "2025-12-09T08:11:56.128Z",
+        "updatedAt": "2025-12-09T08:11:56.128Z"
+      },
+      {
+        "id": 4,
+        "name": "தமிழ்",
+        "englishName": "Tamil",
+        "letter": "அ",
+        "isActive": true,
+        "createdAt": "2025-12-09T08:11:56.128Z",
+        "updatedAt": "2025-12-09T08:11:56.128Z"
+      },
+      {
+        "id": 5,
+        "name": "ગુજરાતી",
+        "englishName": "Gujarati",
+        "letter": "અ",
+        "isActive": true,
+        "createdAt": "2025-12-05T08:11:42.985Z",
+        "updatedAt": "2025-12-05T08:11:42.985Z"
+      },
+      {
+        "id": 6,
+        "name": "ਪੰਜਾਬੀ",
+        "englishName": "Punjabi",
+        "letter": "ਅ",
+        "isActive": true,
+        "createdAt": "2026-01-12T10:50:48.567Z",
+        "updatedAt": "2026-01-12T10:50:48.567Z"
+      },
+      {
+        "id": 3,
+        "name": "తెలుగు",
+        "englishName": "Telugu",
+        "letter": "అ",
+        "isActive": true,
+        "createdAt": "2025-12-05T08:11:42.985Z",
+        "updatedAt": "2025-12-05T08:11:42.985Z"
+      },
+      {
+        "id": 7,
+        "name": "ಕನ್ನಡ",
+        "englishName": "Kannada",
+        "letter": "ಅ",
+        "isActive": true,
+        "createdAt": "2026-01-23T15:40:44.280Z",
+        "updatedAt": "2026-01-23T15:40:44.280Z"
+      },
+      {
+        "id": 8,
+        "name": "मराठी",
+        "englishName": "Marathi",
+        "letter": "अ",
+        "isActive": true,
+        "createdAt": "2026-02-08T06:32:16.650Z",
+        "updatedAt": "2026-02-08T06:32:16.650Z"
+      },
+      {
+        "id": 9,
+        "name": "മലയാളം",
+        "englishName": "Malayalam",
+        "letter": "അ",
+        "isActive": true,
+        "createdAt": "2026-02-17T13:07:39.708Z",
+        "updatedAt": "2026-02-17T13:07:39.708Z"
+      }
+    ],
+    "defaultLanguageId": 1,
+    "invite": {
+      "link": "https://reelsaga.onelink.me/06Ow/3lxbgyo6",
+      "imgUrl": "https://dsmjhykc753wb.cloudfront.net/assets/invite_a_friend_image_v2.webp",
+      "drawerImgUrl": "https://dsmjhykc753wb.cloudfront.net/assets/invite_a_friend_drawer_image_v1.webp",
+      "maxPitchPerSession": 3,
+      "gapBetweenPitchSessions": 1,
+      "pitchAfterEpisodesWatched": 5
+    },
+    "search": {
+      "enabled": true
+    },
+    "app": {
+      "defaultLandingScreen": "trailer"
+    }
+  }
+}

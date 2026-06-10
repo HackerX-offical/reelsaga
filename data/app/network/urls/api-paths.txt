@@ -13,7 +13,7 @@ config
 auth/token
 user/verify
 user/preferences
-session
+session (PUT — deeplink or messageId)
 fcm-token
 review
 transactions

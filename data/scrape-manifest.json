@@ -1,20 +1,18 @@
 {
-  "scrapedAt": "2026-06-10T09:12:03Z",
+  "scrapedAt": "2026-06-10T09:28:03Z",
   "steps": [
     "secrets",
     "content",
     "users",
-    "company",
-    "business"
+    "api",
+    "business",
+    "company"
   ],
   "summary": {
-    "content": {
-      "uniqueShowsScraped": 144,
-      "showDetailsFetched": 133,
-      "trailers": 10,
-      "reelsClips": 20,
-      "showFilesNamedAs": "{id}-{slug}.json"
-    },
-    "showCount": 133
+    "showCount": 133,
+    "apiEndpoints": {
+      "total": 31,
+      "reachable": 26
+    }
   }
 }

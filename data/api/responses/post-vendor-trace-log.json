@@ -1,0 +1,18 @@
+{
+  "httpStatus": 200,
+  "success": true,
+  "data": {
+    "message": "Vendor trace log created successfully",
+    "vendorTraceLog": {
+      "id": 6705836,
+      "vendorName": "okhttp",
+      "methodName": "security-probe",
+      "startTime": "2026-06-10T09:29:06.343Z",
+      "endTime": "2026-06-10T09:29:07.343Z",
+      "extraData": null,
+      "sessionId": 44566026,
+      "updatedAt": "2026-06-10T09:29:13.976Z",
+      "createdAt": "2026-06-10T09:29:13.976Z"
+    }
+  }
+}

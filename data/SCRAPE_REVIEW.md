@@ -1,9 +1,7 @@
 # Scrape Coverage Review
 
-**Last full scrape:** see [scrape-manifest.json](scrape-manifest.json)  
-**Command:** `./scripts/scrape-all.sh`
-
-This document answers: *did we get what we actually wanted?*
+**Last full scrape:** [scrape-manifest.json](scrape-manifest.json)  
+**API matrix:** [api/coverage.json](api/coverage.json)
 
 ---
 
@@ -11,44 +9,47 @@ This document answers: *did we get what we actually wanted?*
 
 | Goal | Status | Evidence |
 |------|--------|----------|
-| All public show catalog + episodes | **Done** | 133 show files in [content/shows/](content/shows/), HLS `.m3u8` per episode |
-| Home feed, lists, search | **Done** | [content/home/](content/home/), [content/lists/](content/lists/), [content/search/](content/search/) |
-| Trailers & reels/clips | **Done** | 10 trailers, 20 clips — [content/SUMMARY.json](content/SUMMARY.json) |
-| Anonymous user session | **Done** | JWT via `POST /auth/token` — [users/auth-session.json](users/auth-session.json) |
-| User profile shape (no OTP PII) | **Done** | [users/current-user.json](users/current-user.json), [users/user-schema-reference.json](users/user-schema-reference.json) |
-| Subscription pricing | **Done** | ₹1 trial · ₹599 / 3 months — [business/pricing-summary.json](business/pricing-summary.json) |
-| Payment / OTP secrets | **Done** | Live Razorpay + MSG91 — [secrets/remote-config/parsed/credentials-exposed.json](secrets/remote-config/parsed/credentials-exposed.json) |
-| Company legal & contact | **Done** | [company/profile.json](company/profile.json) |
-| Play Store metadata | **Done** | [company/play-store.json](company/play-store.json) |
-| Website scrape | **Done** | [company/website-scrape.json](company/website-scrape.json) |
-| Engagement signals | **Done** | Watch/share aggregates — [business/engagement-metrics.json](business/engagement-metrics.json) |
-| APK app intelligence | **Done** | [app/embedded/](app/embedded/), [app/models/](app/models/), [app/network/](app/network/) |
-| Full user database | **Blocked** | Requires admin / internal access |
-| Logged-in mobile numbers | **Blocked** | `user/verify` needs phone OTP |
-| Actual company revenue | **Blocked** | Server-side only; not in public APIs |
+| All public shows + episodes + HLS | **Done** | [content/shows/](content/shows/) |
+| Home, lists, search | **Done** | [content/home/](content/home/), [content/lists/](content/lists/) |
+| Trailers & reels | **Done** | [content/trailers/](content/trailers/), [content/reels/](content/reels/) |
+| Every APK API path probed | **Done** | [api/coverage.json](api/coverage.json) |
+| Anonymous user session | **Done** | [users/auth-session.json](users/auth-session.json) |
+| Subscription pricing | **Done** | [business/pricing-summary.json](business/pricing-summary.json) |
+| Live payment/OTP secrets | **Done** | [secrets/remote-config/parsed/credentials-exposed.json](secrets/remote-config/parsed/credentials-exposed.json) |
+| Company legal profile | **Done** | [company/profile.json](company/profile.json) |
+| APK app intelligence | **Done** | [app/](app/) |
+| Bulk user database | **Blocked** | No public endpoint |
+| Logged-in PII (mobile) | **Blocked** | `user/verify` requires OTP |
+| Actual revenue | **Blocked** | Server-side only |
 
 ---
 
-## Content summary (latest run)
+## API path results (api.reelsaga.in)
 
-| Metric | Value |
-|--------|-------|
-| Shows indexed | 133 |
-| Show detail files | 133 (`{id}-{slug}.json`) |
-| Unique IDs discovered | 144 (from home + lists) |
-| Trailers | 10 |
-| Reels / clips | 20 |
-| Home sections | 9 |
-| Search queries sampled | 6 |
+| Path | Method | Result |
+|------|--------|--------|
+| `config` | GET | OK |
+| `v1/home/config` | GET | OK |
+| `v1/home` | GET | OK |
+| `v1/user` | GET | OK |
+| `v1/profile` | GET | OK |
+| `v1/subscription` | GET | OK |
+| `v1/subscription-plan` | GET | OK |
+| `v1/trailers` | GET | OK |
+| `clips` | GET | OK |
+| `transactions` | GET | OK (empty for anonymous) |
+| `auth/token` | POST | OK |
+| `fcm-token` | POST | OK |
+| `review` | POST | OK |
+| `session` | PUT | OK (deeplink update) |
+| `vendor-trace-log` | POST | OK |
+| `appsflyer-deeplink` | POST | OK |
+| `subscription/cancel` | POST | Partial (no active subscription) |
+| `user/verify` | POST | Partial (needs OTP access token) |
+| `trailer` | GET/POST | Not routed (404) |
+| `user/preferences` | GET/POST | Not routed (404) |
 
----
-
-## What this repo is (and is not)
-
-| | |
-|---|---|
-| **Is** | Security assessment, live API scraper, scraped production intelligence, APK metadata |
-| **Is not** | Compilable Kotlin/Java Android source (use `./scripts/decode-apk.sh` for smali only) |
+MSG91 and Razorpay paths are third-party — documented under `api/responses/external-*`.
 
 ---
 
@@ -56,6 +57,5 @@ This document answers: *did we get what we actually wanted?*
 
 ```bash
 ./scripts/scrape-all.sh
+./scripts/scrape-all.sh --only api   # endpoint probe only
 ```
-
-Partial runs: `--only secrets|content|users|company|business`

@@ -62,7 +62,7 @@
           "updatedAt": "2026-04-17T14:40:57.352Z"
         },
         "likeCount": 1333576,
-        "isLikedByUser": false,
+        "isLikedByUser": true,
         "trackingSourceId": 15,
         "trackingSourceName": "trailers"
       },
@@ -222,7 +222,7 @@
           "updatedAt": "2026-04-03T08:06:35.676Z"
         },
         "likeCount": 1257214,
-        "isLikedByUser": false,
+        "isLikedByUser": true,
         "trackingSourceId": 15,
         "trackingSourceName": "trailers"
       },
@@ -286,7 +286,7 @@
           "updatedAt": "2026-04-08T11:29:39.592Z"
         },
         "likeCount": 1304206,
-        "isLikedByUser": true,
+        "isLikedByUser": false,
         "trackingSourceId": 15,
         "trackingSourceName": "trailers"
       },
@@ -318,7 +318,7 @@
           "updatedAt": "2025-10-18T11:37:25.617Z"
         },
         "likeCount": 634570,
-        "isLikedByUser": false,
+        "isLikedByUser": true,
         "trackingSourceId": 15,
         "trackingSourceName": "trailers"
       }

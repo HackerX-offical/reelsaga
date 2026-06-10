@@ -1,0 +1,14 @@
+{
+  "httpStatus": 200,
+  "success": true,
+  "data": {
+    "review": {
+      "id": 794012,
+      "sessionId": 44566026,
+      "rating": 5,
+      "reviewText": null,
+      "updatedAt": "2026-06-10T09:29:13.297Z",
+      "createdAt": "2026-06-10T09:29:13.297Z"
+    }
+  }
+}

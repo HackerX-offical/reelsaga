@@ -1,0 +1,7 @@
+{
+  "httpStatus": 200,
+  "success": true,
+  "data": {
+    "deeplink": "https://www.reelsaga.in/show/793?trackingSourceId=22&trackingSourceName=google_deeplink"
+  }
+}

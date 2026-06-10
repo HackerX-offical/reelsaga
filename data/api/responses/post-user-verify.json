@@ -1,0 +1,5 @@
+{
+  "httpStatus": 400,
+  "success": false,
+  "message": "Access token is required"
+}

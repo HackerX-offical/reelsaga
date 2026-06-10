@@ -17,7 +17,7 @@ cat app/proof-of-exposure/extraction/output/secrets-snippet.xml
 <string name="google_app_id">1:544458187694:android:d8ae8c1fbdcf21fc571e3f</string>
 ```
 
-Source file in APK: `res/values/strings.xml` → also at `scraped/strings/strings.xml`
+Source file in APK: `res/values/strings.xml` → `data/app/embedded/strings/strings.xml`
 
 ## Step 2 — Abuse from laptop (no phone, no root)
 

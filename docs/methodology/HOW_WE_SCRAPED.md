@@ -28,7 +28,7 @@ Scraper package: `scraper/reelsaga_scraper/`
 2. `POST /auth/token` with `fId` + `aId` — no OTP
 3. Bearer JWT → home, trailers, clips, show details, episode `.m3u8` URLs
 
-Output: `data/content/shows/{id}-{slug}.json`, `data/users/`, `data/company/`, `data/business/`, `data/media/`
+Output: `data/content/shows/{id}-{slug}.json`, `data/users/`, `data/company/`, `data/business/`, `data/api/`
 
 ## Phase 4 — Security PoC
 

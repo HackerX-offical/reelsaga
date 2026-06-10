@@ -1,7 +1,7 @@
 # Dev Team Fix Guide — Quick Reference
 
 **ReelSaga Innovations Pvt Ltd — Internal Security Remediation**  
-Proof that issues are real: [../../data/secrets/README.md](../../data/secrets/README.md) · [../../data/content/README.md](../../data/content/README.md)
+Proof that issues are real: [../../data/secrets/remote-config/parsed/credentials-exposed.json](../../data/secrets/remote-config/parsed/credentials-exposed.json) · [../../data/api/coverage.json](../../data/api/coverage.json)
 
 One-page actionable fixes mapped to ReelSaga security findings.
 

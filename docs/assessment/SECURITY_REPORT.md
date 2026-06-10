@@ -117,7 +117,7 @@ Anyone with the APK's Google API key can fetch Remote Config and obtain:
 
 **Live abuse proof:** [proofs/firebase/PROOF.md](../proofs/firebase/PROOF.md) — `curl` from any laptop returned **HTTP 200** and created a Firebase Installation with `refreshToken` + JWT.
 
-**Evidence:** `scraped/strings/strings.xml`
+**Evidence:** `data/app/embedded/strings/strings.xml`
 
 ```xml
 <string name="google_api_key">AIzaSyBwKRNfSG-VXWiWVkD0pFG7PW6dcY8MMzM</string>
@@ -140,7 +140,7 @@ Anyone with the APK's Google API key can fetch Remote Config and obtain:
 
 **Live abuse proof:** [proofs/facebook/PROOF.md](../proofs/facebook/PROOF.md) — Graph API returned **HTTP 200** with app name `ReelSaga New`.
 
-**Evidence:** `scraped/strings/strings.xml`
+**Evidence:** `data/app/embedded/strings/strings.xml`
 
 ```xml
 <string name="facebook_app_id">1060709268800467</string>
@@ -376,7 +376,7 @@ Base URL: `https://api.reelsaga.in/`
 | `transactions` | Payment history |
 | `appsflyer-deeplink` | Attribution |
 
-Full list: [analysis/api_paths.txt](analysis/api_paths.txt)
+Full list: [data/app/network/urls/api-paths.txt](../data/app/network/urls/api-paths.txt)
 
 ---
 

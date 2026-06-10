@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "data": {
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uIjo0NDU2NjAyNiwic0lkIjo0NDU2NjAyNiwiZklkIjoiYzVyRVFxSE9ZMnZfanlweXYydl9mcSIsImFJZCI6IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIsImRldmljZUlkIjoic2VjdXJpdHktc2NyYXBlLTAwMSIsImlhdCI6MTc4MTA4MzY4NSwiZXhwIjoxNzgxMDg0Mjg1fQ.NC9Xv-37UOhv35O1AHFTGbB53MgcwlEjS5mNIoKZIDY",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uIjo0NDU2NjAyNiwiaWF0IjoxNzgxMDgzNjg1LCJleHAiOjE4MTI2MTk2ODV9.BAcQruobMa5t8EXAahjar0tRqzGc0_fvG8zhwQc8HI8",
+    "bottomNavRibbon": {
+      "thumbnail": "https://dsmjhykc753wb.cloudfront.net/assets/1_day_free_trial_ribbon.webp",
+      "url": "https://www.reelsaga.in/freetrial",
+      "height": 100
+    }
+  }
+}

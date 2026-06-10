@@ -19,7 +19,7 @@ def scrape_secrets(data_dir: Path) -> None:
     _, raw = http(
         "POST",
         f"{RC_URL}?key={API_KEY}",
-        {"appId": APP_ID, "appInstanceId": f"security-scrape"},
+        {"appId": APP_ID, "appInstanceId": "security-scrape"},
         {"Content-Type": "application/json"},
     )
     save_json(out / "live-remote-config.json", json.loads(raw))
@@ -40,12 +40,4 @@ def scrape_secrets(data_dir: Path) -> None:
         "top_auto_pay_upi_apps_json_data", "top_auto_pay_upi_apps_json_data_v1",
         "subscription_cancel_benefits", "show_mini_checkout",
     ])
-
-    all_parsed = {}
-    for k, v in entries.items():
-        try:
-            all_parsed[k] = json.loads(v)
-        except Exception:
-            all_parsed[k] = v
-    save_json(parsed_dir / "all-entries-parsed.json", all_parsed)
     print(f"  secrets: {len(entries)} remote config keys")

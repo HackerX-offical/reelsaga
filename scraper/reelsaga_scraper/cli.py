@@ -11,6 +11,7 @@ from reelsaga_scraper.scrapers import (
     scrape_business,
     scrape_company,
     scrape_content,
+    scrape_endpoints,
     scrape_secrets,
     scrape_users,
 )
@@ -25,7 +26,7 @@ def main() -> None:
     parser.add_argument("--data-dir", type=Path, default=DATA, help="Output directory")
     parser.add_argument(
         "--only",
-        choices=["secrets", "content", "users", "company", "business", "all"],
+        choices=["secrets", "content", "users", "api", "company", "business", "all"],
         default="all",
     )
     args = parser.parse_args()
@@ -41,11 +42,10 @@ def main() -> None:
         manifest["steps"].append("secrets")
 
     client = None
-    session_meta = None
-    if args.only in ("all", "content", "users", "business"):
+    needs_auth = args.only in ("all", "content", "users", "business", "api")
+    if needs_auth:
         print("[auth] Creating anonymous API session...")
         client = ApiClient.create()
-        session_meta = {"note": "Anonymous JWT via POST /auth/token + Firebase fId"}
 
     if args.only in ("all", "content"):
         print("[content]")
@@ -54,37 +54,41 @@ def main() -> None:
 
     if args.only in ("all", "users"):
         print("[users]")
-        scrape_users(data_dir, client, session_meta)
+        scrape_users(data_dir, client)
         manifest["steps"].append("users")
 
-    if args.only in ("all", "company"):
-        print("[company]")
-        scrape_company(data_dir)
-        manifest["steps"].append("company")
+    if args.only in ("all", "api"):
+        print("[api]")
+        scrape_endpoints(data_dir, client)
+        manifest["steps"].append("api")
 
     if args.only in ("all", "business"):
         print("[business]")
         scrape_business(data_dir, client)
         manifest["steps"].append("business")
 
-    # Post-run summary for coverage review
+    if args.only in ("all", "company"):
+        print("[company]")
+        scrape_company(data_dir)
+        manifest["steps"].append("company")
+
     summary: dict = {}
-    summary_path = data_dir / "content" / "SUMMARY.json"
-    if summary_path.exists():
-        summary["content"] = load_json(summary_path)
     shows_index = data_dir / "content" / "shows" / "index.json"
     if shows_index.exists():
         summary["showCount"] = len(load_json(shows_index).get("shows", []))
+    coverage_path = data_dir / "api" / "coverage.json"
+    if coverage_path.exists():
+        cov = load_json(coverage_path)
+        summary["apiEndpoints"] = {"total": cov.get("total"), "reachable": cov.get("reachable")}
     manifest["summary"] = summary
     save_json(data_dir / "scrape-manifest.json", manifest)
+
     print(f"\nDone. Data: {data_dir}")
-    if summary:
-        c = summary.get("content", {})
-        print(
-            f"  shows: {summary.get('showCount', '?')} indexed, "
-            f"{c.get('showDetailsFetched', '?')} detail files, "
-            f"{c.get('trailers', '?')} trailers, {c.get('reelsClips', '?')} clips"
-        )
+    if summary.get("showCount"):
+        print(f"  shows: {summary['showCount']} indexed")
+    if summary.get("apiEndpoints"):
+        ae = summary["apiEndpoints"]
+        print(f"  api: {ae.get('reachable')}/{ae.get('total')} endpoints documented")
 
 
 if __name__ == "__main__":
