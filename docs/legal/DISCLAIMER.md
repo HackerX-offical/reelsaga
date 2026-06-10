@@ -1,26 +1,13 @@
-# Legal Disclaimer & Scope
+# Disclaimer
 
-## Ownership
+Security assessment of **ReelSaga** (`in.reelsaga.android`) by **HackerX Official**. MIT License — see [LICENSE](../../LICENSE).
 
-This security assessment package is prepared for **REELSAGA INNOVATIONS PRIVATE LIMITED** (CIN: U9000MH2024PTC434093) regarding their application **ReelSaga** (`in.reelsaga.android`).
+## Scope
 
-Copyright © 2026 ReelSaga Innovations Pvt Ltd. See [LICENSE](../../LICENSE).
+- Static APK analysis + authorized live API scraping
+- APK v8.5.1 may differ from current Play Store build
+- Backend penetration testing beyond public API paths not performed
 
-## Authorized testing
+## Credentials
 
-Proof-of-exposure scripts were executed by authorized AppSec personnel against ReelSaga's own embedded credentials to demonstrate risk to the engineering team. This constitutes **authorized security testing** of company-owned assets.
-
-## Limitations
-
-- Static analysis only unless noted in proof-of-exposure scripts
-- APK may differ from current Play Store build (artifact sourced as XAPK)
-- Backend server vulnerabilities not assessed
-- iOS binary not included
-
-## Credential handling
-
-Proof JSON files may contain live tokens generated during testing. Treat as **confidential**. Rotate credentials after remediation. Do not share outside ReelSaga.
-
-## Contact
-
-contact@reelsaga.in | AppSec team
+This repo contains live keys extracted from the APK and Remote Config. Use for authorized security research only. Rotate exposed credentials after review.

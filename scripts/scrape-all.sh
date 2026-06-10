@@ -3,5 +3,4 @@
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
-export PYTHONPATH="$ROOT/scraper${PYTHONPATH:+:$PYTHONPATH}"
-python3 -m reelsaga_scraper "$@"
+python3 -m scraper "$@"

@@ -3,8 +3,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from reelsaga_scraper.client import APP_ID, API_KEY, http
-from reelsaga_scraper.utils import save_json
+from scraper.client import APP_ID, API_KEY, http
+from scraper.utils import save_json
 
 RC_URL = (
     "https://firebaseremoteconfig.googleapis.com/v1/projects/"

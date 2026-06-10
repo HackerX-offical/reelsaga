@@ -3,8 +3,8 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
-from reelsaga_scraper.client import ApiClient
-from reelsaga_scraper.utils import save_json, show_filename
+from scraper.client import ApiClient
+from scraper.utils import save_json, show_filename
 
 
 def scrape_content(data_dir: Path, client: ApiClient) -> None:

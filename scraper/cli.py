@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
-"""ReelSaga scraper CLI — run full or partial scrapes."""
+"""ReelSaga scraper CLI."""
 from __future__ import annotations
 
 import argparse
 import time
 from pathlib import Path
 
-from reelsaga_scraper.client import ApiClient
-from reelsaga_scraper.scrapers import (
+from scraper import (
     scrape_business,
     scrape_company,
     scrape_content,
@@ -15,9 +14,10 @@ from reelsaga_scraper.scrapers import (
     scrape_secrets,
     scrape_users,
 )
-from reelsaga_scraper.utils import load_json, save_json
+from scraper.client import ApiClient
+from scraper.utils import load_json, save_json
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 
 

@@ -3,8 +3,8 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
-from reelsaga_scraper.client import fetch_url
-from reelsaga_scraper.utils import save_json
+from scraper.client import fetch_url
+from scraper.utils import save_json
 
 PLAY_STORE = "https://play.google.com/store/apps/details?id=in.reelsaga.android&hl=en"
 

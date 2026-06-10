@@ -12,7 +12,8 @@ license = { text = "MIT" }
 authors = [{ name = "HackerX Official" }]
 
 [project.scripts]
-reelsaga-scrape = "reelsaga_scraper.cli:main"
+reelsaga-scrape = "scraper.cli:main"
 
 [tool.setuptools.packages.find]
-where = ["scraper"]
+where = ["."]
+include = ["scraper*"]

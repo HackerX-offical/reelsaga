@@ -4,7 +4,7 @@
 
 ```bash
 ./scripts/scrape-all.sh
-# or: PYTHONPATH=scraper python3 -m reelsaga_scraper
+# or: python3 -m scraper
 ```
 
 ## Phase 1 — APK static extraction
@@ -22,7 +22,7 @@ Firebase Remote Config via APK Google API key → `data/secrets/remote-config/`
 
 ## Phase 3 — Live content, users, company, business
 
-Scraper package: `scraper/reelsaga_scraper/`
+Scraper package: `scraper/` (flat modules — `cli.py`, `content.py`, `endpoints.py`, …)
 
 1. Create Firebase Installation (`fId`) using APK key
 2. `POST /auth/token` with `fId` + `aId` — no OTP
@@ -42,3 +42,11 @@ Output: `proofs/`
 ## Blocked without OTP
 
 `user/verify` requires phone OTP — logged-in user PII and bulk user database not scraped.
+
+## Tools
+
+| Tool | Purpose |
+|------|---------|
+| `python3 -m scraper` | Live data + API probe |
+| apktool | Optional APK decode (`scripts/decode-apk.sh`) |
+| curl / bash | Proof scripts in `proofs/` and `scripts/` |

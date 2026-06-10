@@ -2,8 +2,8 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from reelsaga_scraper.client import ApiClient
-from reelsaga_scraper.utils import save_json
+from scraper.client import ApiClient
+from scraper.utils import save_json
 
 
 def scrape_users(data_dir: Path, client: ApiClient) -> None:

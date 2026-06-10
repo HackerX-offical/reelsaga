@@ -1,11 +1,14 @@
 from __future__ import annotations
 
+import json
 import re
 import time
+import urllib.error
+import urllib.request
 from pathlib import Path
 
-from reelsaga_scraper.client import ApiClient, fetch_url
-from reelsaga_scraper.utils import load_json, save_json
+from scraper.client import ApiClient, fetch_url
+from scraper.utils import load_json, save_json
 
 MSG91_BASE = "https://control.msg91.com"
 RAZORPAY_BASE = "https://api.razorpay.com"
@@ -26,7 +29,6 @@ def scrape_endpoints(data_dir: Path, client: ApiClient) -> None:
             sample_show_id = trailers[0].get("showId", sample_show_id)
 
     probes: list[tuple[str, str, dict | None, str]] = [
-        # (method, path, body, host)
         ("GET", "config", None, "api"),
         ("GET", "v1/home/config", None, "api"),
         ("GET", "v1/home", None, "api"),
@@ -44,7 +46,6 @@ def scrape_endpoints(data_dir: Path, client: ApiClient) -> None:
         ("GET", "trailer", None, "api"),
         ("GET", f"trailer?id={trailer_id}", None, "api"),
         ("POST", "trailer", {"id": trailer_id}, "api"),
-        ("POST", "auth/token", None, "api_skip"),  # handled at session create
         ("POST", "fcm-token", {"token": "security-assessment-probe"}, "api"),
         ("POST", "review", {"rating": 5, "feedback": "security assessment probe"}, "api"),
         ("POST", "subscription/cancel", {"reason": "security-assessment-probe"}, "api"),
@@ -61,13 +62,10 @@ def scrape_endpoints(data_dir: Path, client: ApiClient) -> None:
 
     coverage: list[dict] = []
 
-    # Auth token response (already obtained at session create)
     save_json(resp_dir / "auth-token.json", client.auth_response)
     coverage.append(_record("POST", "auth/token", 200, client.auth_response, "api", "obtained at session create"))
 
     for method, path, body, host in probes:
-        if host == "api_skip":
-            continue
         if method == "GET":
             code, data = client.get(path)
         elif method == "POST":
@@ -79,10 +77,8 @@ def scrape_endpoints(data_dir: Path, client: ApiClient) -> None:
         save_json(resp_dir / f"{slug}.json", _wrap(code, data))
         entry = _record(method, path, code, data, host, None)
         coverage.append(entry)
-        status = entry["status"]
-        print(f"  api {method} {path} -> HTTP {code} [{status}]")
+        print(f"  api {method} {path} -> HTTP {code} [{entry['status']}]")
 
-    # Third-party endpoints (document reachability, no abuse)
     third_party = [
         ("MSG91", f"{MSG91_BASE}/api/v5/widget/sendOtpMobile", "POST"),
         ("MSG91", f"{MSG91_BASE}/api/v5/widget/verifyOtp", "POST"),
@@ -134,8 +130,6 @@ def _record(method: str, path: str, code: int, data: dict | str, host: str, note
             status = "partial"
     elif code == 200:
         status = "ok"
-    elif code == 404:
-        status = "not_routed"
 
     if code == 404:
         status = "not_routed"
@@ -160,10 +154,6 @@ def _slug(method: str, path: str) -> str:
 
 
 def _probe_post(url: str) -> tuple[int, str]:
-    import json
-    import urllib.error
-    import urllib.request
-
     req = urllib.request.Request(
         url,
         data=json.dumps({}).encode(),
