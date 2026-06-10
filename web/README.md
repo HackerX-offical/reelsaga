@@ -14,26 +14,20 @@ Requires **ffmpeg** for Chrome/Firefox video (`brew install ffmpeg`).
 
 ## Deploy to Vercel
 
-Import the **repository root** on [vercel.com](https://vercel.com). No manual Root Directory needed.
+1. Import repo on [vercel.com](https://vercel.com)
+2. Set **Root Directory** → `web`
+3. Framework preset: **Vite** (auto-detected from `vercel.json`)
+4. Deploy
 
-Root `vercel.json` automatically:
+All serverless routes live in `web/api/` (no duplicate at repo root):
 
-- Installs and builds this `web/` package
-- Serves `web/dist` as static output
-- Runs `/api/*` serverless proxy to `api.reelsaga.in`
-- Runs `/hls/*` ffmpeg transcode (HEVC → H.264 for Chrome)
-- SPA routing for React Router
-
-**Alternative:** set Root Directory to `web` and use `web/vercel.json` instead.
-
-## Content
-
-The app paginates the live API (`page` + `limit`) to load the full catalog (~230+ shows), home feed sections, trailers, and clips.
+- `/api/*` → proxy to `api.reelsaga.in`
+- `/hls/*` → ffmpeg HEVC → H.264 transcode
+- SPA fallback for React Router
 
 ## Features
 
-- Live home feed sections, trailers, clips, full catalog
+- Live home feed, full paginated catalog (~230+ shows), trailers, clips
+- Viewport-locked watch theater
 - Continue watching (localStorage)
-- Genre browse filters
 - HLS playback with auto-transcode on non-Safari browsers
-- Viewport-locked watch theater (no scroll to change episodes)

@@ -46,6 +46,6 @@ cd web && npm install && npm run dev
 
 Live viewer at `http://localhost:5173` — streams from `api.reelsaga.in` + CloudFront HLS.
 
-**Vercel:** import the repo root — `vercel.json` builds and deploys `web/` automatically. See [web/README.md](web/README.md).
+**Vercel:** import the repo and set **Root Directory** to `web`. See [web/README.md](web/README.md).
 
 Contains live production credentials — authorized security research only.
